@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 35 25% 96%;
+    --foreground: 36 32% 25%;
+    --card: 35 25% 98%;
+    --card-foreground: 36 32% 25%;
+    --popover: 35 25% 98%;
+    --popover-foreground: 36 32% 25%;
+    --primary: 36 24% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 36 24% 90%;
+    --secondary-foreground: 36 32% 25%;
+    --muted: 36 24% 90%;
+    --muted-foreground: 36 24% 50%;
+    --accent: 36 24% 85%;
+    --accent-foreground: 36 32% 25%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 36 24% 85%;
+    --input: 36 24% 85%;
+    --ring: 36 24% 65%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 36 32% 15%;
+    --foreground: 35 25% 96%;
+    --card: 36 32% 18%;
+    --card-foreground: 35 25% 96%;
+    --popover: 36 32% 18%;
+    --popover-foreground: 35 25% 96%;
+    --primary: 36 24% 75%;
+    --primary-foreground: 36 32% 15%;
+    --secondary: 36 24% 30%;
+    --secondary-foreground: 35 25% 96%;
+    --muted: 36 24% 30%;
+    --muted-foreground: 36 24% 70%;
+    --accent: 36 24% 35%;
+    --accent-foreground: 35 25% 96%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 35 25% 96%;
+    --border: 36 24% 35%;
+    --input: 36 24% 35%;
+    --ring: 36 24% 75%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Custom history theme styles */
+.parchment-gradient {
+  background: linear-gradient(135deg, #faf8f3 0%, #e8dcc0 25%, #d4c4a0 50%, #c9b88a 75%, #b8a082 100%);
+}
+
+.parchment-overlay {
+  background: 
+    radial-gradient(circle at 25% 25%, rgba(218, 203, 180, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(200, 180, 150, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(240, 235, 220, 0.1) 0%, transparent 50%);
+}
+
+.shimmer-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(240, 235, 220, 0.4), transparent);
+  transition: left 0.6s;
+}
+
+.shimmer-effect:hover::before {
+  left: 100%;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
