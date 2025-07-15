@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: 'export',
+  distDir: 'out',
   trailingSlash: true,
   images: {
     unoptimized: true,
@@ -11,3 +12,5 @@ const nextConfig = {
   basePath: process.env.NODE_ENV === 'production' ? '/history_project' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/history_project' : '',
 }
+
+module.exports = nextConfig
