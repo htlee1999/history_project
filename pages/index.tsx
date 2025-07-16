@@ -21,18 +21,18 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen parchment-gradient relative">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 relative">
       {/* Background overlay */}
-      <div className="fixed inset-0 parchment-overlay -z-10" />
+      <div className="fixed inset-0 bg-gradient-to-r from-gray-50/50 to-white/50 -z-10" />
       
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <header className="text-center mb-12">
-          <div className="bg-white/80 backdrop-blur-md rounded-2xl p-8 shadow-2xl border border-parchment-200">
-            <h1 className="text-5xl font-light text-parchment-900 mb-4 tracking-wide">
+          <div className="bg-white/90 backdrop-blur-md rounded-2xl p-8 shadow-2xl border border-gray-200">
+            <h1 className="text-5xl font-light text-gray-800 mb-4 tracking-wide">
               World History Documentation
             </h1>
-            <p className="text-xl text-parchment-700 italic">
+            <p className="text-xl text-gray-600 italic">
               Exploring the rich histories of civilizations across time
             </p>
           </div>
@@ -40,31 +40,31 @@ export default function Home() {
 
         {/* Navigation Tabs */}
         <Tabs defaultValue="country" className="w-full">
-          <TabsList className="grid w-full grid-cols-4 mb-8 bg-white/60 backdrop-blur-md rounded-xl p-2 shadow-lg">
+          <TabsList className="grid w-full grid-cols-4 mb-8 bg-white/80 backdrop-blur-md rounded-xl p-1 shadow-lg border border-gray-200 h-14">
             <TabsTrigger 
               value="country" 
-              className="flex items-center gap-2 data-[state=active]:bg-parchment-500 data-[state=active]:text-white rounded-lg font-medium transition-all duration-300"
+              className="flex items-center gap-2 data-[state=active]:!bg-gray-800 data-[state=active]:!text-white data-[state=active]:!shadow-lg rounded-lg font-medium transition-all duration-300 h-12"
             >
               <Flag className="h-4 w-4" />
               Nations
             </TabsTrigger>
             <TabsTrigger 
               value="empire" 
-              className="flex items-center gap-2 data-[state=active]:bg-parchment-500 data-[state=active]:text-white rounded-lg font-medium transition-all duration-300"
+              className="flex items-center gap-2 data-[state=active]:!bg-gray-800 data-[state=active]:!text-white data-[state=active]:!shadow-lg rounded-lg font-medium transition-all duration-300 h-12"
             >
               <Crown className="h-4 w-4" />
               Empires
             </TabsTrigger>
             <TabsTrigger 
               value="culture" 
-              className="flex items-center gap-2 data-[state=active]:bg-parchment-500 data-[state=active]:text-white rounded-lg font-medium transition-all duration-300"
+              className="flex items-center gap-2 data-[state=active]:!bg-gray-800 data-[state=active]:!text-white data-[state=active]:!shadow-lg rounded-lg font-medium transition-all duration-300 h-12"
             >
               <Landmark className="h-4 w-4" />
               Ancient Civilizations
             </TabsTrigger>
             <TabsTrigger 
               value="arts" 
-              className="flex items-center gap-2 data-[state=active]:bg-parchment-500 data-[state=active]:text-white rounded-lg font-medium transition-all duration-300"
+              className="flex items-center gap-2 data-[state=active]:!bg-gray-800 data-[state=active]:!text-white data-[state=active]:!shadow-lg rounded-lg font-medium transition-all duration-300 h-12"
             >
               <Palette className="h-4 w-4" />
               Arts & Culture
