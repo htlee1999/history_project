@@ -1,14 +1,17 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { CountryCard } from "@/components/CountryCard"
 import { TimelineModal } from "@/components/TimelineModal"
 import { CultureGallery } from "@/components/CultureGallery"
 import { countryCards } from "@/data/historyData"
-import { Flag, Crown, Landmark, Palette } from 'lucide-react'
+import { Flag, Crown, Landmark, Palette, ChevronDown } from 'lucide-react'
 
 export default function Home() {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false)
+  const [activeTab, setActiveTab] = useState('country')
+  const dropdownRef = useRef<HTMLDivElement>(null)
 
   const handleOpenTimeline = (countryId: string) => {
     setSelectedCountry(countryId)
@@ -19,6 +22,27 @@ export default function Home() {
     setIsModalOpen(false)
     setSelectedCountry(null)
   }
+
+  const tabOptions = [
+    { value: 'country', label: 'Nations', icon: Flag },
+    { value: 'empire', label: 'Empires', icon: Crown },
+    { value: 'culture', label: 'Ancient Civilizations', icon: Landmark },
+    { value: 'arts', label: 'Arts & Culture', icon: Palette }
+  ]
+
+  const currentTab = tabOptions.find(tab => tab.value === activeTab)
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsDropdownOpen(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 relative">
@@ -38,38 +62,63 @@ export default function Home() {
           </div>
         </header>
 
-        {/* Navigation Tabs */}
-        <Tabs defaultValue="country" className="w-full">
-          <TabsList className="grid w-full grid-cols-4 mb-8 bg-white/80 backdrop-blur-md rounded-xl p-1 shadow-lg border border-gray-200 h-14">
-            <TabsTrigger 
-              value="country" 
-              className="flex items-center gap-2 data-[state=active]:!bg-gray-800 data-[state=active]:!text-white data-[state=active]:!shadow-lg rounded-lg font-medium transition-all duration-300 h-12"
-            >
-              <Flag className="h-4 w-4" />
-              Nations
-            </TabsTrigger>
-            <TabsTrigger 
-              value="empire" 
-              className="flex items-center gap-2 data-[state=active]:!bg-gray-800 data-[state=active]:!text-white data-[state=active]:!shadow-lg rounded-lg font-medium transition-all duration-300 h-12"
-            >
-              <Crown className="h-4 w-4" />
-              Empires
-            </TabsTrigger>
-            <TabsTrigger 
-              value="culture" 
-              className="flex items-center gap-2 data-[state=active]:!bg-gray-800 data-[state=active]:!text-white data-[state=active]:!shadow-lg rounded-lg font-medium transition-all duration-300 h-12"
-            >
-              <Landmark className="h-4 w-4" />
-              Ancient Civilizations
-            </TabsTrigger>
-            <TabsTrigger 
-              value="arts" 
-              className="flex items-center gap-2 data-[state=active]:!bg-gray-800 data-[state=active]:!text-white data-[state=active]:!shadow-lg rounded-lg font-medium transition-all duration-300 h-12"
-            >
-              <Palette className="h-4 w-4" />
-              Arts & Culture
-            </TabsTrigger>
+        {/* Navigation */}
+        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+          {/* Desktop Tabs */}
+          <TabsList className="hidden md:grid w-full grid-cols-4 mb-8 bg-white/80 backdrop-blur-md rounded-xl p-1 shadow-lg border border-gray-200 h-14">
+            {tabOptions.map((tab) => {
+              const IconComponent = tab.icon
+              return (
+                <TabsTrigger 
+                  key={tab.value}
+                  value={tab.value} 
+                  className="flex items-center gap-2 data-[state=active]:!bg-gray-800 data-[state=active]:!text-white data-[state=active]:!shadow-lg rounded-lg font-medium transition-all duration-300 h-12"
+                >
+                  <IconComponent className="h-4 w-4" />
+                  {tab.label}
+                </TabsTrigger>
+              )
+            })}
           </TabsList>
+
+          {/* Mobile Dropdown */}
+          <div ref={dropdownRef} className="md:hidden mb-8 relative">
+            <button
+              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+              className="w-full bg-white/80 backdrop-blur-md rounded-xl p-4 shadow-lg border border-gray-200 flex items-center justify-between"
+            >
+              <div className="flex items-center gap-3">
+                {currentTab && <currentTab.icon className="h-5 w-5 text-gray-600" />}
+                <span className="font-medium text-gray-800">
+                  {currentTab?.label || 'Select Category'}
+                </span>
+              </div>
+              <ChevronDown className={`h-5 w-5 text-gray-600 transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
+            </button>
+            
+            {isDropdownOpen && (
+              <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-xl border border-gray-200 z-50">
+                {tabOptions.map((tab) => {
+                  const IconComponent = tab.icon
+                  return (
+                    <button
+                      key={tab.value}
+                      onClick={() => {
+                        setActiveTab(tab.value)
+                        setIsDropdownOpen(false)
+                      }}
+                      className={`w-full p-4 flex items-center gap-3 text-left hover:bg-gray-50 transition-colors first:rounded-t-xl last:rounded-b-xl ${
+                        activeTab === tab.value ? 'bg-gray-800 text-white hover:bg-gray-800' : 'text-gray-800'
+                      }`}
+                    >
+                      <IconComponent className="h-5 w-5" />
+                      <span className="font-medium">{tab.label}</span>
+                    </button>
+                  )
+                })}
+              </div>
+            )}
+          </div>
 
           {/* Country Tab */}
           <TabsContent value="country" className="space-y-6">
