@@ -3,14 +3,16 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { CountryCard } from "@/components/CountryCard"
 import { TimelineModal } from "@/components/TimelineModal"
 import { CultureGallery } from "@/components/CultureGallery"
+import { WorldTimeline } from "@/components/WorldTimeline"
+import { ScrollToTopButton } from "@/components/ScrollToTopButton"
 import { countryCards } from "@/data/historyData"
-import { Flag, Crown, Landmark, Palette, ChevronDown } from 'lucide-react'
+import { Flag, Crown, Landmark, Palette, Globe, ChevronDown } from 'lucide-react'
 
 export default function Home() {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
-  const [activeTab, setActiveTab] = useState('country')
+  const [activeTab, setActiveTab] = useState('world')
   const dropdownRef = useRef<HTMLDivElement>(null)
 
   const handleOpenTimeline = (countryId: string) => {
@@ -24,6 +26,7 @@ export default function Home() {
   }
 
   const tabOptions = [
+    { value: 'world', label: 'World Timeline', icon: Globe },
     { value: 'country', label: 'Nations', icon: Flag },
     { value: 'empire', label: 'Empires', icon: Crown },
     { value: 'culture', label: 'Ancient Civilizations', icon: Landmark },
@@ -64,8 +67,9 @@ export default function Home() {
 
         {/* Navigation */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          {/* Desktop Tabs */}
-          <TabsList className="hidden md:grid w-full grid-cols-4 mb-8 bg-white/80 backdrop-blur-md rounded-xl p-1 shadow-lg border border-gray-200 h-14">
+          <div id="navigation-tabs">
+            {/* Desktop Tabs */}
+            <TabsList className="hidden md:grid w-full grid-cols-5 mb-8 bg-white/80 backdrop-blur-md rounded-xl p-1 shadow-lg border border-gray-200 h-14">
             {tabOptions.map((tab) => {
               const IconComponent = tab.icon
               return (
@@ -79,10 +83,10 @@ export default function Home() {
                 </TabsTrigger>
               )
             })}
-          </TabsList>
+            </TabsList>
 
-          {/* Mobile Dropdown */}
-          <div ref={dropdownRef} className="md:hidden mb-8 relative">
+            {/* Mobile Dropdown */}
+            <div ref={dropdownRef} className="md:hidden mb-8 relative">
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               className="w-full bg-white/80 backdrop-blur-md rounded-xl p-4 shadow-lg border border-gray-200 flex items-center justify-between"
@@ -118,6 +122,7 @@ export default function Home() {
                 })}
               </div>
             )}
+            </div>
           </div>
 
           {/* Country Tab */}
@@ -159,6 +164,13 @@ export default function Home() {
             </div>
           </TabsContent>
 
+          {/* World Timeline Tab */}
+          <TabsContent value="world" className="space-y-6">
+            <div className="bg-white/90 backdrop-blur-md rounded-2xl p-6 shadow-2xl border border-gray-200">
+              <WorldTimeline />
+            </div>
+          </TabsContent>
+
           {/* Arts Tab */}
           <TabsContent value="arts" className="space-y-6">
             <CultureGallery />
@@ -171,6 +183,9 @@ export default function Home() {
           onClose={handleCloseModal}
           countryId={selectedCountry}
         />
+
+        {/* Scroll to Top Button */}
+        <ScrollToTopButton targetElementId="navigation-tabs" />
       </div>
     </div>
   )
