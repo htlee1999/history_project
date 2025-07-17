@@ -10,18 +10,18 @@ import { Flag, Crown, Landmark, Palette, Globe, ChevronDown } from 'lucide-react
 
 export default function Home() {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
-  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [showTimeline, setShowTimeline] = useState(false)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const [activeTab, setActiveTab] = useState('world')
   const dropdownRef = useRef<HTMLDivElement>(null)
 
   const handleOpenTimeline = (countryId: string) => {
     setSelectedCountry(countryId)
-    setIsModalOpen(true)
+    setShowTimeline(true)
   }
 
-  const handleCloseModal = () => {
-    setIsModalOpen(false)
+  const handleBackToCards = () => {
+    setShowTimeline(false)
     setSelectedCountry(null)
   }
 
@@ -46,6 +46,18 @@ export default function Home() {
     document.addEventListener('mousedown', handleClickOutside)
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
+
+  // Show timeline page if a country is selected
+  if (showTimeline && selectedCountry) {
+    return (
+      <TimelineModal 
+        isOpen={true}
+        onClose={handleBackToCards}
+        countryId={selectedCountry}
+      />
+    )
+  }
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 relative">
@@ -164,6 +176,7 @@ export default function Home() {
             </div>
           </TabsContent>
 
+
           {/* World Timeline Tab */}
           <TabsContent value="world" className="space-y-6">
             <div className="bg-white/90 backdrop-blur-md rounded-2xl p-6 shadow-2xl border border-gray-200">
@@ -176,13 +189,6 @@ export default function Home() {
             <CultureGallery />
           </TabsContent>
         </Tabs>
-
-        {/* Timeline Modal */}
-        <TimelineModal 
-          isOpen={isModalOpen}
-          onClose={handleCloseModal}
-          countryId={selectedCountry}
-        />
 
         {/* Scroll to Top Button */}
         <ScrollToTopButton targetElementId="navigation-tabs" />
