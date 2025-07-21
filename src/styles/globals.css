@@ -99,3 +99,113 @@
 .float-animation {
   animation: float 3s ease-in-out infinite;
 }
+
+/* Custom header styles */
+.custom-header {
+    background: white;
+    padding: 60px 40px 50px;
+    border-bottom: 1px solid #e1e8ed;
+    position: relative;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.custom-header .content-section {
+    flex: 1;
+    max-width: 600px;
+}
+
+.custom-header .breadcrumb {
+    font-size: 0.85rem;
+    color: #95a5a6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.custom-header h1 {
+    font-size: 3rem;
+    font-weight: 200;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    text-shadow: none;
+}
+
+.custom-header .subtitle {
+    font-size: 1.2rem;
+    color: #5a6c7d;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-style: normal;
+}
+
+/* Dashboard Statistics Section */
+.custom-header .stats-section {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-left: 40px;
+    border-left: 1px solid #e1e8ed;
+}
+
+.custom-header .stat {
+    text-align: center;
+    min-width: 100px;
+}
+
+.custom-header .stat-number {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #2c3e50;
+    display: block;
+    line-height: 1;
+}
+
+.custom-header .stat-label {
+    font-size: 0.8rem;
+    color: #95a5a6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+/* Mobile responsive */
+@media (max-width: 968px) {
+    .custom-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        padding: 40px 20px 30px;
+    }
+    
+    .custom-header .stats-section {
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        padding-left: 0;
+        border-left: none;
+        border-top: 1px solid #e1e8ed;
+        padding-top: 30px;
+    }
+    
+    .custom-header h1 {
+        font-size: 2.2rem;
+    }
+    
+    .custom-header .subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .custom-header .stat-number {
+        font-size: 1.6rem;
+    }
+}

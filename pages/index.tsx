@@ -66,14 +66,30 @@ export default function Home() {
       
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
-        <header className="text-center mb-12">
-          <div className="bg-white/90 backdrop-blur-md rounded-2xl p-8 shadow-2xl border border-gray-200">
-            <h1 className="text-5xl font-light text-gray-800 mb-4 tracking-wide">
-              World History Documentation
-            </h1>
-            <p className="text-xl text-gray-600 italic">
-              Exploring the rich histories of civilizations across time
-            </p>
+        <header className="custom-header">
+          <div className="content-section">
+            <div className="breadcrumb">Historical Archives</div>
+            <h1>World History Documentation</h1>
+            <p className="subtitle">A comprehensive digital repository exploring the evolution of civilizations, empires, and cultures throughout human history.</p>
+          </div>
+          
+          <div className="stats-section">
+            <div className="stat">
+              <span className="stat-number">8</span>
+              <span className="stat-label">Civilizations</span>
+            </div>
+            <div className="stat">
+              <span className="stat-number">5000+</span>
+              <span className="stat-label">Years Covered</span>
+            </div>
+            <div className="stat">
+              <span className="stat-number">4</span>
+              <span className="stat-label">Categories</span>
+            </div>
+            <div className="stat">
+              <span className="stat-number">150+</span>
+              <span className="stat-label">Events</span>
+            </div>
           </div>
         </header>
 
