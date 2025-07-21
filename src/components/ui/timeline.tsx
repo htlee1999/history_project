@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
+import { WorldMap } from "@/components/WorldMap";
 
 interface TimelineEntry {
   title: string;
@@ -12,9 +13,10 @@ interface TimelineProps {
   title?: string;
   description?: string;
   onShowMore?: (dynastyId: string) => void;
+  showWorldMap?: boolean;
 }
 
-export const Timeline = ({ data, title = "Historical Timeline", description = "A journey through time.", onShowMore }: TimelineProps) => {
+export const Timeline = ({ data, title = "Historical Timeline", description = "A journey through time.", onShowMore, showWorldMap = false }: TimelineProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
@@ -40,12 +42,37 @@ export const Timeline = ({ data, title = "Historical Timeline", description = "A
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          {title}
-        </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          {description}
-        </p>
+        <div className={`${showWorldMap ? 'grid grid-cols-1 lg:grid-cols-2 gap-8 items-center' : ''}`}>
+          <div>
+            <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
+              {title}
+            </h2>
+            <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
+              {description}
+            </p>
+          </div>
+          {showWorldMap && (
+            <div className="w-full">
+              <WorldMap 
+                dots={[
+                  {
+                    start: { lat: 39.9042, lng: 116.4074 }, // Beijing
+                    end: { lat: 41.9028, lng: 12.4964 }      // Rome
+                  },
+                  {
+                    start: { lat: 30.0444, lng: 31.2357 }, // Cairo
+                    end: { lat: 34.0522, lng: -118.2437 }   // Los Angeles
+                  },
+                  {
+                    start: { lat: 35.6762, lng: 139.6503 }, // Tokyo
+                    end: { lat: 51.5074, lng: -0.1278 }     // London
+                  }
+                ]}
+                lineColor="#3b82f6"
+              />
+            </div>
+          )}
+        </div>
       </div>
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">

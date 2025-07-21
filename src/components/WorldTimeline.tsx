@@ -54,6 +54,7 @@ export function WorldTimeline() {
         data={timelineData} 
         title="World History Timeline 🌍"
         description="A comprehensive chronological journey through the major events that shaped civilizations across the globe, from ancient times to the modern era. Events happening in similar time periods are grouped together."
+        showWorldMap={true}
       />
     </div>
   );
