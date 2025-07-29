@@ -436,59 +436,324 @@ export const historyData: Record<string, CountryData> = {
     title: "History of Greece 🇬🇷",
     events: [
       {
-        date: "c. 2000–1100 BCE",
-        title: "Minoan & Mycenaean Civilizations",
-        description: "Early advanced societies on Crete (Minoan) and mainland Greece (Mycenaean), precursors to classical Greece."
+        date: "c. 8500-9000 years ago",
+        title: "Stone Age Settlements",
+        description: "Early human settlements in Greece dating back to the Stone Age. <strong>Foundation:</strong> Agriculture forms the basis of early communities, establishing the roots of Greek civilization. <strong>Archaeological Evidence:</strong> Caves and early village sites show continuous habitation and development of farming techniques."
       },
       {
-        date: "c. 776 BCE",
+        date: "c. 3500-1100 BCE",
+        title: "Minoan Civilization",
+        description: "Advanced Bronze Age civilization on Crete with sophisticated palace complexes at Knossos, Phaistos, and Malia. <strong>Cultural Achievements:</strong> Linear A script, vibrant frescoes, advanced maritime trade networks, and peaceful society focused on art and commerce. <strong>Legacy:</strong> Influenced later Greek culture through religious practices, architectural techniques, and artistic styles."
+      },
+      {
+        date: "c. 3200 BCE",
+        title: "Early Bronze Age Cultural Synthesis",
+        description: "Greek cultural and linguistic identity solidifies during the early Bronze Age through waves of migration and settlement. <strong>Ethnic Formation:</strong> Proto-Greek speakers establish communities across mainland Greece. <strong>Cultural Development:</strong> Bronze working, pottery, and early religious practices develop distinctive Greek characteristics."
+      },
+      {
+        date: "c. 1750-1050 BCE",
+        title: "Mycenaean Civilization",
+        description: "Powerful Bronze Age civilization on mainland Greece with fortified palace centers at Mycenae, Tiryns, and Pylos. <strong>Political Structure:</strong> Warrior-kings (wanax) rule complex bureaucratic states. <strong>Cultural Legacy:</strong> Linear B script, Homeric traditions, early Greek religious practices, and military culture that influenced later periods."
+      },
+      {
+        date: "c. 1200-1100 BCE",
+        title: "Bronze Age Collapse",
+        description: "Destruction of Mycenaean palaces and collapse of Bronze Age civilization across the eastern Mediterranean. <strong>Causes:</strong> Sea Peoples invasions, internal conflicts, natural disasters, and economic disruption. <strong>Impact:</strong> Loss of writing system, population decline, and breakdown of complex political structures."
+      },
+      {
+        date: "c. 1100-800 BCE",
+        title: "Greek Dark Ages",
+        description: "Period of cultural and economic decline following the Bronze Age collapse. <strong>Characteristics:</strong> Loss of writing (Linear B), reduced population, simpler material culture, and isolation of communities. <strong>Recovery:</strong> Gradual emergence of new pottery styles, iron working, and eventual development of city-states (poleis)."
+      },
+      {
+        date: "c. 800-500 BCE",
+        title: "Archaic Period",
+        description: "Revival and expansion of Greek civilization with emergence of city-states and Mediterranean colonization. <strong>Political Development:</strong> Formation of poleis (city-states) with distinctive constitutions. <strong>Cultural Renaissance:</strong> Development of Greek alphabet, Homeric epics composed, and distinctive artistic styles emerge."
+      },
+      {
+        date: "c. 800-600 BCE",
+        title: "Greek Colonization",
+        description: "Massive expansion of Greek settlements around the Mediterranean and Black Sea coasts. <strong>Scope:</strong> Colonies established from Spain to the Caucasus, including southern Italy (Magna Graecia), Sicily, and Asia Minor. <strong>Impact:</strong> Spreads Greek culture, creates trade networks, and establishes Greek as a Mediterranean lingua franca."
+      },
+      {
+        date: "776 BCE",
         title: "First Olympic Games",
-        description: "Traditional date for the first Olympic Games, marking the start of Panhellenic festivals."
+        description: "Traditional date for the first Olympic Games at Olympia in honor of Zeus. <strong>Cultural Significance:</strong> Panhellenic festival uniting all Greek city-states in peaceful competition. <strong>Athletic Ideals:</strong> Establishes Greek concepts of physical excellence, fair competition, and athletic glory. <strong>Modern Legacy:</strong> Foundation for modern Olympic movement revived in 1896."
       },
       {
-        date: "490–479 BCE",
-        title: "Persian Wars",
-        description: "Greek city-states unite to repel Persian invasions, including battles of Marathon, Thermopylae, and Salamis."
+        date: "c. 750-650 BCE",
+        title: "Homeric Epics Composed",
+        description: "The Iliad and Odyssey attributed to Homer become foundational texts of Greek literature. <strong>Cultural Impact:</strong> Establishes Greek values, religious concepts, and heroic ideals. <strong>Literary Innovation:</strong> Creates epic poetry traditions and narrative techniques. <strong>Educational Role:</strong> Becomes basis of Greek education and cultural identity for centuries."
       },
       {
-        date: "431–404 BCE",
+        date: "c. 700 BCE",
+        title: "Development of Greek Alphabet",
+        description: "Greeks adapt Phoenician script, creating first true alphabet with vowels. <strong>Innovation:</strong> Addition of vowel symbols makes writing more precise and accessible. <strong>Cultural Revolution:</strong> Enables widespread literacy, written laws, and literary culture. <strong>Global Impact:</strong> Influences Latin alphabet and most modern writing systems."
+      },
+      {
+        date: "c. 650-500 BCE",
+        title: "Age of Tyrants",
+        description: "Popular strongmen (tyrants) seize power in many Greek city-states, often with common people's support against aristocratic rule. <strong>Political Change:</strong> Challenges traditional aristocratic governance. <strong>Cultural Patronage:</strong> Tyrants often sponsor arts, architecture, and public works. <strong>Democratic Transition:</strong> Many tyrannies eventually give way to more democratic systems."
+      },
+      {
+        date: "c. 594 BCE",
+        title: "Solon's Reforms in Athens",
+        description: "Athenian lawgiver Solon implements constitutional reforms addressing economic and social crises. <strong>Legal Innovation:</strong> Cancels debts, prohibits enslavement for debt, creates new legal procedures. <strong>Political Structure:</strong> Establishes property-based citizenship classes and council system. <strong>Democratic Foundation:</strong> Lays groundwork for later Athenian democracy."
+      },
+      {
+        date: "508-507 BCE",
+        title: "Cleisthenes Establishes Athenian Democracy",
+        description: "Cleisthenes introduces radical constitutional reforms creating world's first democracy. <strong>Political Innovation:</strong> Citizens participate directly in governance through assemblies and juries. <strong>Institutional Framework:</strong> Creates demes (local districts), tribal system, and ostracism. <strong>Global Legacy:</strong> Influences modern democratic systems worldwide with over half of world's population living in democracies."
+      },
+      {
+        date: "c. 500-323 BCE",
+        title: "Classical Period",
+        description: "Golden age of Greek civilization marked by democracy, philosophy, arts, and military achievements. <strong>Cultural Flowering:</strong> Development of tragedy, comedy, philosophy, and historical writing. <strong>Political Innovation:</strong> Peak of Athenian democracy and Spartan military system. <strong>Intellectual Revolution:</strong> Birth of Western philosophy, science, and rational thought."
+      },
+      {
+        date: "499-449 BCE",
+        title: "Greco-Persian Wars",
+        description: "Series of conflicts between Greek city-states and Persian Empire defining Greek identity and independence. <strong>Key Battles:</strong> Marathon (490 BCE) demonstrates Greek military capability, Thermopylae (480 BCE) shows heroic resistance, Salamis (480 BCE) secures naval victory. <strong>Unity and Identity:</strong> Creates pan-Hellenic consciousness and pride in Greek freedom versus Persian despotism."
+      },
+      {
+        date: "490 BCE",
+        title: "Battle of Marathon",
+        description: "Athenians defeat much larger Persian force, proving Greek military effectiveness. <strong>Strategic Impact:</strong> Demonstrates effectiveness of hoplite warfare and Greek tactics. <strong>Cultural Memory:</strong> Creates legend of marathon run and symbol of Greek resistance. <strong>Political Confidence:</strong> Boosts Athenian confidence and commitment to democracy."
+      },
+      {
+        date: "480 BCE",
+        title: "Battles of Thermopylae and Salamis",
+        description: "Spartan sacrifice at Thermopylae and Greek naval victory at Salamis define Persian War climax. <strong>Heroic Legacy:</strong> Leonidas and 300 Spartans become symbols of sacrifice for freedom. <strong>Naval Revolution:</strong> Themistocles' naval strategy at Salamis saves Greece and establishes Athenian maritime empire. <strong>Unity Achievement:</strong> Greek city-states cooperate effectively against common threat."
+      },
+      {
+        date: "479 BCE",
+        title: "Battle of Plataea",
+        description: "Final land battle of Persian Wars with decisive Greek victory ending Persian invasion. <strong>Military Achievement:</strong> Combined Greek forces defeat Persian army and liberate Greek cities. <strong>Political Outcome:</strong> Establishes Greek independence and begins period of expansion. <strong>Alliance Formation:</strong> Creates foundation for Delian League under Athenian leadership."
+      },
+      {
+        date: "478 BCE",
+        title: "Formation of Delian League",
+        description: "Athens leads defensive alliance of Greek city-states against Persia. <strong>Imperial Development:</strong> Gradually transforms from voluntary alliance into Athenian empire. <strong>Economic Impact:</strong> Tribute payments fund Athenian prosperity and building programs. <strong>Political Tension:</strong> Creates resentment among allies and rivalry with Sparta."
+      },
+      {
+        date: "461-429 BCE",
+        title: "Age of Pericles",
+        description: "Golden Age of Athens under Pericles' leadership with democracy, empire, and cultural achievements. <strong>Democratic Peak:</strong> Athenian democracy reaches full development with citizen participation. <strong>Cultural Flowering:</strong> Parthenon built, tragedies of Sophocles and Euripides, philosophy of Socrates begins. <strong>Imperial Power:</strong> Athens dominates Aegean through Delian League."
+      },
+      {
+        date: "447-432 BCE",
+        title: "Construction of the Parthenon",
+        description: "Pericles oversees construction of Parthenon and other monuments on the Acropolis. <strong>Architectural Innovation:</strong> Represents peak of Classical Greek architecture and engineering. <strong>Cultural Symbol:</strong> Demonstrates Athenian wealth, power, and artistic achievement. <strong>Religious Significance:</strong> Temple to Athena reinforces Athenian civic identity and divine protection."
+      },
+      {
+        date: "431-404 BCE",
         title: "Peloponnesian War",
-        description: "Prolonged conflict between Athens and Sparta, leading to the decline of Athenian power."
+        description: "Devastating conflict between Athens and Sparta ultimately weakening all Greek city-states. <strong>Strategic Warfare:</strong> Contrasts Athenian naval power with Spartan land dominance. <strong>Political Impact:</strong> Undermines democracy in Athens and weakens Greek resistance to external powers. <strong>Historical Record:</strong> Thucydides provides first scientific historical analysis of war and politics."
+      },
+      {
+        date: "429 BCE",
+        title: "Death of Pericles",
+        description: "Pericles dies of plague during Peloponnesian War, ending Athens' golden age leadership. <strong>Political Transition:</strong> Less capable leaders (demagogues) dominate Athenian politics. <strong>Strategic Loss:</strong> Athens loses its most skilled statesman during critical war period. <strong>Cultural Impact:</strong> Marks end of Classical Athens' greatest period of achievement."
+      },
+      {
+        date: "415-413 BCE",
+        title: "Sicilian Expedition",
+        description: "Disastrous Athenian invasion of Sicily during Peloponnesian War. <strong>Strategic Overreach:</strong> Athens attempts simultaneous wars in Greece and Sicily. <strong>Military Disaster:</strong> Entire expedition destroyed with massive loss of ships, soldiers, and prestige. <strong>Political Consequences:</strong> Severely weakens Athens and leads to oligarchic revolution of 411 BCE."
+      },
+      {
+        date: "404 BCE",
+        title: "Fall of Athens",
+        description: "Sparta defeats Athens, ending Peloponnesian War and Athenian empire. <strong>Political Change:</strong> Thirty Tyrants imposed on Athens, temporarily ending democracy. <strong>Imperial Collapse:</strong> Delian League dissolved, ending Athenian maritime empire. <strong>Greek Weakness:</strong> Prolonged warfare leaves all Greek states vulnerable to external intervention."
+      },
+      {
+        date: "399 BCE",
+        title: "Trial and Death of Socrates",
+        description: "Socrates condemned to death for corrupting youth and impiety, creating philosophical martyrdom. <strong>Philosophical Legacy:</strong> Establishes model of intellectual integrity and rational inquiry. <strong>Political Critique:</strong> Highlights tensions between philosophy and democracy. <strong>Cultural Impact:</strong> Inspires Plato's philosophical works and foundation of Western philosophy."
+      },
+      {
+        date: "387 BCE",
+        title: "Plato Founds the Academy",
+        description: "Plato establishes Academy in Athens, world's first institution of higher learning. <strong>Educational Innovation:</strong> Creates model for universities and advanced education. <strong>Philosophical Development:</strong> Develops systematic philosophy, political theory, and educational methods. <strong>Intellectual Legacy:</strong> Academy operates for nearly 900 years, influencing countless thinkers."
+      },
+      {
+        date: "371 BCE",
+        title: "Battle of Leuctra",
+        description: "Thebes defeats Sparta, ending Spartan hegemony and freeing helots. <strong>Military Innovation:</strong> Epaminondas develops new tactical formations defeating Spartan phalanx. <strong>Political Revolution:</strong> Breaks Spartan power and liberates Messenian helots. <strong>Balance Shift:</strong> Creates power vacuum leading to increased Macedonian influence."
+      },
+      {
+        date: "359 BCE",
+        title: "Philip II Becomes King of Macedon",
+        description: "Philip II begins transformation of Macedon into dominant Greek power. <strong>Military Innovation:</strong> Develops professional army with sarissa phalanx and combined-arms tactics. <strong>Political Strategy:</strong> Uses diplomacy, marriage alliances, and warfare to expand influence. <strong>Greek Impact:</strong> Begins Macedonian intervention in Greek affairs."
       },
       {
         date: "338 BCE",
         title: "Battle of Chaeronea",
-        description: "Philip II of Macedon defeats Greek city-states, paving the way for Macedonian dominance."
+        description: "Philip II of Macedon defeats combined Greek forces, establishing Macedonian hegemony. <strong>Military Superiority:</strong> Macedonian phalanx and cavalry prove superior to traditional Greek tactics. <strong>Political Unification:</strong> Creates League of Corinth under Macedonian leadership. <strong>Greek Independence:</strong> Ends era of independent city-states and begins Macedonian dominance."
       },
       {
-        date: "336–323 BCE",
-        title: "Reign of Alexander the Great",
-        description: "Alexander conquers a vast empire, spreading Greek culture across the Near East and Egypt."
+        date: "336 BCE",
+        title: "Assassination of Philip II",
+        description: "Philip II murdered at daughter's wedding, succeeded by 20-year-old Alexander. <strong>Political Crisis:</strong> Succession crisis threatens Macedonian unity and Greek control. <strong>Alexander's Response:</strong> Alexander quickly secures throne and crushes Greek rebellions. <strong>Historical Turning Point:</strong> Sets stage for Alexander's unprecedented conquests."
+      },
+      {
+        date: "334-323 BCE",
+        title: "Alexander the Great's Conquests",
+        description: "Alexander conquers Persian Empire and creates vast Hellenistic kingdom from Egypt to India. <strong>Military Genius:</strong> Never loses a battle, demonstrates exceptional tactical and strategic skills. <strong>Cultural Synthesis:</strong> Promotes fusion of Greek and Eastern cultures. <strong>Global Impact:</strong> Spreads Greek language, culture, and ideas across three continents."
+      },
+      {
+        date: "334 BCE",
+        title: "Battle of Granicus",
+        description: "Alexander's first major victory in Asia Minor, establishing his reputation and momentum. <strong>Strategic Opening:</strong> Secures Asian bridgehead and frees Greek cities. <strong>Personal Leadership:</strong> Alexander's heroic fighting inspires troops and intimidates enemies. <strong>Propaganda Victory:</strong> Demonstrates divine favor and invincibility."
+      },
+      {
+        date: "333 BCE",
+        title: "Battle of Issus",
+        description: "Alexander defeats Persian King Darius III, capturing his family and treasury. <strong>Strategic Victory:</strong> Opens route to Syria, Phoenicia, and Egypt. <strong>Personal Triumph:</strong> Alexander's tactical brilliance defeats much larger Persian force. <strong>Political Impact:</strong> Establishes Alexander as legitimate successor to Persian Empire."
+      },
+      {
+        date: "331 BCE",
+        title: "Battle of Gaugamela",
+        description: "Alexander's decisive victory over Darius III, destroying Persian military power. <strong>Tactical Masterpiece:</strong> Alexander's innovative tactics defeat Darius's prepared battlefield. <strong>Imperial Conquest:</strong> Opens path to Persian heartland and imperial capitals. <strong>Historical Significance:</strong> Marks end of Persian Empire and birth of Hellenistic world."
+      },
+      {
+        date: "331 BCE",
+        title: "Foundation of Alexandria",
+        description: "Alexander founds Alexandria in Egypt, future center of Hellenistic learning and culture. <strong>Urban Planning:</strong> Creates planned city with harbor, library, and research institutions. <strong>Cultural Center:</strong> Becomes hub of Greek learning, science, and literature. <strong>Economic Hub:</strong> Controls trade between Mediterranean and Indian Ocean."
+      },
+      {
+        date: "323 BCE",
+        title: "Death of Alexander",
+        description: "Alexander dies in Babylon at age 32, ending unified Hellenistic empire. <strong>Succession Crisis:</strong> Empire immediately fragments among competing generals (Diadochi). <strong>Cultural Legacy:</strong> Greek culture permanently established across former Persian Empire. <strong>Historical Impact:</strong> Creates Hellenistic kingdoms that dominate eastern Mediterranean for centuries."
+      },
+      {
+        date: "323-30 BCE",
+        title: "Hellenistic Period",
+        description: "Greek culture spreads across Mediterranean and Middle East through successor kingdoms. <strong>Political Structure:</strong> Large kingdoms ruled by Macedonian dynasties (Ptolemies, Seleucids, Antigonids). <strong>Cultural Synthesis:</strong> Greek and Eastern cultures blend creating new artistic and intellectual forms. <strong>Scientific Achievement:</strong> Major advances in mathematics, astronomy, medicine, and engineering."
+      },
+      {
+        date: "300 BCE",
+        title: "Euclid's Elements",
+        description: "Euclid compiles definitive work on geometry in Alexandria. <strong>Mathematical Foundation:</strong> Establishes logical proofs and systematic geometry. <strong>Educational Impact:</strong> Becomes standard mathematics textbook for over 2000 years. <strong>Scientific Method:</strong> Demonstrates power of logical reasoning and mathematical proof."
+      },
+      {
+        date: "c. 280 BCE",
+        title: "Colossus of Rhodes",
+        description: "Giant statue of Helios built at Rhodes, one of Seven Wonders of Ancient World. <strong>Engineering Achievement:</strong> Demonstrates Hellenistic technical capabilities and artistic ambition. <strong>Economic Symbol:</strong> Represents Rhodes's commercial prosperity and independence. <strong>Cultural Pride:</strong> Shows Greek artistic achievement in Hellenistic period."
+      },
+      {
+        date: "c. 250 BCE",
+        title: "Archimedes' Discoveries",
+        description: "Archimedes makes fundamental discoveries in mathematics, physics, and engineering in Syracuse. <strong>Scientific Innovation:</strong> Discovers principles of buoyancy, calculus methods, and mechanical advantage. <strong>Engineering Applications:</strong> Invents war machines, water pumps, and measuring devices. <strong>Intellectual Legacy:</strong> Establishes model of theoretical and applied science."
+      },
+      {
+        date: "214-148 BCE",
+        title: "Macedonian Wars",
+        description: "Series of wars between Rome and Macedonian kingdoms, ending Greek independence. <strong>Strategic Shift:</strong> Rising Roman power challenges Hellenistic kingdoms. <strong>Greek Resistance:</strong> Various coalitions attempt to preserve Greek freedom. <strong>Military Evolution:</strong> Roman legions prove superior to Hellenistic armies."
       },
       {
         date: "146 BCE",
-        title: "Roman Conquest",
-        description: "Greece falls under Roman rule, ending political independence."
+        title: "Roman Conquest of Greece",
+        description: "Rome destroys Corinth and establishes province of Achaea, ending Greek political independence. <strong>Cultural Preservation:</strong> Romans admire and preserve Greek culture while ending political autonomy. <strong>Educational Impact:</strong> Greece becomes educational center for Roman elite. <strong>Cultural Influence:</strong> Greek philosophy, art, and literature profoundly influence Roman civilization."
+      },
+      {
+        date: "86 BCE",
+        title: "Sulla's Sack of Athens",
+        description: "Roman general Sulla captures and plunders Athens during Mithridatic Wars. <strong>Cultural Destruction:</strong> Many treasures and artworks removed to Rome. <strong>Political Submission:</strong> Demonstrates complete Roman control over Greek cities. <strong>Economic Decline:</strong> Athens loses much of its remaining wealth and political importance."
+      },
+      {
+        date: "31 BCE",
+        title: "Battle of Actium",
+        description: "Octavian defeats Mark Antony and Cleopatra, ending last Hellenistic kingdom. <strong>Imperial Unification:</strong> Brings all former Greek territories under unified Roman rule. <strong>Cultural Transition:</strong> Marks end of Hellenistic period and beginning of Roman imperial culture. <strong>Alexandria's Decline:</strong> Egypt's incorporation reduces Alexandria's independence and cultural leadership."
       },
       {
         date: "330 CE",
         title: "Founding of Constantinople",
-        description: "Constantine establishes new Roman capital, later center of Byzantine Empire."
+        description: "Constantine establishes 'New Rome' at Byzantium, creating Christian Greek empire. <strong>Religious Revolution:</strong> Creates Christian capital of Greek-speaking empire. <strong>Cultural Continuity:</strong> Preserves Greek language and learning in Christian context. <strong>Political Innovation:</strong> Combines Roman administration with Greek culture and Christian religion."
       },
       {
-        date: "1453",
+        date: "529 CE",
+        title: "Closure of Plato's Academy",
+        description: "Justinian closes Academy and other pagan schools, ending ancient Greek philosophical tradition. <strong>Religious Policy:</strong> Christian empire suppresses remaining pagan institutions. <strong>Cultural Loss:</strong> Ends nearly 1000 years of continuous philosophical education. <strong>Knowledge Preservation:</strong> Many Greek texts preserved through Islamic and Byzantine scholars."
+      },
+      {
+        date: "1453 CE",
         title: "Fall of Constantinople",
-        description: "Ottoman Turks capture the city, ending Byzantine Empire and beginning centuries of Ottoman rule."
+        description: "Ottoman Turks capture Constantinople, ending Byzantine Empire and medieval Greek state. <strong>Political End:</strong> Last remnant of Roman/Byzantine Empire falls to Islamic conquest. <strong>Cultural Diaspora:</strong> Greek scholars flee west, contributing to Renaissance humanism. <strong>Religious Change:</strong> Hagia Sophia converted to mosque, symbolizing Ottoman dominance."
       },
       {
-        date: "1821–1829",
+        date: "1453-1821",
+        title: "Ottoman Period",
+        description: "Greece under Ottoman Turkish rule with sporadic uprisings and cultural preservation. <strong>Religious Identity:</strong> Orthodox Christianity maintains Greek cultural identity under Islamic rule. <strong>Economic Role:</strong> Greeks become prominent in Ottoman trade and administration. <strong>Cultural Preservation:</strong> Greek language and traditions maintained through church and education."
+      },
+      {
+        date: "1821-1829",
         title: "Greek War of Independence",
-        description: "Greeks revolt against Ottoman rule, achieving independence and founding modern Greek state."
+        description: "Greek revolution against Ottoman rule leads to independence and modern Greek state. <strong>National Revival:</strong> Philhellenism and classical Greek ideals inspire independence movement. <strong>International Support:</strong> European powers (Britain, France, Russia) support Greek cause. <strong>Political Foundation:</strong> Creates modern Greek kingdom and constitutional government."
+      },
+      {
+        date: "1832",
+        title: "Greek Kingdom Established",
+        description: "Treaty of Constantinople recognizes independent Greek Kingdom under Bavarian monarchy. <strong>Territorial Limits:</strong> Initial kingdom includes only southern mainland and some islands. <strong>Political Structure:</strong> Constitutional monarchy with elected parliament. <strong>Cultural Mission:</strong> New state promotes classical Greek heritage and modern Greek identity."
+      },
+      {
+        date: "1896",
+        title: "First Modern Olympics",
+        description: "Modern Olympic Games revived in Athens, celebrating Greek classical heritage. <strong>Cultural Revival:</strong> Links modern Greece to ancient Olympic tradition. <strong>International Recognition:</strong> Demonstrates Greece's role in world culture and history. <strong>Athletic Legacy:</strong> Establishes modern international Olympic movement."
+      },
+      {
+        date: "1912-1913",
+        title: "Balkan Wars",
+        description: "Greece gains significant territory including Crete, Macedonia, and Aegean islands. <strong>Territorial Expansion:</strong> Nearly doubles Greek territory and population. <strong>National Integration:</strong> Incorporates diverse Greek populations into unified state. <strong>Regional Power:</strong> Establishes Greece as major Balkan power."
+      },
+      {
+        date: "1919-1922",
+        title: "Greco-Turkish War",
+        description: "Disastrous war with Turkey ends Greek territorial ambitions in Asia Minor. <strong>Military Defeat:</strong> Turkish forces under Mustafa Kemal defeat Greek armies. <strong>Population Exchange:</strong> Massive forced migration of Greeks from Turkey and Turks from Greece. <strong>Political Crisis:</strong> Military defeat leads to political instability and republican revolution."
+      },
+      {
+        date: "1940-1941",
+        title: "Greek Resistance to Italy",
+        description: "Greece successfully resists Italian invasion, first Allied victory against Axis powers. <strong>Military Success:</strong> Greek forces drive Italians back into Albania. <strong>Strategic Impact:</strong> Delays German invasion and demonstrates Axis vulnerability. <strong>National Pride:</strong> Boosts Greek morale and international reputation."
+      },
+      {
+        date: "1941-1944",
+        title: "German Occupation",
+        description: "Germany occupies Greece following Italian failure, leading to resistance and famine. <strong>Resistance Movement:</strong> Strong guerrilla warfare against occupation forces. <strong>Humanitarian Crisis:</strong> Severe famine kills hundreds of thousands of Greeks. <strong>Political Division:</strong> Communist and non-communist resistance groups conflict."
+      },
+      {
+        date: "1946-1949",
+        title: "Greek Civil War",
+        description: "Civil war between communist and government forces with British and American support. <strong>Cold War Beginning:</strong> First major Cold War conflict with superpower involvement. <strong>Truman Doctrine:</strong> American aid prevents communist victory in Greece. <strong>Social Trauma:</strong> Devastating conflict divides Greek society for generations."
+      },
+      {
+        date: "1967-1974",
+        title: "Military Junta",
+        description: "Military coup establishes authoritarian regime known as 'Regime of the Colonels.' <strong>Political Repression:</strong> Suspension of democracy, censorship, and persecution of opponents. <strong>Cultural Impact:</strong> Suppression of free expression and artistic creativity. <strong>International Isolation:</strong> Greece suspended from Council of Europe and faces international criticism."
+      },
+      {
+        date: "1974",
+        title: "Restoration of Democracy",
+        description: "Military junta collapses following Cyprus crisis, leading to democratic restoration. <strong>Constitutional Reform:</strong> New constitution establishes stable parliamentary democracy. <strong>European Integration:</strong> Greece begins process of joining European communities. <strong>Political Stability:</strong> Establishes foundations for modern democratic Greece."
       },
       {
         date: "1981",
         title: "Joins European Community",
-        description: "Greece becomes a member of the European Economic Community (later European Union)."
+        description: "Greece becomes tenth member of European Economic Community (later European Union). <strong>Economic Integration:</strong> Access to European markets and development funds. <strong>Political Alignment:</strong> Commits Greece to Western European democratic values. <strong>Cultural Exchange:</strong> Increases Greek participation in European cultural and educational programs."
+      },
+      {
+        date: "2001",
+        title: "Adopts Euro Currency",
+        description: "Greece joins Eurozone, adopting European single currency. <strong>Economic Integration:</strong> Completes Greek integration into European monetary system. <strong>Financial Benefits:</strong> Lower interest rates and increased investment. <strong>Future Challenges:</strong> Economic convergence requirements create fiscal pressures."
+      },
+      {
+        date: "2004",
+        title: "Athens Olympic Games",
+        description: "Greece hosts Summer Olympics, returning games to their ancient homeland. <strong>Cultural Celebration:</strong> Showcases Greek heritage and modern achievements. <strong>Infrastructure Development:</strong> Major improvements to transportation and facilities. <strong>International Recognition:</strong> Demonstrates Greece's capacity for major international events."
+      },
+      {
+        date: "2010-2018",
+        title: "Greek Financial Crisis",
+        description: "Severe debt crisis requires international bailouts and austerity measures. <strong>Economic Restructuring:</strong> Major fiscal reforms and privatization programs. <strong>Social Impact:</strong> High unemployment, emigration, and social hardship. <strong>European Challenge:</strong> Tests European unity and economic governance systems."
       }
     ]
   },
