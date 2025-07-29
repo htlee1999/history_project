@@ -498,57 +498,212 @@ export const historyData: Record<string, CountryData> = {
       {
         date: "c. 753 BCE",
         title: "Founding of Rome",
-        description: "Traditional date for the founding of Rome, marking the start of Roman civilization."
+        description: "Traditional founding of Rome by Romulus on April 21. <strong>Politics:</strong> Monarchical rule by seven legendary kings establishing early religious, legal, and political institutions, including the Senate as an advisory body. <strong>Economy:</strong> Agrarian-based with early trade links to Etruscans and Latin neighbors. <strong>Legacy:</strong> Foundation for Roman civic identity, religion intertwined with destiny and political power."
       },
       {
         date: "509 BCE",
         title: "Roman Republic Established",
-        description: "Rome becomes a republic, with power in the hands of elected magistrates and the Senate."
+        description: "Monarchy overthrown; Republic established with elected magistrates and Senate. Foundation of republican governance emphasizing collective magistracies and checks on power. Established the principle of <em>imperium</em> (executive authority) balanced by senatorial wisdom and popular assemblies."
       },
       {
-        date: "264–146 BCE",
-        title: "Punic Wars",
-        description: "Series of wars with Carthage, resulting in Roman dominance over the western Mediterranean."
+        date: "494 BCE",
+        title: "First Secession of the Plebeians",
+        description: "Plebeians withdraw from Rome to Sacred Mount, demanding political rights and protection from patrician abuse. Results in creation of Tribunes of the Plebs with power to veto magistrates' decisions. Marks beginning of 'Conflict of the Orders' - the struggle for plebeian political equality."
       },
       {
-        date: "27 BCE–476 CE",
-        title: "Roman Empire",
-        description: "Augustus becomes first emperor, initiating centuries of imperial expansion and cultural achievement."
+        date: "450 BCE",
+        title: "The Twelve Tables",
+        description: "First comprehensive Roman law code codified and publicly displayed. <strong>Legal Legacy:</strong> Foundation for Western legal traditions, establishing principle that law must be written, public, and equally applied. Influenced civil law systems worldwide and concept of due process."
+      },
+      {
+        date: "396 BCE",
+        title: "Conquest of Veii",
+        description: "Rome conquers important Etruscan city of Veii after 10-year siege, marking expansion beyond Latium. <strong>Military Innovation:</strong> First use of systematic siege warfare and professional soldiers paid from public treasury. Doubles Roman territory and establishes pattern of territorial expansion."
+      },
+      {
+        date: "390 BCE",
+        title: "Sack of Rome by Gauls",
+        description: "Gallic tribes under Brennus capture and sack Rome, except for the Capitol. <strong>Military Impact:</strong> Triggers major military reforms including improved fortifications (Servian Wall), reorganized legions, and new tactical formations. Demonstrates Roman resilience and ability to recover from devastating defeats."
+      },
+      {
+        date: "264-241 BCE",
+        title: "First Punic War",
+        description: "Rome defeats Carthage in struggle for Sicily. <strong>Naval Development:</strong> Rome builds its first major fleet, develops the corvus (boarding bridge), and gains Sicily as its first overseas province. <strong>Economic Impact:</strong> Establishes Rome as a maritime power and opens Mediterranean trade networks."
+      },
+      {
+        date: "218-201 BCE",
+        title: "Second Punic War",
+        description: "Hannibal invades Italy by crossing the Alps with elephants, wins battles at Trebia, Lake Trasimene, and Cannae. <strong>Roman Strategy:</strong> Fabius Maximus develops 'Fabian strategy' of avoiding pitched battles. <strong>Victory:</strong> Scipio Africanus defeats Hannibal at Zama (202 BCE), gaining Spain and North Africa."
+      },
+      {
+        date: "149-146 BCE",
+        title: "Third Punic War",
+        description: "Complete destruction of Carthage by Scipio Aemilianus; city razed and territory becomes Roman province of Africa. <strong>Strategic Impact:</strong> Secures Roman dominance over Western Mediterranean. Cato the Elder's famous phrase 'Carthage must be destroyed' (Carthago delenda est) fulfilled."
+      },
+      {
+        date: "133 BCE",
+        title: "Assassination of Tiberius Gracchus",
+        description: "Tribune Tiberius Gracchus murdered by senators opposing his land reforms. <strong>Political Crisis:</strong> Breaks republican norms against violence in politics. <strong>Social Issues:</strong> Highlights growing inequality between rich and poor, displacement of small farmers by slave-worked estates (latifundia)."
+      },
+      {
+        date: "107-86 BCE",
+        title: "Marian Reforms",
+        description: "Gaius Marius transforms Roman military from citizen-militia to professional army. <strong>Military Changes:</strong> Recruits landless poor, standardizes equipment (Marian Mule), creates veteran colonies. <strong>Political Impact:</strong> Creates loyalty between soldiers and commanders rather than state, enabling future civil wars."
+      },
+      {
+        date: "82-79 BCE",
+        title: "Sulla's Dictatorship",
+        description: "Lucius Cornelius Sulla marches on Rome, defeats Marius' faction, and becomes dictator. <strong>Constitutional Impact:</strong> Breaks republican norms by using army against Rome, setting precedent for autocratic rule. <strong>Reforms:</strong> Strengthens Senate, limits tribunes' power, creates proscription lists of enemies."
+      },
+      {
+        date: "73-71 BCE",
+        title: "Spartacus Slave Revolt",
+        description: "Gladiator Spartacus leads massive slave rebellion across Italy with army reaching 120,000. Suppressed by Marcus Licinius Crassus; 6,000 rebels crucified along Appian Way. <strong>Social Impact:</strong> Exposes tensions in slave-based economy and fear of servile revolts."
+      },
+      {
+        date: "60 BCE",
+        title: "First Triumvirate",
+        description: "Unofficial alliance between Julius Caesar, Pompey, and Crassus to dominate Roman politics. <strong>Political Manipulation:</strong> Circumvents Senate through private agreements, demonstrates weakness of republican institutions when faced with ambitious individuals."
+      },
+      {
+        date: "58-50 BCE",
+        title: "Caesar's Gallic Wars",
+        description: "Julius Caesar conquers Gaul (modern France), defeats Vercingetorix at Alesia (52 BCE). <strong>Military Genius:</strong> Demonstrates tactical brilliance and speed of operations. <strong>Economic Impact:</strong> Brings vast wealth and slaves to Rome. <strong>Literary Legacy:</strong> Caesar's 'Commentaries' become model of military historical writing."
+      },
+      {
+        date: "49-45 BCE",
+        title: "Caesar's Civil War",
+        description: "Caesar crosses Rubicon ('the die is cast'), defeats Pompey at Pharsalus (48 BCE), pursues enemies to Egypt and Africa. <strong>Political Revolution:</strong> Destroys republican government, concentrates unprecedented power in single individual."
+      },
+      {
+        date: "44 BCE",
+        title: "Assassination of Julius Caesar",
+        description: "Caesar murdered on Ides of March by senators led by Brutus and Cassius, fearing he would become king. <strong>Political Chaos:</strong> Triggers final civil wars of Republic. <strong>Cultural Legacy:</strong> Immortalized in Shakespeare's play and symbol of tyrannicide vs. betrayal."
+      },
+      {
+        date: "43-31 BCE",
+        title: "Second Triumvirate and Final Civil Wars",
+        description: "Mark Antony, Octavian, and Lepidus form official triumvirate, defeat Caesar's assassins at Philippi (42 BCE). <strong>Political Evolution:</strong> Leads to division of Roman world between Antony (East) and Octavian (West), culminating in Battle of Actium (31 BCE)."
+      },
+      {
+        date: "31 BCE",
+        title: "Battle of Actium",
+        description: "Octavian's naval victory over Mark Antony and Cleopatra ends Republic's final civil war. <strong>Historical Turning Point:</strong> Paves way for Empire, makes Octavian sole ruler of Roman world. Antony and Cleopatra flee to Egypt and commit suicide."
+      },
+      {
+        date: "27 BCE",
+        title: "Augustus and the Principate",
+        description: "Octavian receives title 'Augustus' from Senate, becomes first Roman Emperor while maintaining republican facade. <strong>Political Innovation:</strong> Creates Principate system - emperor as 'first citizen' with supreme authority. <strong>Constitutional Legacy:</strong> Balances autocracy with traditional institutions."
+      },
+      {
+        date: "27 BCE-180 CE",
+        title: "Pax Romana",
+        description: "200 years of relative peace and prosperity across Roman Empire. <strong>Territorial Peak:</strong> Expansion to Britain (43 CE), Dacia (106 CE), reaches greatest extent under Trajan. <strong>Cultural Development:</strong> Golden Age of Latin literature (Virgil, Ovid, Horace), monumental architecture (Pantheon, Colosseum), advanced engineering (roads, aqueducts)."
+      },
+      {
+        date: "64 CE",
+        title: "Great Fire of Rome",
+        description: "Devastating fire destroys much of Rome during Nero's reign. <strong>Urban Planning:</strong> Leads to new building codes and urban planning. <strong>Christian Persecution:</strong> Nero blames Christians, beginning systematic persecutions. <strong>Architectural Legacy:</strong> Enables construction of Nero's Golden House (Domus Aurea)."
+      },
+      {
+        date: "70 CE",
+        title: "Destruction of Jerusalem",
+        description: "Titus captures Jerusalem, destroys Second Temple, ending First Jewish-Roman War. <strong>Cultural Impact:</strong> Diaspora of Jewish people, commemated in Arch of Titus. <strong>Economic Benefit:</strong> Temple treasures fund construction of Colosseum."
+      },
+      {
+        date: "79 CE",
+        title: "Eruption of Mount Vesuvius",
+        description: "Volcanic eruption destroys Pompeii and Herculaneum. <strong>Historical Preservation:</strong> Preserves daily life in Roman cities, providing unprecedented archaeological evidence. <strong>Literary Record:</strong> Pliny the Younger's eyewitness account creates model of scientific observation."
+      },
+      {
+        date: "98-180 CE",
+        title: "Five Good Emperors",
+        description: "Nerva, Trajan, Hadrian, Antoninus Pius, and Marcus Aurelius preside over Empire's golden age. <strong>Administrative Excellence:</strong> Efficient governance, public works, legal reforms. <strong>Territorial Management:</strong> Hadrian's Wall in Britain, Trajan's conquests in Dacia and Mesopotamia."
+      },
+      {
+        date: "212 CE",
+        title: "Edict of Caracalla",
+        description: "Emperor Caracalla grants Roman citizenship to all free inhabitants of Empire. <strong>Legal Revolution:</strong> Creates unified legal identity across diverse territories. <strong>Administrative Impact:</strong> Increases tax base but dilutes value of Roman citizenship."
+      },
+      {
+        date: "235-284 CE",
+        title: "Crisis of the Third Century",
+        description: "Period of near-constant civil war, economic collapse, and barbarian invasions. <strong>Political Chaos:</strong> 50 emperors in 50 years, many dying violent deaths. <strong>Economic Collapse:</strong> Currency debasement, inflation, disrupted trade. <strong>Military Pressure:</strong> Germanic tribes penetrate frontiers, Sassanid Persia threatens East."
+      },
+      {
+        date: "284 CE",
+        title: "Diocletian's Reforms",
+        description: "Diocletian divides Empire into East and West, institutes Tetrarchy (rule by four). <strong>Administrative Revolution:</strong> Creates more manageable governmental units. <strong>Economic Reforms:</strong> Price controls, tax reforms, new coinage. <strong>Military Changes:</strong> Separates civil and military commands."
+      },
+      {
+        date: "313 CE",
+        title: "Edict of Milan",
+        description: "Constantine legalizes Christianity throughout Empire. <strong>Religious Revolution:</strong> Ends persecution, begins transformation of Empire into Christian state. <strong>Cultural Impact:</strong> Churches receive imperial patronage, Christian symbols appear on coins and standards."
+      },
+      {
+        date: "325 CE",
+        title: "Council of Nicaea",
+        description: "Constantine convenes first ecumenical council to address Arian controversy. <strong>Religious Unification:</strong> Establishes Nicene Creed, imperial involvement in church doctrine. <strong>Political-Religious Integration:</strong> Emperor as protector of Christian orthodoxy."
+      },
+      {
+        date: "330 CE",
+        title: "Founding of Constantinople",
+        description: "Constantine establishes 'New Rome' at Byzantium, creating eastern capital. <strong>Strategic Importance:</strong> Controls Bosphorus strait between Europe and Asia. <strong>Economic Center:</strong> Becomes hub of eastern trade networks. <strong>Political Division:</strong> Creates rival power center to Rome."
+      },
+      {
+        date: "378 CE",
+        title: "Battle of Adrianople",
+        description: "Visigoths defeat and kill Emperor Valens in devastating military disaster. <strong>Military Revolution:</strong> Demonstrates superiority of barbarian cavalry over Roman infantry. <strong>Political Impact:</strong> Weakens imperial prestige, accelerates barbarian settlement within Empire."
+      },
+      {
+        date: "395 CE",
+        title: "Permanent Division of Empire",
+        description: "Empire permanently split between East and West after Theodosius I's death. <strong>Administrative Necessity:</strong> Recognizes reality that Empire too large for single ruler. <strong>Political Evolution:</strong> Eastern Empire (Byzantine) develops distinct identity and survives until 1453."
+      },
+      {
+        date: "410 CE",
+        title: "Sack of Rome by Visigoths",
+        description: "Alaric and Visigoths capture and plunder Rome for three days. <strong>Psychological Shock:</strong> First foreign capture of Rome in 800 years devastates Roman morale. <strong>Religious Impact:</strong> Augustine writes 'City of God' responding to pagan claims that Christianity weakened Empire."
+      },
+      {
+        date: "455 CE",
+        title: "Vandal Sack of Rome",
+        description: "Vandals under Genseric systematically loot Rome for two weeks. <strong>Economic Devastation:</strong> Removes vast wealth including temple treasures and imperial regalia. <strong>Political Decline:</strong> Further weakens Western imperial prestige and authority."
       },
       {
         date: "476 CE",
         title: "Fall of Western Roman Empire",
-        description: "Last emperor deposed, marking the traditional end of ancient Rome and start of the Middle Ages."
+        description: "Germanic chieftain Odoacer deposes Romulus Augustulus, last Western Roman Emperor, and sends imperial regalia to Constantinople. <strong>End of Ancient World:</strong> Traditional date for fall of Western Roman Empire and beginning of Medieval period. <strong>Continuity:</strong> Eastern Roman (Byzantine) Empire continues until 1453."
       },
       {
         date: "800 CE",
-        title: "Charlemagne crowned Emperor",
-        description: "Pope crowns Charlemagne, linking Italy to the Holy Roman Empire."
+        title: "Charlemagne Crowned Emperor",
+        description: "Pope Leo III crowns Charlemagne 'Emperor of the Romans,' reviving Western imperial title. <strong>Political Revival:</strong> Creates Holy Roman Empire, linking Italy to Frankish power. <strong>Religious Authority:</strong> Establishes papal right to crown emperors."
       },
       {
-        date: "1300s–1600s",
+        date: "1300s-1600s",
         title: "Italian Renaissance",
-        description: "Period of extraordinary cultural, artistic, and scientific achievement centered in Italian city-states."
+        description: "Period of extraordinary cultural, artistic, and scientific achievement centered in Italian city-states. <strong>Cultural Revolution:</strong> Revival of classical learning, humanist philosophy, artistic innovation. <strong>Roman Legacy:</strong> Rediscovery of Roman texts, architecture, and political ideals influences Renaissance thought."
       },
       {
         date: "1861",
         title: "Italian Unification",
-        description: "Kingdom of Italy proclaimed, unifying most Italian states under one monarchy."
+        description: "Kingdom of Italy proclaimed, unifying most Italian states under one monarchy. <strong>Roman Symbolism:</strong> New state consciously evokes Roman imperial grandeur and adopts Roman symbols and terminology."
       },
       {
-        date: "1922–1943",
+        date: "1922-1943",
         title: "Fascist Regime",
-        description: "Benito Mussolini establishes dictatorship, leading Italy through WWII as part of Axis Powers."
+        description: "Benito Mussolini establishes dictatorship, leading Italy through WWII as part of Axis Powers. <strong>Roman Revival:</strong> Fascists extensively use Roman symbols (fasces, eagles, imperial imagery) and rhetoric about restoring Roman greatness."
       },
       {
         date: "1946",
         title: "Italian Republic",
-        description: "Monarchy abolished by referendum; Italy becomes a republic."
+        description: "Monarchy abolished by referendum; Italy becomes a republic. <strong>Republican Ideals:</strong> New constitution draws inspiration from Roman republican values and modern democratic principles."
       },
       {
         date: "1957",
         title: "Founding Member of EEC",
-        description: "Italy helps found the European Economic Community (later European Union)."
+        description: "Italy helps found the European Economic Community (later European Union). <strong>European Integration:</strong> Rome hosts signing of Treaty of Rome (1957), symbolically linking European unity to Roman universalist ideals."
       }
     ]
   }
