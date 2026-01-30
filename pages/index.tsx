@@ -75,7 +75,7 @@ export default function Home() {
           
           <div className="stats-section">
             <div className="stat">
-              <span className="stat-number">8</span>
+              <span className="stat-number">10</span>
               <span className="stat-label">Civilizations</span>
             </div>
             <div className="stat">

@@ -322,6 +322,201 @@ export const historyData: Record<string, CountryData> = {
       }
     ]
   },
+  spain: {
+    title: "History of Spain 🇪🇸",
+    events: [
+      {
+        date: "218-19 BCE",
+        title: "Roman Conquest",
+        description: "Romans defeat Carthaginians in Punic Wars, unifying Hispania as a province with lasting infrastructure and Latin influence."
+      },
+      {
+        date: "418-711 CE",
+        title: "Visigothic Rule",
+        description: "Germanic Visigoths establish kingdom after Rome's fall; peak under Leovigild (unification) and Reccared (Catholic conversion in 589)."
+      },
+      {
+        date: "711",
+        title: "Muslim Conquest",
+        description: "Tariq ibn Ziyad defeats King Roderic at Guadalete; Al-Andalus flourishes as Islamic center under Umayyads."
+      },
+      {
+        date: "722",
+        title: "Battle of Covadonga",
+        description: "Pelagius defeats Muslims, seeding Kingdom of Asturias and launching the 800-year Reconquista."
+      },
+      {
+        date: "929-1031",
+        title: "Caliphate of Córdoba",
+        description: "Abd al-Rahman III's era of tolerance, science (e.g., Averroes), and culture marks the golden age of Al-Andalus."
+      },
+      {
+        date: "1212",
+        title: "Battle of Las Navas de Tolosa",
+        description: "Christian coalition shatters Almohad power, marking decisive turning point in the Reconquista."
+      },
+      {
+        date: "1469-1492",
+        title: "Unification under Catholic Monarchs",
+        description: "Isabella and Ferdinand marry, conquer Granada (1492), expel Jews, fund Columbus—birth of unified Spain and empire."
+      },
+      {
+        date: "1492-1588",
+        title: "Spanish Golden Age",
+        description: "Conquistadors (Cortés, Pizarro) claim Americas; Philip II's realm spans globe; cultural boom (Cervantes, Velázquez); Armada defeat signals limits."
+      },
+      {
+        date: "1618-1648",
+        title: "Thirty Years' War",
+        description: "Spain bankrupted by endless conflicts; loses Netherlands (1648) and Portugal regains independence (1640)."
+      },
+      {
+        date: "1701-1714",
+        title: "War of Spanish Succession",
+        description: "Bourbon Philip V wins throne; Spain loses European territories but centralizes power under new dynasty."
+      },
+      {
+        date: "1808",
+        title: "Dos de Mayo Uprising",
+        description: "Popular uprising against Napoleonic occupation sparks Peninsular War, inspiring Goya's famous paintings."
+      },
+      {
+        date: "1808-1826",
+        title: "Spanish-American Wars of Independence",
+        description: "Napoleonic invasion sparks colonial revolts; Spain loses most American colonies including Mexico (1821)."
+      },
+      {
+        date: "1898",
+        title: "Spanish-American War",
+        description: "Defeat by United States results in loss of Cuba, Philippines, and Puerto Rico, ending Spanish colonial empire."
+      },
+      {
+        date: "1931",
+        title: "Second Republic",
+        description: "Brief liberal experiment amid economic woes, introducing democratic reforms before civil conflict."
+      },
+      {
+        date: "1936-1939",
+        title: "Spanish Civil War",
+        description: "Republicans vs. Nationalists in devastating conflict; Franco wins, imposing dictatorship until 1975."
+      },
+      {
+        date: "1975-1978",
+        title: "Democratic Transition",
+        description: "Franco dies; Juan Carlos I enables peaceful transition to constitutional monarchy and democracy."
+      },
+      {
+        date: "1986",
+        title: "Joins European Community",
+        description: "Spain enters EC (later EU), accelerating economic modernization and integration with Western Europe."
+      }
+    ]
+  },
+  portugal: {
+    title: "History of Portugal 🇵🇹",
+    events: [
+      {
+        date: "218 BCE - 5th CE",
+        title: "Roman Lusitania",
+        description: "Romans conquer Iberia, establishing provinces including Lusitania (south/central Portugal) with cities like Olisipo (Lisbon)."
+      },
+      {
+        date: "409-585 CE",
+        title: "Suebi Kingdom",
+        description: "Germanic Suebi establish kingdom in Gallaecia (north Portugal) with capital Braga; first independent post-Roman state in Iberia."
+      },
+      {
+        date: "585-711",
+        title: "Visigothic Rule",
+        description: "Visigoths conquer Suebi, unifying Iberia under Toledo and adopting Catholicism in 589."
+      },
+      {
+        date: "711",
+        title: "Muslim Conquest",
+        description: "Umayyads under Tariq ibn Ziyad defeat Visigoths at Guadalete; Al-Andalus controls most of Portugal."
+      },
+      {
+        date: "868",
+        title: "County of Portugal Forms",
+        description: "Vímara Peres creates County of Portugal (Portucale) under Asturias/León after conquering territory from Muslims."
+      },
+      {
+        date: "1139",
+        title: "Independence Proclaimed",
+        description: "Afonso Henriques defeats Moors at Ourique and proclaims himself king; Treaty of Zamora (1143) recognizes Portugal."
+      },
+      {
+        date: "1147",
+        title: "Conquest of Lisbon",
+        description: "Crusaders aid Portuguese in siege; Lisbon falls after 17 weeks, expanding territory south."
+      },
+      {
+        date: "1249",
+        title: "Reconquista Completed",
+        description: "Afonso III reconquers Algarve, completing the Reconquista and securing Portugal's modern borders."
+      },
+      {
+        date: "1385",
+        title: "Battle of Aljubarrota",
+        description: "John I defeats Castilians, secures Aviz dynasty and independence; Treaty of Windsor (1386) allies with England."
+      },
+      {
+        date: "1415",
+        title: "Age of Discoveries Begins",
+        description: "Conquest of Ceuta launches Age of Discoveries; Henry the Navigator pioneers African exploration."
+      },
+      {
+        date: "1498",
+        title: "Sea Route to India",
+        description: "Vasco da Gama reaches Calicut, opening direct trade route; Treaty of Tordesillas (1494) divides world with Spain."
+      },
+      {
+        date: "1500",
+        title: "Brazil Claimed",
+        description: "Pedro Álvares Cabral lands in Brazil; Portuguese empire now spans Africa, Asia, and the Americas."
+      },
+      {
+        date: "1495-1521",
+        title: "Peak Empire Under Manuel I",
+        description: "Wealth from spices and gold funds Manueline architecture; Portugal dominates Indian Ocean trade."
+      },
+      {
+        date: "1580-1640",
+        title: "Iberian Union",
+        description: "Sebastian's death at Alcácer Quibir (1578) leads to Philip II of Spain's union; Portugal loses autonomy, resources drained."
+      },
+      {
+        date: "1640-1668",
+        title: "Restoration War",
+        description: "João IV restores independence; Battle of Montes Claros (1665) confirms Portuguese sovereignty."
+      },
+      {
+        date: "1755",
+        title: "Lisbon Earthquake",
+        description: "Catastrophic earthquake kills 60,000; Pombaline reconstruction modernizes the capital."
+      },
+      {
+        date: "1822",
+        title: "Brazil Independence",
+        description: "Dom Pedro declares Brazil independent; Portugal loses its most valuable colony."
+      },
+      {
+        date: "1910",
+        title: "Republic Established",
+        description: "Revolution ends monarchy amid political instability, establishing the First Portuguese Republic."
+      },
+      {
+        date: "1974",
+        title: "Carnation Revolution",
+        description: "Bloodless coup ends Salazar/Caetano dictatorship; decolonization of African territories follows in 1975."
+      },
+      {
+        date: "1986",
+        title: "Joins European Community",
+        description: "Portugal enters EC (later EU), boosting economic development after decades of dictatorship."
+      }
+    ]
+  },
   korea: {
     title: "History of South Korea 🇰🇷",
     events: [
@@ -2001,6 +2196,18 @@ export const countryCards: Record<string, CountryCard[]> = {
       flag: "🇫🇷",
       name: "French Empire",
       summary: "From medieval kingdoms to Napoleonic conquests, explore French imperial history through revolution, empire-building, and European dominance."
+    },
+    {
+      id: "spain",
+      flag: "🇪🇸",
+      name: "Spanish Empire",
+      summary: "From the Reconquista to global empire, explore Spain's Golden Age, conquistador conquests, and the dramatic rise and fall of the world's first transatlantic empire."
+    },
+    {
+      id: "portugal",
+      flag: "🇵🇹",
+      name: "Portuguese Empire",
+      summary: "From the Age of Discoveries to global maritime dominance, explore Portugal's pioneering voyages, spice trade empire, and the rise and fall of the first global colonial power."
     }
   ],
   culture: [
