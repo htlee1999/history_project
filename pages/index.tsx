@@ -183,9 +183,9 @@ export default function Home() {
           <TabsContent value="culture" className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {countryCards.culture.map((country) => (
-                <CountryCard 
-                  key={country.id} 
-                  country={country} 
+                <CountryCard
+                  key={country.id}
+                  country={country}
                   onOpenTimeline={handleOpenTimeline}
                 />
               ))}

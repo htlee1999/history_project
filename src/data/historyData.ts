@@ -9,6 +9,7 @@ import historyJson from './history.json';
 
 export interface HistoryEvent {
   date: string;
+  
   title: string;
   description: string;
   dynastyId?: string;
