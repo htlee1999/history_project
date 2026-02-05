@@ -159,48 +159,49 @@ export function CultureGallery() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
       {cultureItems.map((item, index) => (
-        <Card key={index} className="group overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-1 bg-white border-gray-200 shadow-lg">
+        <Card key={index} className="group overflow-hidden card-hover bg-card border-border/60 shadow-sm animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-500/50 via-amber-400/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           <CardHeader className="pb-4">
-            <div className="flex items-center gap-3 mb-3">
-              <span className="text-3xl transition-transform duration-300 group-hover:scale-110">
+            <div className="flex items-center gap-4 mb-3">
+              <span className="text-3xl transition-transform duration-500 ease-out group-hover:scale-105">
                 {item.icon}
               </span>
-              <CardTitle className="text-xl font-bold text-gray-800 flex-1">
+              <CardTitle className="text-lg font-medium text-foreground flex-1 tracking-tight">
                 {item.title}
               </CardTitle>
             </div>
-            <Badge variant="secondary" className="w-fit bg-gradient-to-r from-gray-600 to-gray-700 text-white">
+            <Badge variant="secondary" className="w-fit bg-primary text-primary-foreground text-xs font-medium">
               {item.period}
             </Badge>
-            <CardDescription className="text-gray-600 font-medium italic">
+            <CardDescription className="text-muted-foreground font-normal italic mt-2">
               {item.subtitle}
             </CardDescription>
           </CardHeader>
-          <CardContent className="space-y-4">
-            <p className="text-gray-700 leading-relaxed">
+          <CardContent className="space-y-5">
+            <p className="text-foreground/80 leading-relaxed text-sm">
               {item.description}
             </p>
             
             {item.quote && (
-              <div className="bg-gray-100/60 border-l-4 border-gray-500 p-4 rounded-r-lg">
-                <p className="text-gray-800 italic mb-2 leading-relaxed">
+              <div className="quote-block">
+                <p className="text-foreground/90 italic mb-2 leading-relaxed text-sm">
                   "{item.quote.text}"
                 </p>
-                <p className="text-gray-600 text-sm font-medium">
-                  — {item.quote.author}
+                <p className="text-muted-foreground text-xs font-medium">
+                  {item.quote.author}
                 </p>
               </div>
             )}
             
             {item.sections.map((section, sectionIndex) => (
-              <div key={sectionIndex} className="bg-gray-50/80 rounded-lg p-4 border border-gray-200">
-                <h4 className="font-bold text-gray-800 mb-3 flex items-center gap-2">
+              <div key={sectionIndex} className="bg-muted/50 rounded-xl p-5 border border-border/40">
+                <h4 className="font-medium text-foreground mb-3 text-sm">
                   {section.title}
                 </h4>
-                <ul className="space-y-2">
+                <ul className="space-y-2.5">
                   {section.items.map((listItem, itemIndex) => (
-                    <li key={itemIndex} className="text-gray-700 text-sm leading-relaxed pl-4 relative">
-                      <span className="absolute left-0 top-2 w-1.5 h-1.5 bg-gray-500 rounded-full"></span>
+                    <li key={itemIndex} className="text-muted-foreground text-sm leading-relaxed pl-4 relative">
+                      <span className="absolute left-0 top-2 w-1 h-1 bg-amber-500/70 rounded-full"></span>
                       {listItem}
                     </li>
                   ))}
