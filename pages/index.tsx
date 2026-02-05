@@ -10,6 +10,7 @@ import { Flag, Crown, Landmark, Palette, Globe, ChevronDown, Search, X } from 'l
 
 export default function Home() {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
+  const [selectedCategory, setSelectedCategory] = useState<string>('Nations')
   const [showTimeline, setShowTimeline] = useState(false)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const [activeTab, setActiveTab] = useState('world')
@@ -17,8 +18,16 @@ export default function Home() {
   const dropdownRef = useRef<HTMLDivElement>(null)
   const searchInputRef = useRef<HTMLInputElement>(null)
 
+  // Map tab values to display names for breadcrumbs
+  const categoryDisplayNames: Record<string, string> = {
+    'country': 'Nations',
+    'empire': 'Empires',
+    'culture': 'Ancient Civilizations',
+  }
+
   const handleOpenTimeline = (countryId: string) => {
     setSelectedCountry(countryId)
+    setSelectedCategory(categoryDisplayNames[activeTab] || 'Nations')
     setShowTimeline(true)
   }
 
@@ -76,6 +85,7 @@ export default function Home() {
         isOpen={true}
         onClose={handleBackToCards}
         countryId={selectedCountry}
+        categoryName={selectedCategory}
       />
     )
   }
