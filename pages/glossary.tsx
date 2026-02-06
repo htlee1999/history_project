@@ -89,31 +89,33 @@ export default function Glossary() {
         />
 
         {/* Alphabet Navigation */}
-        <div id="alphabet-nav" className="flex flex-wrap gap-1 mb-8">
-          {ALPHABET.map(letter => (
-            <button
-              key={letter}
-              onClick={() => scrollToLetter(letter)}
-              disabled={!activeLetters.has(letter)}
-              className={`w-9 h-9 rounded-lg text-sm font-medium transition-colors ${
-                activeLetters.has(letter)
-                  ? 'bg-card border border-border/60 text-foreground hover:bg-primary hover:text-primary-foreground shadow-sm'
-                  : 'text-muted-foreground/40 cursor-default'
-              }`}
-            >
-              {letter}
-            </button>
-          ))}
+        <div id="alphabet-nav" className="overflow-x-auto -mx-4 px-4 md:mx-0 md:px-0 mb-8">
+          <div className="flex md:flex-wrap gap-1.5 min-w-max md:min-w-0">
+            {ALPHABET.map(letter => (
+              <button
+                key={letter}
+                onClick={() => scrollToLetter(letter)}
+                disabled={!activeLetters.has(letter)}
+                className={`w-10 h-10 md:w-9 md:h-9 flex-shrink-0 rounded-lg text-sm font-medium transition-colors ${
+                  activeLetters.has(letter)
+                    ? 'bg-card border border-border/60 text-foreground hover:bg-primary hover:text-primary-foreground shadow-sm'
+                    : 'text-muted-foreground/40 cursor-default'
+                }`}
+              >
+                {letter}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Term Cards grouped by letter */}
         {Object.keys(groupedTerms).length > 0 ? (
           Object.keys(groupedTerms).sort().map(letter => (
-            <section key={letter} id={`letter-${letter}`} className="mb-10 scroll-mt-4">
+            <section key={letter} id={`letter-${letter}`} className="mb-10 scroll-mt-6">
               <h2 className="text-2xl font-light text-foreground mb-4 border-b border-border/60 pb-2">
                 {letter}
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
                 {groupedTerms[letter].map((term, index) => (
                   <div key={term.id} className="animate-fade-in" style={{ animationDelay: `${index * 50}ms` }}>
                     <Card className="group relative overflow-hidden card-hover bg-card border-border/60 shadow-sm h-full">
