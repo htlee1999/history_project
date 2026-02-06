@@ -171,6 +171,18 @@
           "title": "World War II and Post-War Era",
           "description": "World War II mobilized American economy and society on unprecedented scale. Post-war period saw U.S. emerge as superpower, leading Western alliance during Cold War while experiencing domestic prosperity and social upheaval.",
           "dynastyId": "usa_postwar"
+        },
+        {
+          "date": "1968-1991",
+          "title": "Late Cold War Era",
+          "description": "America navigated Vietnam War's aftermath, the Civil Rights movement's expansion, and eventual Cold War victory. The period saw economic challenges, cultural transformation, and renewed global leadership under Reagan.",
+          "dynastyId": "usa_late_cold_war"
+        },
+        {
+          "date": "1991-present",
+          "title": "Post-Cold War Era",
+          "description": "As the world's sole superpower, America faced new challenges including terrorism, economic globalization, and political polarization while maintaining its role as leader of international institutions.",
+          "dynastyId": "usa_post_cold_war"
         }
       ]
     },
@@ -218,6 +230,30 @@
           "title": "House of Hanover",
           "description": "German Hanoverians maintained Protestant succession, presiding over Britain's transformation into industrial and imperial superpower. The dynasty saw American independence, Napoleonic Wars, and Victorian expansion.",
           "dynastyId": "uk_hanover"
+        },
+        {
+          "date": "1901-1918",
+          "title": "Edwardian Era and World War I",
+          "description": "The British Empire reached its zenith under Edward VII and George V. Britain led the Allied Powers in WWI, mobilizing the largest volunteer army in history and emerging victorious but deeply transformed.",
+          "dynastyId": "uk_edwardian_wwi"
+        },
+        {
+          "date": "1918-1945",
+          "title": "Interwar Period and World War II",
+          "description": "Economic hardship, imperial challenges, and the rise of fascism defined the interwar years. Britain stood alone against Nazi Germany in 1940, winning the Battle of Britain and serving as the base for Allied victory.",
+          "dynastyId": "uk_interwar_wwii"
+        },
+        {
+          "date": "1945-1979",
+          "title": "Post-War Britain and Decolonization",
+          "description": "The welfare state emerged as the Empire dissolved. Britain became a founding UN member with permanent Security Council seat, joined NATO, and developed nuclear weapons while navigating post-imperial decline.",
+          "dynastyId": "uk_postwar"
+        },
+        {
+          "date": "1979-present",
+          "title": "Modern Britain",
+          "description": "Thatcherism transformed the economy while European integration deepened then reversed with Brexit. Britain remains a major NATO ally, nuclear power, and permanent UN Security Council member.",
+          "dynastyId": "uk_modern"
         }
       ]
     },
@@ -253,6 +289,30 @@
           "title": "House of Bourbon",
           "description": "Bourbon dynasty brought religious peace after devastating Wars of Religion, then created absolute monarchy under Louis XIV. The 'Sun King' made France Europe's dominant power before revolutionary collapse.",
           "dynastyId": "france_bourbon"
+        },
+        {
+          "date": "1792-1815",
+          "title": "Revolutionary and Napoleonic Era",
+          "description": "The French Revolution overthrew the monarchy and proclaimed liberty, equality, and fraternity. Napoleon's conquests spread revolutionary ideals across Europe before his final defeat at Waterloo.",
+          "dynastyId": "france_revolutionary"
+        },
+        {
+          "date": "1815-1940",
+          "title": "Modern France: Republics and Empire",
+          "description": "France oscillated between monarchy, empire, and republic before the Third Republic brought stability. A leading Allied Power in WWI, France suffered enormously on the Western Front before victory.",
+          "dynastyId": "france_modern"
+        },
+        {
+          "date": "1940-1946",
+          "title": "World War II and Liberation",
+          "description": "German invasion led to occupation and the Vichy regime. Free French Forces under de Gaulle fought alongside the Allies. Liberation in 1944 restored French sovereignty and great power status.",
+          "dynastyId": "france_wwii"
+        },
+        {
+          "date": "1946-present",
+          "title": "Fourth and Fifth Republics",
+          "description": "Post-war France gained permanent UN Security Council membership and developed independent nuclear capability. De Gaulle's Fifth Republic created a strong presidency. France became a founding EU member while maintaining strategic autonomy.",
+          "dynastyId": "france_fifth_republic"
         }
       ]
     },
@@ -296,10 +356,34 @@
           "dynastyId": "spain_habsburg"
         },
         {
-          "date": "1700-present",
+          "date": "1700-1931",
           "title": "Spanish Bourbon Dynasty",
-          "description": "After War of Spanish Succession, French Bourbons gained Spanish throne. They modernized administration and economy with Enlightenment reforms. Dynasty survived Napoleon, lost American colonies, was interrupted by Republic and Franco, but restored in 1975.",
+          "description": "After War of Spanish Succession, French Bourbons gained Spanish throne. They modernized administration and economy with Enlightenment reforms. The dynasty lost American colonies, faced challenges from Carlists and republicans, and was interrupted by the Second Republic.",
           "dynastyId": "spain_bourbon"
+        },
+        {
+          "date": "1931-1939",
+          "title": "Second Republic and Civil War",
+          "description": "The Second Republic brought democratic reforms but faced political polarization. The Spanish Civil War (1936-1939) became an ideological battleground, with Franco's Nationalists defeating the Republic with German and Italian support.",
+          "dynastyId": "spain_republic_civil_war"
+        },
+        {
+          "date": "1939-1975",
+          "title": "Franco Dictatorship",
+          "description": "Francisco Franco ruled as dictator for 36 years. Spain remained neutral in WWII despite Axis sympathies. International isolation gave way to Cold War rehabilitation as Franco's anti-communism proved useful to the West.",
+          "dynastyId": "spain_franco"
+        },
+        {
+          "date": "1975-1986",
+          "title": "Democratic Transition",
+          "description": "King Juan Carlos I guided Spain's peaceful transition to democracy after Franco's death. The 1978 Constitution established a constitutional monarchy. Spain joined NATO (1982) and the European Community (1986).",
+          "dynastyId": "spain_transition"
+        },
+        {
+          "date": "1986-present",
+          "title": "Modern Democratic Spain",
+          "description": "EU membership transformed Spain economically. The nation became a stable democracy, WTO founding member, and major European power despite challenges from regional nationalism and economic crises.",
+          "dynastyId": "spain_modern"
         }
       ]
     },
@@ -388,6 +472,30 @@
           "title": "Korean Empire",
           "description": "King Gojong proclaimed empire to assert independence from China and modernize. However, Japanese influence grew until annexation in 1910 ended Korean sovereignty.",
           "dynastyId": "korea_empire"
+        },
+        {
+          "date": "1910-1945",
+          "title": "Japanese Colonial Period",
+          "description": "Korea was annexed by Japan, enduring harsh colonial rule that suppressed Korean culture and language. Liberation came with Japan's WWII surrender, but led immediately to national division.",
+          "dynastyId": "korea_colonial"
+        },
+        {
+          "date": "1945-1953",
+          "title": "Division and Korean War",
+          "description": "Korea was divided at the 38th parallel between Soviet and American zones. North Korea's 1950 invasion sparked a devastating war involving UN and Chinese forces, ending in stalemate but no peace treaty.",
+          "dynastyId": "korea_war"
+        },
+        {
+          "date": "1953-1987",
+          "title": "Authoritarian Development",
+          "description": "Under military-backed governments, South Korea achieved rapid industrialization known as the 'Miracle on the Han River.' Economic growth came at the cost of political freedom until democratic reforms in 1987.",
+          "dynastyId": "korea_development"
+        },
+        {
+          "date": "1987-present",
+          "title": "Democratic Republic",
+          "description": "Democratic reforms transformed South Korea into a vibrant democracy. The nation became a major economy, technological innovator, and global cultural force through the 'Korean Wave' phenomenon.",
+          "dynastyId": "korea_democratic"
         }
       ]
     },
@@ -441,6 +549,30 @@
           "title": "Meiji Period",
           "description": "The Meiji Restoration ended shogunate and restored imperial rule, launching rapid modernization. Japan industrialized, adopted Western technology and institutions, and emerged as major power.",
           "dynastyId": "japan_meiji"
+        },
+        {
+          "date": "1912-1926",
+          "title": "Taisho Period",
+          "description": "Brief era of democratic politics and cultural liberalization known as 'Taisho Democracy.' Japan emerged as a major power after World War I, gaining territories and international recognition.",
+          "dynastyId": "japan_taisho"
+        },
+        {
+          "date": "1926-1945",
+          "title": "Early Showa Period",
+          "description": "Militarism rose as Japan expanded into China and Southeast Asia. The Pacific War (1941-1945) ended with atomic bombings and unconditional surrender, fundamentally transforming Japanese society.",
+          "dynastyId": "japan_early_showa"
+        },
+        {
+          "date": "1945-1989",
+          "title": "Post-War Showa Period",
+          "description": "American occupation introduced democratic reforms. Japan achieved remarkable economic recovery, becoming the world's second-largest economy through export-led growth and technological innovation.",
+          "dynastyId": "japan_postwar_showa"
+        },
+        {
+          "date": "1989-present",
+          "title": "Heisei and Reiwa Periods",
+          "description": "Economic stagnation of the 'Lost Decades' gave way to gradual recovery. Japan maintained its position as a technological leader and key U.S. ally while facing demographic challenges.",
+          "dynastyId": "japan_heisei_reiwa"
         }
       ]
     },
@@ -470,6 +602,30 @@
           "title": "Hellenistic Period",
           "description": "After Alexander's death, his empire split into Hellenistic kingdoms. Greek culture blended with Near Eastern traditions. Science and philosophy advanced in Alexandria and other centers.",
           "dynastyId": "greece_hellenistic"
+        },
+        {
+          "date": "1821-1923",
+          "title": "Modern Greek Independence",
+          "description": "Greece won independence from the Ottoman Empire in 1829, establishing a modern kingdom. Territorial expansion through Balkan Wars doubled Greek territory, though the Asia Minor catastrophe ended dreams of a greater Greece.",
+          "dynastyId": "greece_independence"
+        },
+        {
+          "date": "1923-1949",
+          "title": "Interwar Period and World War II",
+          "description": "Political instability marked the interwar period. Greece heroically repelled Italian invasion in 1940 before German occupation. The subsequent civil war became the first Cold War proxy conflict.",
+          "dynastyId": "greece_wwii"
+        },
+        {
+          "date": "1949-1974",
+          "title": "Cold War Greece",
+          "description": "American support through the Truman Doctrine secured Greece for the Western bloc. NATO membership (1952) and strong ties with the West were interrupted by military dictatorship (1967-1974).",
+          "dynastyId": "greece_cold_war"
+        },
+        {
+          "date": "1974-present",
+          "title": "Third Hellenic Republic",
+          "description": "Democratic restoration ended the junta. Greece joined the European Community (1981) and adopted the euro. Despite financial crisis (2010-2018), Greece remains a key NATO and EU member.",
+          "dynastyId": "greece_modern"
         }
       ]
     },
@@ -511,6 +667,30 @@
           "title": "Dominate Period",
           "description": "Diocletian established the dominate with absolute monarchy and administrative reforms. Constantine converted to Christianity and founded Constantinople. Empire split into East and West.",
           "dynastyId": "italy_dominate"
+        },
+        {
+          "date": "1861-1915",
+          "title": "Kingdom of Italy: Unification Era",
+          "description": "The Risorgimento unified Italian states under the House of Savoy. The new kingdom rapidly industrialized in the north while struggling with regional divisions and colonial ambitions in Africa.",
+          "dynastyId": "italy_unification"
+        },
+        {
+          "date": "1915-1943",
+          "title": "World Wars and Fascism",
+          "description": "Italy joined the Allies in WWI, gaining territory but suffering greatly. Fascism rose under Mussolini, allying with Nazi Germany. Military disasters led to Mussolini's fall and Italy switching sides in 1943.",
+          "dynastyId": "italy_fascism"
+        },
+        {
+          "date": "1943-1992",
+          "title": "Italian Republic: Cold War Era",
+          "description": "The Republic replaced the monarchy after 1946. Italy became a NATO founding member and European integrationist despite frequent government changes. The 'economic miracle' made Italy a major industrial power.",
+          "dynastyId": "italy_cold_war"
+        },
+        {
+          "date": "1992-present",
+          "title": "Second Republic",
+          "description": "Political scandals destroyed the old party system. Italy deepened European integration, adopting the euro. Despite economic challenges and political instability, Italy remains a G7 economy and key EU member.",
+          "dynastyId": "italy_modern"
         }
       ]
     }
@@ -3112,9 +3292,9 @@
     "spain_bourbon": {
       "title": "Spanish Bourbon Dynasty",
       "chineseTitle": "Spanish Bourbon Dynasty",
-      "period": "1700-present",
-      "introduction": "After War of Spanish Succession, French Bourbons gained Spanish throne. They modernized administration and economy with Enlightenment reforms. Dynasty survived Napoleon, lost American colonies, was interrupted by Republic and Franco, but restored in 1975.",
-      "chineseIntroduction": "After War of Spanish Succession, French Bourbons gained Spanish throne. They modernized administration with Enlightenment reforms.",
+      "period": "1700-1931",
+      "introduction": "After War of Spanish Succession, French Bourbons gained Spanish throne. They modernized administration and economy with Enlightenment reforms. The dynasty lost American colonies in the 19th century and faced challenges from Carlists, republicans, and regional movements until the Second Republic.",
+      "chineseIntroduction": "After War of Spanish Succession, French Bourbons modernized Spain until the Second Republic.",
       "events": [
         {
           "title": "War of Spanish Succession",
@@ -3279,6 +3459,12 @@
           "chineseTitle": "Brazilian Independence",
           "content": "<strong>1822:</strong> Pedro I declares independence from father John VI. The royal family had fled to Brazil during Napoleonic invasion; Pedro chose Brazil over Portugal.",
           "chineseContent": "<strong>1822:</strong> Pedro I declares independence from father John VI."
+        },
+        {
+          "title": "Constitutional Crisis",
+          "chineseTitle": "Constitutional Crisis",
+          "content": "<strong>1908-1910:</strong> King Carlos I and Crown Prince Luís Filipe were assassinated in 1908. The inexperienced Manuel II could not prevent republican revolution. On October 5, 1910, the monarchy was overthrown and Portugal became a republic.",
+          "chineseContent": "<strong>1908-1910:</strong> Royal assassination and revolution ended the Portuguese monarchy."
         }
       ],
       "significance": "Restored independence and navigated transition from absolute to constitutional monarchy. Loss of Brazil forced Portugal to focus on African colonies.",
@@ -3288,32 +3474,32 @@
       "title": "First Portuguese Republic",
       "chineseTitle": "First Portuguese Republic",
       "period": "1910-1926",
-      "introduction": "Republican revolution overthrew monarchy but new government proved unstable with frequent changes. Economic problems and political chaos led to military coup establishing authoritarian Estado Novo regime.",
+      "introduction": "The First Republic (1910-1926) was marked by political instability and World War I participation. Portugal entered WWI in 1916 on the Allied side, sending the Portuguese Expeditionary Corps to the Western Front. Economic problems and chaos led to military coup in 1926.",
       "chineseIntroduction": "Republican revolution overthrew monarchy but new government proved unstable with frequent changes. Economic problems led to military coup.",
       "events": [
         {
           "title": "Republic Proclaimed",
           "chineseTitle": "Republic Proclaimed",
-          "content": "<strong>1910:</strong> October 5 revolution overthrows Manuel II. Republican conspirators launched coup in Lisbon, forcing the king to flee to Britain.",
-          "chineseContent": "<strong>1910:</strong> October 5 revolution overthrows Manuel II."
+          "content": "<strong>October 5, 1910:</strong> Republican revolution overthrew King Manuel II, ending the Braganza dynasty. The republic separated church and state, expanded education, but faced constant political instability with frequent government changes.",
+          "chineseContent": "<strong>October 5, 1910:</strong> Republican revolution overthrew the monarchy."
         },
         {
-          "title": "World War I",
-          "chineseTitle": "World War I",
-          "content": "<strong>1916-1918:</strong> Portugal fights with Allies. Portugal entered the war partly to protect African colonies from German expansion.",
-          "chineseContent": "<strong>1916-1918:</strong> Portugal fights with Allies."
+          "title": "World War I Entry",
+          "chineseTitle": "World War I Entry",
+          "content": "<strong>March 9, 1916:</strong> Germany declared war on Portugal after Portugal seized German ships. Allied with Britain since 1373 (Treaty of Windsor), Portugal sent the Portuguese Expeditionary Corps (CEP) with 55,000 soldiers to the Western Front, arriving in April 1917.",
+          "chineseContent": "<strong>March 9, 1916:</strong> Germany declared war; Portugal sent 55,000 soldiers to Western Front."
         },
         {
-          "title": "Political Instability",
-          "chineseTitle": "Political Instability",
-          "content": "<strong>1910-1926:</strong> 45 governments in 16 years. Constant political crises, assassinations, and coups made stable government impossible.",
-          "chineseContent": "<strong>1910-1926:</strong> 45 governments in 16 years."
+          "title": "Battle of La Lys",
+          "chineseTitle": "Battle of La Lys",
+          "content": "<strong>April 9, 1918:</strong> German Spring Offensive devastated the Portuguese 2nd Division at the Battle of La Lys (Batalha de La Lys). Over 7,000 Portuguese were killed, wounded, or captured in a single day—Portugal's bloodiest battle since Alcácer Quibir (1578).",
+          "chineseContent": "<strong>April 9, 1918:</strong> Battle of La Lys devastated Portuguese forces with over 7,000 casualties."
         },
         {
-          "title": "Military Coup",
-          "chineseTitle": "Military Coup",
-          "content": "<strong>1926:</strong> Ends republic, beginning dictatorship. Military overthrew unstable republic, eventually bringing António de Oliveira Salazar to power.",
-          "chineseContent": "<strong>1926:</strong> Ends republic, beginning dictatorship."
+          "title": "Political Chaos and Coup",
+          "chineseTitle": "Political Chaos and Coup",
+          "content": "<strong>1919-1926:</strong> Post-war Portugal faced economic crisis, inflation, and political violence. The republic had 45 governments in 16 years. On May 28, 1926, a military coup ended the First Republic, eventually leading to Salazar's dictatorship.",
+          "chineseContent": "<strong>1919-1926:</strong> Political chaos with 45 governments led to military coup."
         }
       ],
       "significance": "Brief democratic experiment ended in instability and dictatorship. Republic's failures discredited democracy for decades.",
@@ -3323,32 +3509,32 @@
       "title": "Estado Novo",
       "chineseTitle": "Estado Novo",
       "period": "1933-1974",
-      "introduction": "António de Oliveira Salazar established authoritarian regime modeled on fascist states. Portugal remained neutral in World War II but fought colonial wars in Africa. Carnation Revolution peacefully overthrew regime in 1974.",
+      "introduction": "António de Oliveira Salazar's Estado Novo (1933-1974) was a corporatist authoritarian regime. Portugal remained neutral in WWII, balancing British alliance with German trade, and allowing Allied use of the Azores. The regime fought costly colonial wars in Africa until the Carnation Revolution.",
       "chineseIntroduction": "Salazar established authoritarian regime. Portugal remained neutral in WWII but fought colonial wars in Africa until Carnation Revolution.",
       "events": [
         {
-          "title": "New Constitution",
-          "chineseTitle": "New Constitution",
-          "content": "<strong>1933:</strong> Salazar establishes authoritarian 'New State.' The corporatist constitution created one-party state emphasizing Catholic values and opposition to communism.",
-          "chineseContent": "<strong>1933:</strong> Salazar establishes authoritarian 'New State.'"
+          "title": "Salazar's Estado Novo",
+          "chineseTitle": "Salazar's Estado Novo",
+          "content": "<strong>1933:</strong> António de Oliveira Salazar consolidated power, creating the Estado Novo (New State) constitution. This corporatist dictatorship emphasized Catholicism, anti-communism, and colonial empire. Close ties with Franco's Spain were formalized in the 1939 Treaty of Friendship.",
+          "chineseContent": "<strong>1933:</strong> Salazar created the Estado Novo corporatist dictatorship."
         },
         {
-          "title": "World War II Neutrality",
-          "chineseTitle": "World War II Neutrality",
-          "content": "<strong>1939-1945:</strong> Portugal maintains neutrality, profits from trade. Salazar sold wolfram (tungsten) to both sides while allowing British use of Azores bases.",
-          "chineseContent": "<strong>1939-1945:</strong> Portugal maintains neutrality, profits from trade."
+          "title": "WWII Neutrality",
+          "chineseTitle": "WWII Neutrality",
+          "content": "<strong>1939-1945:</strong> Portugal maintained official neutrality, balancing its British alliance with German trade. Salazar's neutrality helped keep Franco's Spain out of the Axis. In October 1943, Portugal allowed Allied use of the Azores as air and naval bases, crucial for Atlantic operations.",
+          "chineseContent": "<strong>1939-1945:</strong> Portugal remained neutral but allowed Allied use of Azores bases."
+        },
+        {
+          "title": "NATO and UN Membership",
+          "chineseTitle": "NATO and UN Membership",
+          "content": "<strong>1949-1955:</strong> Portugal was a NATO founding member (April 4, 1949) due to the strategic Azores location, despite being a dictatorship. Portugal joined the UN on December 14, 1955, the same day as Spain, ending post-war diplomatic isolation.",
+          "chineseContent": "<strong>1949-1955:</strong> Portugal was NATO founding member (1949) and joined UN (1955)."
         },
         {
           "title": "Colonial Wars",
           "chineseTitle": "Colonial Wars",
-          "content": "<strong>1961-1974:</strong> Fighting in Angola, Mozambique, Guinea-Bissau. Portugal fought longest colonial wars of 20th century, drafting much of male population.",
-          "chineseContent": "<strong>1961-1974:</strong> Fighting in Angola, Mozambique, Guinea-Bissau."
-        },
-        {
-          "title": "Carnation Revolution",
-          "chineseTitle": "Carnation Revolution",
-          "content": "<strong>April 25, 1974:</strong> Military coup peacefully ends dictatorship. War-weary officers overthrew regime; civilians put carnations in soldiers' rifle barrels.",
-          "chineseContent": "<strong>April 25, 1974:</strong> Military coup peacefully ends dictatorship."
+          "content": "<strong>1961-1974:</strong> Independence movements in Angola, Mozambique, and Guinea-Bissau sparked costly colonial wars. Nearly half the national budget went to military spending. The wars' unpopularity among young officers led directly to the Carnation Revolution.",
+          "chineseContent": "<strong>1961-1974:</strong> Costly colonial wars in Africa led to the Carnation Revolution."
         }
       ],
       "significance": "Longest authoritarian regime in Western Europe ended with peaceful revolution. Colonial wars eventually led military to reject dictatorship.",
@@ -3358,36 +3544,1086 @@
       "title": "Third Portuguese Republic",
       "chineseTitle": "Third Portuguese Republic",
       "period": "1974-present",
-      "introduction": "After Carnation Revolution, Portugal transitioned to democracy, granted independence to African colonies, and joined European Community in 1986. Modern Portugal is stable democracy within European Union.",
+      "introduction": "The Carnation Revolution (April 25, 1974) peacefully ended 48 years of dictatorship. Portugal rapidly democratized, decolonized African territories, and joined the European Community in 1986 alongside Spain. Modern Portugal is a stable EU and NATO member with a diversified economy.",
       "chineseIntroduction": "After Carnation Revolution, Portugal transitioned to democracy, granted independence to African colonies, and joined European Community in 1986.",
       "events": [
         {
-          "title": "Democracy Established",
-          "chineseTitle": "Democracy Established",
-          "content": "<strong>1974-1976:</strong> New democratic constitution adopted. After revolutionary turmoil, Portugal established stable parliamentary democracy.",
-          "chineseContent": "<strong>1974-1976:</strong> New democratic constitution adopted."
+          "title": "Carnation Revolution",
+          "chineseTitle": "Carnation Revolution",
+          "content": "<strong>April 25, 1974:</strong> Military officers of the Armed Forces Movement (MFA) overthrew the Estado Novo regime in a nearly bloodless coup. Civilians placed carnations in soldiers' rifle barrels, giving the revolution its name. Dictator Marcelo Caetano (Salazar's successor) surrendered.",
+          "chineseContent": "<strong>April 25, 1974:</strong> The Carnation Revolution peacefully ended 48 years of dictatorship."
         },
         {
           "title": "Decolonization",
           "chineseTitle": "Decolonization",
-          "content": "<strong>1974-1975:</strong> African colonies gain independence. Portugal ended colonial wars, granting independence to Angola, Mozambique, Guinea-Bissau, Cape Verde, and São Tomé.",
-          "chineseContent": "<strong>1974-1975:</strong> African colonies gain independence."
+          "content": "<strong>1974-1975:</strong> Portugal rapidly granted independence to African colonies: Guinea-Bissau (1974), Mozambique, Cape Verde, São Tomé and Príncipe, and Angola (1975). Over 800,000 Portuguese 'retornados' fled the former colonies, straining the economy.",
+          "chineseContent": "<strong>1974-1975:</strong> Portugal rapidly decolonized Africa; 800,000 refugees returned."
         },
         {
-          "title": "European Community",
-          "chineseTitle": "European Community",
-          "content": "<strong>1986:</strong> Joins what becomes European Union. EC membership brought investment, development funds, and modernization.",
-          "chineseContent": "<strong>1986:</strong> Joins what becomes European Union."
+          "title": "European Community Entry",
+          "chineseTitle": "European Community Entry",
+          "content": "<strong>January 1, 1986:</strong> Portugal joined the European Community alongside Spain, completing its integration into Western Europe. EU structural funds modernized infrastructure and the economy. Portugal became a WTO founding member on January 1, 1995.",
+          "chineseContent": "<strong>January 1, 1986:</strong> Portugal joined the EC with Spain; became WTO founder (1995)."
         },
         {
-          "title": "Euro Adoption",
-          "chineseTitle": "Euro Adoption",
-          "content": "<strong>1999:</strong> Joins eurozone currency. Portugal became founding member of euro currency zone.",
-          "chineseContent": "<strong>1999:</strong> Joins eurozone currency."
+          "title": "Modern Portugal",
+          "chineseTitle": "Modern Portugal",
+          "content": "<strong>1999-present:</strong> Portugal adopted the euro (1999) and hosted Expo '98 in Lisbon. The 2008 financial crisis required EU bailout (2011-2014), but Portugal recovered. Lisbon has emerged as a tech hub. Portugal remains a stable NATO and EU democracy.",
+          "chineseContent": "<strong>1999-present:</strong> Euro adoption, financial crisis and recovery, emergence as tech hub."
         }
       ],
       "significance": "Successful transition to stable democracy and European integration. Carnation Revolution became model for peaceful democratic transitions.",
       "chineseSignificance": "Successful transition to stable democracy and European integration."
+    },
+    "usa_late_cold_war": {
+      "title": "Late Cold War Era",
+      "chineseTitle": "Late Cold War Era",
+      "period": "1968-1991",
+      "introduction": "The Late Cold War Era saw America recover from Vietnam, navigate economic challenges, and ultimately prevail in the ideological struggle against the Soviet Union. This period witnessed significant social change and the reassertion of American global leadership.",
+      "chineseIntroduction": "The Late Cold War Era saw America recover from Vietnam, navigate economic challenges, and ultimately prevail in the ideological struggle against the Soviet Union.",
+      "events": [
+        {
+          "title": "Vietnam War Ends",
+          "chineseTitle": "Vietnam War Ends",
+          "content": "<strong>1973-1975:</strong> American withdrawal from Vietnam marked a turning point. The Paris Peace Accords (1973) ended direct U.S. involvement, and Saigon fell in 1975. The war's legacy shaped American foreign policy debates for decades.",
+          "chineseContent": "<strong>1973-1975:</strong> American withdrawal from Vietnam marked a turning point in U.S. foreign policy."
+        },
+        {
+          "title": "Watergate and Political Reform",
+          "chineseTitle": "Watergate and Political Reform",
+          "content": "<strong>1974:</strong> President Nixon resigned following the Watergate scandal, leading to reforms in campaign finance and government transparency. The crisis tested American democratic institutions but ultimately strengthened accountability.",
+          "chineseContent": "<strong>1974:</strong> President Nixon resigned following the Watergate scandal."
+        },
+        {
+          "title": "Reagan and Cold War Victory",
+          "chineseTitle": "Reagan and Cold War Victory",
+          "content": "<strong>1981-1989:</strong> President Reagan pursued aggressive anti-communist policies and military buildup. His partnership with Soviet leader Gorbachev led to arms reduction treaties and contributed to the peaceful end of the Cold War.",
+          "chineseContent": "<strong>1981-1989:</strong> President Reagan's policies contributed to the peaceful end of the Cold War."
+        },
+        {
+          "title": "Fall of the Berlin Wall",
+          "chineseTitle": "Fall of the Berlin Wall",
+          "content": "<strong>November 9, 1989:</strong> The Berlin Wall's fall symbolized the end of Cold War division. Within two years, the Soviet Union dissolved, leaving the United States as the world's sole superpower.",
+          "chineseContent": "<strong>November 9, 1989:</strong> The Berlin Wall's fall symbolized the end of Cold War division."
+        }
+      ],
+      "significance": "America emerged from the Cold War as the world's sole superpower, having demonstrated the resilience of democratic institutions and free-market economics against communist alternatives.",
+      "chineseSignificance": "America emerged from the Cold War as the world's sole superpower."
+    },
+    "usa_post_cold_war": {
+      "title": "Post-Cold War Era",
+      "chineseTitle": "Post-Cold War Era",
+      "period": "1991-present",
+      "introduction": "As the world's sole superpower, the United States faced new challenges including terrorism, economic globalization, technological revolution, and rising great power competition. America maintained leadership of international institutions while debating its global role.",
+      "chineseIntroduction": "As the world's sole superpower, the United States faced new challenges including terrorism and globalization.",
+      "events": [
+        {
+          "title": "Gulf War",
+          "chineseTitle": "Gulf War",
+          "content": "<strong>1991:</strong> U.S.-led coalition liberated Kuwait from Iraqi invasion, demonstrating American military supremacy and ability to build international coalitions. The decisive victory seemed to herald a 'New World Order.'",
+          "chineseContent": "<strong>1991:</strong> U.S.-led coalition liberated Kuwait from Iraqi invasion."
+        },
+        {
+          "title": "WTO Membership",
+          "chineseTitle": "WTO Membership",
+          "content": "<strong>January 1, 1995:</strong> The United States became a founding member of the World Trade Organization, having been a GATT member since 1948. American leadership shaped the global trading system and promoted economic liberalization worldwide.",
+          "chineseContent": "<strong>January 1, 1995:</strong> The United States became a founding member of the World Trade Organization."
+        },
+        {
+          "title": "September 11 Attacks",
+          "chineseTitle": "September 11 Attacks",
+          "content": "<strong>September 11, 2001:</strong> Terrorist attacks killed nearly 3,000 people, transforming American foreign policy. The subsequent 'War on Terror' led to military interventions in Afghanistan (2001) and Iraq (2003), reshaping the Middle East.",
+          "chineseContent": "<strong>September 11, 2001:</strong> Terrorist attacks killed nearly 3,000 people, transforming American foreign policy."
+        },
+        {
+          "title": "Global Financial Crisis",
+          "chineseTitle": "Global Financial Crisis",
+          "content": "<strong>2008:</strong> The collapse of major financial institutions triggered the worst economic crisis since the Great Depression. Government intervention stabilized markets, but the crisis exposed vulnerabilities in the global financial system.",
+          "chineseContent": "<strong>2008:</strong> Financial crisis triggered the worst economic downturn since the Great Depression."
+        }
+      ],
+      "significance": "The post-Cold War era tested American leadership in a complex multipolar world. As founding member of the UN (1945) and WTO (1995), the U.S. shaped international institutions while facing new challenges to the liberal world order.",
+      "chineseSignificance": "The post-Cold War era tested American leadership in a complex multipolar world."
+    },
+    "japan_taisho": {
+      "title": "Taisho Period",
+      "chineseTitle": "大正時代",
+      "period": "1912-1926",
+      "introduction": "The Taisho period saw Japan emerge as a major world power following victory in World War I. Democratic politics flourished briefly ('Taisho Democracy') alongside cultural modernization, though economic instability and social tensions foreshadowed future militarism.",
+      "chineseIntroduction": "The Taisho period saw Japan emerge as a major world power following victory in World War I.",
+      "events": [
+        {
+          "title": "World War I Entry",
+          "chineseTitle": "World War I Entry",
+          "content": "<strong>August 23, 1914:</strong> Japan entered WWI as an ally of Britain, France, and Russia. Japan sought to expand its sphere of influence in China and the Pacific, seizing German territories including Tsingtao and the Caroline, Marshall, and Mariana Islands.",
+          "chineseContent": "<strong>August 23, 1914:</strong> Japan entered WWI as an ally of Britain, France, and Russia."
+        },
+        {
+          "title": "Naval Innovation in WWI",
+          "chineseTitle": "Naval Innovation in WWI",
+          "content": "<strong>1914-1918:</strong> Japan provided significant naval support, hunting German cruisers and protecting Allied shipping across the Pacific and Indian Oceans. Japanese forces used the first-ever seaplanes launched from an aircraft carrier in combat operations.",
+          "chineseContent": "<strong>1914-1918:</strong> Japan provided significant naval support during WWI."
+        },
+        {
+          "title": "Paris Peace Conference",
+          "chineseTitle": "Paris Peace Conference",
+          "content": "<strong>1919:</strong> Japan attended as one of the 'Big Five' powers. Though its proposal for a racial equality clause was rejected, Japan gained former German Pacific territories as League of Nations mandates, cementing its status as a major power.",
+          "chineseContent": "<strong>1919:</strong> Japan attended the Paris Peace Conference as one of the 'Big Five' powers."
+        },
+        {
+          "title": "Taisho Democracy",
+          "chineseTitle": "Taisho Democracy",
+          "content": "<strong>1912-1926:</strong> Political parties gained influence as the military's role temporarily diminished. Universal male suffrage was enacted in 1925, and liberal ideas flourished in art, literature, and society, though this democratic experiment proved short-lived.",
+          "chineseContent": "<strong>1912-1926:</strong> Political parties gained influence during Taisho Democracy."
+        }
+      ],
+      "significance": "Japan emerged from WWI as a recognized great power with expanded Pacific territories. The period's democratic experiments influenced post-WWII reforms, though they failed to prevent the rise of militarism.",
+      "chineseSignificance": "Japan emerged from WWI as a recognized great power with expanded Pacific territories."
+    },
+    "japan_early_showa": {
+      "title": "Early Showa Period (Wartime)",
+      "chineseTitle": "昭和前期",
+      "period": "1926-1945",
+      "introduction": "The early Showa period saw rising militarism as Japan expanded aggressively into China and Southeast Asia. The Pacific War brought initial victories followed by devastating defeat, including atomic bombings that ended the war and transformed Japanese society forever.",
+      "chineseIntroduction": "The early Showa period saw rising militarism and eventual defeat in the Pacific War.",
+      "events": [
+        {
+          "title": "Invasion of Manchuria",
+          "chineseTitle": "Invasion of Manchuria",
+          "content": "<strong>1931:</strong> The Kwantung Army staged the Mukden Incident and conquered Manchuria, establishing the puppet state of Manchukuo. Japan withdrew from the League of Nations in 1933 after international condemnation.",
+          "chineseContent": "<strong>1931:</strong> Japan conquered Manchuria and established the puppet state of Manchukuo."
+        },
+        {
+          "title": "Second Sino-Japanese War",
+          "chineseTitle": "Second Sino-Japanese War",
+          "content": "<strong>1937-1945:</strong> Full-scale war with China began after the Marco Polo Bridge Incident. Japanese forces occupied major Chinese cities but faced determined resistance. The Nanjing Massacre (1937) became a symbol of wartime atrocities.",
+          "chineseContent": "<strong>1937-1945:</strong> Full-scale war with China began after the Marco Polo Bridge Incident."
+        },
+        {
+          "title": "Attack on Pearl Harbor",
+          "chineseTitle": "Attack on Pearl Harbor",
+          "content": "<strong>December 7, 1941:</strong> Facing U.S. oil embargo, Japan launched surprise attacks on Pearl Harbor and across the Pacific against U.S., British, and Dutch territories. The attack brought America into WWII and began Japan's Pacific conquest.",
+          "chineseContent": "<strong>December 7, 1941:</strong> Japan launched surprise attacks on Pearl Harbor and across the Pacific."
+        },
+        {
+          "title": "Surrender and Occupation",
+          "chineseTitle": "Surrender and Occupation",
+          "content": "<strong>September 2, 1945:</strong> After atomic bombings of Hiroshima (August 6) and Nagasaki (August 9), Japan surrendered unconditionally. American occupation under General MacArthur began Japan's transformation into a democratic, pacifist nation.",
+          "chineseContent": "<strong>September 2, 1945:</strong> Japan surrendered after atomic bombings of Hiroshima and Nagasaki."
+        }
+      ],
+      "significance": "Japan's defeat and occupation marked a fundamental break with its imperial past. The trauma of atomic warfare and total defeat shaped Japan's post-war pacifist constitution and national identity.",
+      "chineseSignificance": "Japan's defeat marked a fundamental break with its imperial past."
+    },
+    "japan_postwar_showa": {
+      "title": "Post-War Showa Period",
+      "chineseTitle": "昭和後期",
+      "period": "1945-1989",
+      "introduction": "Under American occupation (1945-1952), Japan adopted a new democratic constitution renouncing war. The nation achieved remarkable economic recovery, becoming the world's second-largest economy and a key U.S. ally in Asia during the Cold War.",
+      "chineseIntroduction": "Japan achieved remarkable economic recovery under its new democratic constitution.",
+      "events": [
+        {
+          "title": "New Constitution",
+          "chineseTitle": "New Constitution",
+          "content": "<strong>1947:</strong> Japan's new constitution established parliamentary democracy, guaranteed civil liberties, and included Article 9 renouncing war. The Emperor became a ceremonial figure. These reforms transformed Japanese society fundamentally.",
+          "chineseContent": "<strong>1947:</strong> Japan's new constitution established parliamentary democracy and renounced war."
+        },
+        {
+          "title": "UN Membership",
+          "chineseTitle": "UN Membership",
+          "content": "<strong>December 18, 1956:</strong> Japan joined the United Nations, marking its return to the international community. Initially blocked by Soviet veto, Japan's admission symbolized the end of post-war isolation and beginning of full diplomatic normalization.",
+          "chineseContent": "<strong>December 18, 1956:</strong> Japan joined the United Nations, marking its return to the international community."
+        },
+        {
+          "title": "Economic Miracle",
+          "chineseTitle": "Economic Miracle",
+          "content": "<strong>1950s-1980s:</strong> Japan achieved unprecedented economic growth through export-led industrialization. By 1968, Japan had the world's second-largest economy. Japanese companies became global leaders in automobiles, electronics, and manufacturing.",
+          "chineseContent": "<strong>1950s-1980s:</strong> Japan achieved unprecedented economic growth through export-led industrialization."
+        },
+        {
+          "title": "Tokyo Olympics",
+          "chineseTitle": "Tokyo Olympics",
+          "content": "<strong>1964:</strong> Tokyo hosted the Summer Olympics, showcasing Japan's post-war recovery to the world. The Shinkansen (bullet train) debuted, symbolizing Japanese technological prowess and the nation's transformation into a modern economic powerhouse.",
+          "chineseContent": "<strong>1964:</strong> Tokyo hosted the Summer Olympics, showcasing Japan's post-war recovery."
+        }
+      ],
+      "significance": "Japan's post-war transformation demonstrated how a militarist nation could become a peaceful democratic society. The economic miracle created a model for Asian development and established Japan as a global economic leader.",
+      "chineseSignificance": "Japan's post-war transformation became a model for peaceful democratic development."
+    },
+    "japan_heisei_reiwa": {
+      "title": "Heisei and Reiwa Periods",
+      "chineseTitle": "平成・令和時代",
+      "period": "1989-present",
+      "introduction": "The Heisei era began with economic bubble collapse, leading to the 'Lost Decades' of stagnation. Japan maintained technological leadership and cultural influence while facing demographic decline. The Reiwa era (2019-present) continues navigating these challenges.",
+      "chineseIntroduction": "The Heisei era began with economic bubble collapse, leading to the 'Lost Decades' of stagnation.",
+      "events": [
+        {
+          "title": "Economic Bubble Collapse",
+          "chineseTitle": "Economic Bubble Collapse",
+          "content": "<strong>1991:</strong> The asset price bubble burst, beginning decades of economic stagnation. Property and stock prices collapsed, leading to banking crises and deflation. Japan struggled with 'zombie companies' and mounting government debt.",
+          "chineseContent": "<strong>1991:</strong> The asset price bubble burst, beginning decades of economic stagnation."
+        },
+        {
+          "title": "WTO Membership",
+          "chineseTitle": "WTO Membership",
+          "content": "<strong>January 1, 1995:</strong> Japan became a founding member of the World Trade Organization, having been a GATT member since 1955. Japan advocated for free trade while facing pressure to open protected domestic markets.",
+          "chineseContent": "<strong>January 1, 1995:</strong> Japan became a founding member of the World Trade Organization."
+        },
+        {
+          "title": "Tohoku Earthquake and Fukushima",
+          "chineseTitle": "Tohoku Earthquake and Fukushima",
+          "content": "<strong>March 11, 2011:</strong> Magnitude 9.0 earthquake and tsunami killed nearly 20,000 people and caused Fukushima nuclear disaster. The crisis prompted Japan to reconsider nuclear energy policy and demonstrated national resilience.",
+          "chineseContent": "<strong>March 11, 2011:</strong> Earthquake, tsunami, and nuclear disaster killed nearly 20,000 people."
+        },
+        {
+          "title": "Reiwa Era Begins",
+          "chineseTitle": "Reiwa Era Begins",
+          "content": "<strong>May 1, 2019:</strong> Emperor Naruhito's accession began the Reiwa ('Beautiful Harmony') era. Japan hosted Olympics in 2021, maintained alliance with the U.S., and faced challenges from China's rise and demographic decline.",
+          "chineseContent": "<strong>May 1, 2019:</strong> Emperor Naruhito's accession began the Reiwa era."
+        }
+      ],
+      "significance": "Despite economic challenges, Japan remains the world's third-largest economy, a technological innovator, and major cultural exporter. As a key U.S. ally and UN/WTO member, Japan plays a crucial role in regional stability.",
+      "chineseSignificance": "Despite economic challenges, Japan remains the world's third-largest economy and a key U.S. ally."
+    },
+    "korea_colonial": {
+      "title": "Japanese Colonial Period",
+      "chineseTitle": "日帝強占期",
+      "period": "1910-1945",
+      "introduction": "Japan's annexation of Korea in 1910 began 35 years of colonial rule. Koreans faced cultural suppression, forced labor, and economic exploitation. Despite oppression, Koreans maintained their identity and resisted through independence movements.",
+      "chineseIntroduction": "Japan's annexation of Korea in 1910 began 35 years of colonial rule marked by cultural suppression.",
+      "events": [
+        {
+          "title": "Japan-Korea Annexation Treaty",
+          "chineseTitle": "Japan-Korea Annexation Treaty",
+          "content": "<strong>August 22, 1910:</strong> Japan formally annexed Korea, ending the Korean Empire. The treaty, signed under duress, remains controversial. Korea lost its sovereignty and became a Japanese colony administered by a Governor-General.",
+          "chineseContent": "<strong>August 22, 1910:</strong> Japan formally annexed Korea, ending Korean sovereignty."
+        },
+        {
+          "title": "March 1st Movement",
+          "chineseTitle": "March 1st Movement",
+          "content": "<strong>March 1, 1919:</strong> Nationwide peaceful protests for independence erupted, inspired by Wilsonian ideals of self-determination. Japanese forces violently suppressed the movement, killing thousands, but it became a defining moment of Korean nationalism.",
+          "chineseContent": "<strong>March 1, 1919:</strong> Nationwide peaceful protests for independence were violently suppressed."
+        },
+        {
+          "title": "Cultural Suppression",
+          "chineseTitle": "Cultural Suppression",
+          "content": "<strong>1930s-1945:</strong> Japan intensified assimilation policies, banning Korean language in schools and forcing adoption of Japanese names. Many Koreans were conscripted as laborers or soldiers; thousands of women were forced into sexual slavery as 'comfort women.'",
+          "chineseContent": "<strong>1930s-1945:</strong> Japan intensified assimilation policies, banning Korean language and culture."
+        },
+        {
+          "title": "Liberation",
+          "chineseTitle": "Liberation",
+          "content": "<strong>August 15, 1945:</strong> Japan's WWII surrender liberated Korea. However, the peninsula was immediately divided at the 38th parallel between Soviet (north) and American (south) occupation zones, setting the stage for national division.",
+          "chineseContent": "<strong>August 15, 1945:</strong> Japan's surrender liberated Korea but led to division at the 38th parallel."
+        }
+      ],
+      "significance": "Colonial trauma deeply shaped Korean national identity and North-South relations. Historical disputes over colonial-era issues continue to affect Japan-Korea relations today.",
+      "chineseSignificance": "Colonial trauma deeply shaped Korean national identity and continues to affect Japan-Korea relations."
+    },
+    "korea_war": {
+      "title": "Division and Korean War",
+      "chineseTitle": "分斷과 韓國戰爭",
+      "period": "1945-1953",
+      "introduction": "The division of Korea at the 38th parallel created two hostile states. North Korea's 1950 invasion sparked a devastating war that became a major Cold War flashpoint, involving UN forces led by the U.S. and Chinese 'volunteers.'",
+      "chineseIntroduction": "North Korea's 1950 invasion sparked a devastating war that became a major Cold War flashpoint.",
+      "events": [
+        {
+          "title": "Division at 38th Parallel",
+          "chineseTitle": "Division at 38th Parallel",
+          "content": "<strong>1945:</strong> Soviet forces occupied Korea north of the 38th parallel, Americans the south. Despite plans for unified independence, Cold War tensions led to separate governments: the Republic of Korea (South, 1948) and Democratic People's Republic of Korea (North, 1948).",
+          "chineseContent": "<strong>1945:</strong> Cold War tensions led to separate Korean governments in 1948."
+        },
+        {
+          "title": "North Korean Invasion",
+          "chineseTitle": "North Korean Invasion",
+          "content": "<strong>June 25, 1950:</strong> North Korea invaded the South with Soviet backing, quickly capturing Seoul. The UN Security Council (with Soviet absent) authorized military action. U.S. forces, providing about 90% of UN troops, landed at Inchon and pushed north.",
+          "chineseContent": "<strong>June 25, 1950:</strong> North Korea invaded the South, prompting UN military intervention."
+        },
+        {
+          "title": "Chinese Intervention",
+          "chineseTitle": "Chinese Intervention",
+          "content": "<strong>October 1950:</strong> As UN forces approached the Yalu River, China entered the war with hundreds of thousands of 'volunteer' troops. The conflict became the only occasion of prolonged fighting between Chinese, American, and (indirectly) Soviet forces.",
+          "chineseContent": "<strong>October 1950:</strong> China entered the war as UN forces approached the Chinese border."
+        },
+        {
+          "title": "Armistice",
+          "chineseTitle": "Armistice",
+          "content": "<strong>July 27, 1953:</strong> An armistice ended fighting near the original 38th parallel boundary. No peace treaty was signed; the two Koreas remain technically at war. The conflict killed millions and devastated the peninsula.",
+          "chineseContent": "<strong>July 27, 1953:</strong> Armistice ended fighting, but no peace treaty was signed."
+        }
+      ],
+      "significance": "The Korean War demonstrated Cold War could turn 'hot' and established the lasting division of Korea. South Korea's alliance with the U.S. became the foundation of its security.",
+      "chineseSignificance": "The Korean War established the lasting division of Korea and South Korea's alliance with the U.S."
+    },
+    "korea_development": {
+      "title": "Authoritarian Development",
+      "chineseTitle": "權威主義的 發展",
+      "period": "1953-1987",
+      "introduction": "Under military-backed governments, particularly Park Chung-hee (1961-1979), South Korea achieved rapid industrialization. The 'Miracle on the Han River' transformed a war-devastated nation into an industrial power, though at the cost of political freedom.",
+      "chineseIntroduction": "South Korea achieved rapid industrialization under military-backed governments, transforming into an industrial power.",
+      "events": [
+        {
+          "title": "Park Chung-hee Coup",
+          "chineseTitle": "Park Chung-hee Coup",
+          "content": "<strong>May 16, 1961:</strong> General Park Chung-hee seized power in a military coup. His authoritarian government prioritized economic development, implementing five-year plans that launched South Korea's industrial transformation.",
+          "chineseContent": "<strong>May 16, 1961:</strong> General Park Chung-hee seized power and launched industrial transformation."
+        },
+        {
+          "title": "Economic Miracle",
+          "chineseTitle": "Economic Miracle",
+          "content": "<strong>1960s-1980s:</strong> South Korea achieved 'Miracle on the Han River' growth rates averaging 10% annually. Chaebols (family conglomerates) like Samsung, Hyundai, and LG drove export-led industrialization in steel, shipbuilding, and electronics.",
+          "chineseContent": "<strong>1960s-1980s:</strong> South Korea achieved 'Miracle on the Han River' with rapid industrial growth."
+        },
+        {
+          "title": "Gwangju Uprising",
+          "chineseTitle": "Gwangju Uprising",
+          "content": "<strong>May 1980:</strong> Pro-democracy protests in Gwangju were brutally suppressed by military forces, killing hundreds. The massacre became a rallying point for the democracy movement and remains central to Korean democratic memory.",
+          "chineseContent": "<strong>May 1980:</strong> Pro-democracy protests in Gwangju were brutally suppressed, killing hundreds."
+        },
+        {
+          "title": "Democracy Movement",
+          "chineseTitle": "Democracy Movement",
+          "content": "<strong>June 1987:</strong> Massive pro-democracy protests forced the military government to accept direct presidential elections. The June Democracy Movement marked South Korea's transition from authoritarian rule to democratic governance.",
+          "chineseContent": "<strong>June 1987:</strong> Massive protests forced acceptance of direct presidential elections."
+        }
+      ],
+      "significance": "South Korea demonstrated that rapid economic development was possible for post-colonial nations. The democracy movement showed that economic growth could eventually lead to political liberalization.",
+      "chineseSignificance": "South Korea demonstrated rapid economic development was possible for post-colonial nations."
+    },
+    "korea_democratic": {
+      "title": "Democratic Republic",
+      "chineseTitle": "民主共和國",
+      "period": "1987-present",
+      "introduction": "Democratic reforms transformed South Korea into a vibrant democracy with peaceful transfers of power. The nation became a major economy, technological leader, and global cultural force through the 'Korean Wave' (Hallyu) phenomenon.",
+      "chineseIntroduction": "Democratic reforms transformed South Korea into a vibrant democracy and global cultural force.",
+      "events": [
+        {
+          "title": "UN Membership",
+          "chineseTitle": "UN Membership",
+          "content": "<strong>September 17, 1991:</strong> Both Koreas joined the United Nations simultaneously, ending decades as observers. UN membership represented international recognition of South Korea's democratic transformation and growing global role.",
+          "chineseContent": "<strong>September 17, 1991:</strong> Both Koreas joined the United Nations simultaneously."
+        },
+        {
+          "title": "WTO Founding Member",
+          "chineseTitle": "WTO Founding Member",
+          "content": "<strong>January 1, 1995:</strong> South Korea became a founding member of the World Trade Organization. As a major trading nation, Korea advocated for open markets while developing high-tech industries like semiconductors and displays.",
+          "chineseContent": "<strong>January 1, 1995:</strong> South Korea became a founding member of the World Trade Organization."
+        },
+        {
+          "title": "Asian Financial Crisis",
+          "chineseTitle": "Asian Financial Crisis",
+          "content": "<strong>1997-1998:</strong> Currency crisis forced South Korea to seek IMF bailout. Painful restructuring followed, but the crisis strengthened corporate governance and financial regulation. Korea recovered to become more globally competitive.",
+          "chineseContent": "<strong>1997-1998:</strong> Currency crisis forced IMF bailout but led to stronger economic foundations."
+        },
+        {
+          "title": "Korean Wave (Hallyu)",
+          "chineseTitle": "Korean Wave (Hallyu)",
+          "content": "<strong>2000s-present:</strong> K-pop, K-dramas, and Korean cinema gained global popularity. BTS, Squid Game, and Parasite (Oscar winner, 2020) demonstrated Korea's cultural 'soft power.' The Korean Wave became a significant economic and diplomatic asset.",
+          "chineseContent": "<strong>2000s-present:</strong> K-pop, K-dramas, and Korean cinema gained global popularity."
+        }
+      ],
+      "significance": "South Korea transformed from war-torn nation to vibrant democracy, major economy (11th largest), and cultural powerhouse. As UN and WTO member, Korea plays an important role in international institutions and regional security.",
+      "chineseSignificance": "South Korea transformed from war-torn nation to vibrant democracy, major economy, and cultural powerhouse."
+    },
+    "uk_edwardian_wwi": {
+      "title": "Edwardian Era and World War I",
+      "chineseTitle": "Edwardian Era and World War I",
+      "period": "1901-1918",
+      "introduction": "The British Empire reached its territorial peak as Edward VII and George V presided over global dominion. When war erupted in 1914, Britain led the Allied Powers, mobilizing over 2 million volunteers in Kitchener's Army—one of the largest volunteer forces in history.",
+      "chineseIntroduction": "The British Empire reached its territorial peak and led the Allied Powers in World War I.",
+      "events": [
+        {
+          "title": "Entente Cordiale",
+          "chineseTitle": "Entente Cordiale",
+          "content": "<strong>1904:</strong> Britain and France signed the Entente Cordiale, resolving colonial disputes and forming the basis for their WWI alliance. Combined with the 1907 Anglo-Russian Convention, this created the Triple Entente opposing Germany and Austria-Hungary.",
+          "chineseContent": "<strong>1904:</strong> Britain and France signed the Entente Cordiale, forming the basis for their WWI alliance."
+        },
+        {
+          "title": "Declaration of War",
+          "chineseTitle": "Declaration of War",
+          "content": "<strong>August 4, 1914:</strong> Britain declared war on Germany after the expiry of an ultimatum demanding respect for Belgian neutrality. The main reason was to prevent a French defeat that would leave Germany controlling Western Europe.",
+          "chineseContent": "<strong>August 4, 1914:</strong> Britain declared war on Germany to prevent German domination of Western Europe."
+        },
+        {
+          "title": "Battle of the Somme",
+          "chineseTitle": "Battle of the Somme",
+          "content": "<strong>July-November 1916:</strong> British and French forces launched a massive offensive to relieve pressure on Verdun. The first day saw 57,000 British casualties—the bloodiest day in British military history. The battle symbolized the war's devastating human cost.",
+          "chineseContent": "<strong>1916:</strong> The Battle of the Somme saw 57,000 British casualties on the first day alone."
+        },
+        {
+          "title": "Royal Air Force Founded",
+          "chineseTitle": "Royal Air Force Founded",
+          "content": "<strong>April 1, 1918:</strong> The Royal Air Force became the world's first independent air force, merging the Royal Flying Corps and Royal Naval Air Service. Britain also introduced conscription for the first time in January 1916 to sustain the war effort.",
+          "chineseContent": "<strong>April 1, 1918:</strong> The Royal Air Force became the world's first independent air force."
+        }
+      ],
+      "significance": "Britain emerged victorious but exhausted. The war accelerated social change, expanded voting rights, and planted seeds of imperial decline. Over 700,000 British soldiers died, transforming national consciousness.",
+      "chineseSignificance": "Britain emerged victorious but exhausted, with over 700,000 soldiers killed."
+    },
+    "uk_interwar_wwii": {
+      "title": "Interwar Period and World War II",
+      "chineseTitle": "Interwar Period and World War II",
+      "period": "1918-1945",
+      "introduction": "The British Empire, containing a quarter of the world's population, faced economic depression, imperial challenges, and the rise of fascism. When war came, Britain stood alone against Nazi Germany in 1940, preventing invasion and serving as the unsinkable aircraft carrier for Allied operations.",
+      "chineseIntroduction": "The British Empire faced economic challenges and stood alone against Nazi Germany in 1940.",
+      "events": [
+        {
+          "title": "Irish Independence",
+          "chineseTitle": "Irish Independence",
+          "content": "<strong>1921-1922:</strong> The Anglo-Irish Treaty ended the Irish War of Independence, creating the Irish Free State. Northern Ireland remained part of the UK. This marked the first major contraction of the British Empire in centuries.",
+          "chineseContent": "<strong>1921-1922:</strong> The Anglo-Irish Treaty created the Irish Free State."
+        },
+        {
+          "title": "Declaration of War on Germany",
+          "chineseTitle": "Declaration of War on Germany",
+          "content": "<strong>September 3, 1939:</strong> Britain declared war on Germany two days after the invasion of Poland. The entire British Empire (except Ireland) joined the war—a quarter of the world's population and a fifth of its landmass aligned against the Axis powers.",
+          "chineseContent": "<strong>September 3, 1939:</strong> Britain and its Empire declared war on Germany."
+        },
+        {
+          "title": "Battle of Britain",
+          "chineseTitle": "Battle of Britain",
+          "content": "<strong>June-October 1940:</strong> The RAF defeated the Luftwaffe in the first major campaign fought entirely by air forces. This prevented German invasion and marked a critical turning point. Churchill declared, 'Never was so much owed by so many to so few.'",
+          "chineseContent": "<strong>1940:</strong> The RAF defeated the Luftwaffe, preventing German invasion of Britain."
+        },
+        {
+          "title": "Arsenal and Launchpad for Victory",
+          "chineseTitle": "Arsenal and Launchpad for Victory",
+          "content": "<strong>1940-1945:</strong> Britain became an 'unsinkable ship' launching constant bombing raids against Germany. The Royal Navy blockaded Axis navies and protected Atlantic supply lines. After America joined in 1941, Britain served as the base for D-Day and Allied victory.",
+          "chineseContent": "<strong>1940-1945:</strong> Britain served as the base for Allied bombing campaigns and the D-Day invasion."
+        }
+      ],
+      "significance": "Britain's stand in 1940 prevented Nazi domination of Europe until American and Soviet entry turned the tide. Victory came at enormous cost, accelerating the end of empire and Britain's eclipse by the superpowers.",
+      "chineseSignificance": "Britain's stand in 1940 prevented Nazi domination of Europe until Allied victory."
+    },
+    "uk_postwar": {
+      "title": "Post-War Britain and Decolonization",
+      "chineseTitle": "Post-War Britain and Decolonization",
+      "period": "1945-1979",
+      "introduction": "The Labour government created the welfare state and National Health Service while the Empire rapidly dissolved. Britain became a founding UN member with permanent Security Council seat, joined NATO, developed nuclear weapons, and maintained a 'special relationship' with the United States during the Cold War.",
+      "chineseIntroduction": "Britain created the welfare state while the Empire dissolved and Cold War began.",
+      "events": [
+        {
+          "title": "UN Founding Member",
+          "chineseTitle": "UN Founding Member",
+          "content": "<strong>June 26, 1945:</strong> Britain signed the UN Charter as a founding member, ratifying it on October 20, 1945. As a permanent Security Council member with veto power, Britain retained great power status despite imperial decline.",
+          "chineseContent": "<strong>June 26, 1945:</strong> Britain became a UN founding member with permanent Security Council seat."
+        },
+        {
+          "title": "Indian Independence and Decolonization",
+          "chineseTitle": "Indian Independence and Decolonization",
+          "content": "<strong>1947-1968:</strong> Indian independence in 1947 began rapid decolonization. Most of Africa gained independence in the 1960s. The Suez Crisis (1956) demonstrated Britain could no longer act as a great power without American support.",
+          "chineseContent": "<strong>1947-1968:</strong> Indian independence began rapid decolonization of the British Empire."
+        },
+        {
+          "title": "NATO and Nuclear Weapons",
+          "chineseTitle": "NATO and Nuclear Weapons",
+          "content": "<strong>1949-1952:</strong> Britain was a founding NATO member in 1949 and tested its first atomic bomb in 1952, becoming the third nuclear power. British forces supported Greece against communist insurgency, demonstrating Cold War commitment.",
+          "chineseContent": "<strong>1949-1952:</strong> Britain helped found NATO and became the third nuclear power."
+        },
+        {
+          "title": "European Integration Begins",
+          "chineseTitle": "European Integration Begins",
+          "content": "<strong>1973:</strong> After two vetoed applications, Britain joined the European Economic Community. This marked a shift from Commonwealth focus toward European integration, though tensions over sovereignty would persist for decades.",
+          "chineseContent": "<strong>1973:</strong> Britain joined the European Economic Community after two vetoed applications."
+        }
+      ],
+      "significance": "Britain transformed from global empire to European power while maintaining nuclear capability and permanent UN Security Council membership. The 'special relationship' with America became central to British foreign policy.",
+      "chineseSignificance": "Britain transformed from global empire to European power while maintaining nuclear capability."
+    },
+    "uk_modern": {
+      "title": "Modern Britain",
+      "chineseTitle": "Modern Britain",
+      "period": "1979-present",
+      "introduction": "Thatcherism transformed the British economy through privatization and deregulation. European integration deepened with the Single Market but reversed with the 2016 Brexit vote. Britain remains a major NATO ally, nuclear power, and permanent UN Security Council member.",
+      "chineseIntroduction": "Thatcherism transformed the economy while European integration deepened then reversed with Brexit.",
+      "events": [
+        {
+          "title": "Thatcher Revolution",
+          "chineseTitle": "Thatcher Revolution",
+          "content": "<strong>1979-1990:</strong> Margaret Thatcher's government privatized state industries, defeated trade union power, and transformed Britain's economy. The Falklands War (1982) victory restored national confidence and demonstrated continued military capability.",
+          "chineseContent": "<strong>1979-1990:</strong> Margaret Thatcher transformed Britain's economy through privatization."
+        },
+        {
+          "title": "WTO Founding Member",
+          "chineseTitle": "WTO Founding Member",
+          "content": "<strong>January 1, 1995:</strong> Britain became a founding member of the World Trade Organization, having been a GATT member since 1948. As a major trading nation, Britain advocated for open markets and global economic integration.",
+          "chineseContent": "<strong>January 1, 1995:</strong> Britain became a founding member of the World Trade Organization."
+        },
+        {
+          "title": "War on Terror",
+          "chineseTitle": "War on Terror",
+          "content": "<strong>2001-2021:</strong> Britain was America's closest ally in Afghanistan (2001) and Iraq (2003). The London bombings (2005) brought terrorism home. Britain remained committed to NATO's Article 5 collective defense throughout.",
+          "chineseContent": "<strong>2001-2021:</strong> Britain was America's closest ally in Afghanistan and Iraq."
+        },
+        {
+          "title": "Brexit",
+          "chineseTitle": "Brexit",
+          "content": "<strong>2016-2020:</strong> The Brexit referendum (52%-48%) led to Britain leaving the European Union on January 31, 2020. This marked the most significant shift in British foreign policy since joining the EEC, raising questions about the UK's future role.",
+          "chineseContent": "<strong>2016-2020:</strong> Brexit referendum led to Britain leaving the European Union."
+        }
+      ],
+      "significance": "Britain remains a major power as permanent UN Security Council member, nuclear state, and key NATO ally. The post-Brexit 'Global Britain' strategy seeks new trade relationships while maintaining the transatlantic alliance.",
+      "chineseSignificance": "Britain remains a major power as permanent UN Security Council member, nuclear state, and NATO ally."
+    },
+    "france_revolutionary": {
+      "title": "Revolutionary and Napoleonic Era",
+      "chineseTitle": "Revolutionary and Napoleonic Era",
+      "period": "1792-1815",
+      "introduction": "The French Revolution abolished the monarchy, proclaimed the Rights of Man, and launched wars that reshaped Europe. Napoleon Bonaparte rose from revolutionary general to Emperor, conquering much of Europe before final defeat at Waterloo.",
+      "chineseIntroduction": "The French Revolution and Napoleon reshaped Europe before final defeat at Waterloo.",
+      "events": [
+        {
+          "title": "First French Republic",
+          "chineseTitle": "First French Republic",
+          "content": "<strong>September 22, 1792:</strong> The National Convention abolished the monarchy and declared France a republic. King Louis XVI was executed in January 1793. The Reign of Terror followed as revolutionaries consolidated power.",
+          "chineseContent": "<strong>September 22, 1792:</strong> France became a republic; Louis XVI was executed in 1793."
+        },
+        {
+          "title": "Revolutionary Wars",
+          "chineseTitle": "Revolutionary Wars",
+          "content": "<strong>1792-1802:</strong> Revolutionary France fought coalitions of European monarchies seeking to restore the Bourbons. French victories spread revolutionary ideals while creating 'sister republics' across Europe.",
+          "chineseContent": "<strong>1792-1802:</strong> Revolutionary France fought European coalitions seeking to restore monarchy."
+        },
+        {
+          "title": "Napoleonic Empire",
+          "chineseTitle": "Napoleonic Empire",
+          "content": "<strong>1804-1814:</strong> Napoleon crowned himself Emperor, conquering much of Europe at its peak in 1812. The Napoleonic Code spread French legal principles. The disastrous Russian campaign began Napoleon's downfall.",
+          "chineseContent": "<strong>1804-1814:</strong> Napoleon's Empire conquered much of Europe before the disastrous Russian campaign."
+        },
+        {
+          "title": "Waterloo and Exile",
+          "chineseTitle": "Waterloo and Exile",
+          "content": "<strong>June 18, 1815:</strong> Napoleon's final defeat at Waterloo by British and Prussian forces ended French hegemony. The Congress of Vienna restored the Bourbon monarchy, but revolutionary ideals had permanently changed Europe.",
+          "chineseContent": "<strong>June 18, 1815:</strong> Napoleon's defeat at Waterloo ended French hegemony in Europe."
+        }
+      ],
+      "significance": "The Revolution and Napoleon permanently transformed Europe, spreading ideas of citizenship, legal equality, and nationalism. The Napoleonic Code influenced legal systems worldwide.",
+      "chineseSignificance": "The Revolution and Napoleon spread ideas of citizenship and legal equality across Europe."
+    },
+    "france_modern": {
+      "title": "Modern France: Republics and Empire",
+      "chineseTitle": "Modern France: Republics and Empire",
+      "period": "1815-1940",
+      "introduction": "France oscillated between restored monarchy, Second Empire, and republics before the Third Republic (1870-1940) brought stability. As a leading Allied Power in WWI, France was the primary target of German aggression, with most Western Front battles fought on French soil.",
+      "chineseIntroduction": "France oscillated between governments before the Third Republic and led the Allies in WWI.",
+      "events": [
+        {
+          "title": "Third Republic Established",
+          "chineseTitle": "Third Republic Established",
+          "content": "<strong>1870:</strong> Defeat in the Franco-Prussian War ended Napoleon III's Second Empire. The Third Republic emerged from military disaster, surviving the Paris Commune and lasting until 1940—France's longest-lasting republic until the Fifth.",
+          "chineseContent": "<strong>1870:</strong> The Third Republic emerged from defeat in the Franco-Prussian War."
+        },
+        {
+          "title": "World War I: Western Front",
+          "chineseTitle": "World War I: Western Front",
+          "content": "<strong>1914-1918:</strong> France was the primary Allied Power, with most Western Front battles fought on French soil. The Battle of Verdun (1916) became a symbol of French determination: 'Ils ne passeront pas' ('They shall not pass').",
+          "chineseContent": "<strong>1914-1918:</strong> Most WWI Western Front battles were fought on French soil."
+        },
+        {
+          "title": "Victory and Versailles",
+          "chineseTitle": "Victory and Versailles",
+          "content": "<strong>1918-1919:</strong> France emerged victorious but devastated, with 1.4 million dead and vast regions destroyed. The Treaty of Versailles, signed in the Hall of Mirrors, recovered Alsace-Lorraine and imposed reparations on Germany.",
+          "chineseContent": "<strong>1918-1919:</strong> France recovered Alsace-Lorraine but suffered 1.4 million dead."
+        },
+        {
+          "title": "Interwar Tensions",
+          "chineseTitle": "Interwar Tensions",
+          "content": "<strong>1919-1939:</strong> France built the Maginot Line and sought alliances against German resurgence. Political instability and the trauma of WWI contributed to the 1940 defeat. France declared war on Germany on September 3, 1939.",
+          "chineseContent": "<strong>1919-1939:</strong> France built the Maginot Line and declared war on Germany in September 1939."
+        }
+      ],
+      "significance": "WWI victory came at enormous cost, shaping French determination to avoid another war. This psychology, combined with military miscalculations, contributed to the 1940 catastrophe.",
+      "chineseSignificance": "WWI victory came at enormous cost, with 1.4 million French dead."
+    },
+    "france_wwii": {
+      "title": "World War II and Liberation",
+      "chineseTitle": "World War II and Liberation",
+      "period": "1940-1946",
+      "introduction": "German invasion in May 1940 led to rapid defeat and occupation. The Vichy regime collaborated while Free French Forces under General de Gaulle fought alongside the Allies. Liberation in 1944 and a post-war occupation zone in Germany restored French great power status.",
+      "chineseIntroduction": "German occupation was resisted by Free French Forces until liberation in 1944.",
+      "events": [
+        {
+          "title": "Fall of France",
+          "chineseTitle": "Fall of France",
+          "content": "<strong>May-June 1940:</strong> Germany invaded on May 10, 1940, bypassing the Maginot Line through the Ardennes. France formally surrendered on June 22. Two million French prisoners were sent to forced labor camps in Germany.",
+          "chineseContent": "<strong>May-June 1940:</strong> Germany defeated France in six weeks; two million prisoners sent to labor camps."
+        },
+        {
+          "title": "Vichy and Resistance",
+          "chineseTitle": "Vichy and Resistance",
+          "content": "<strong>1940-1944:</strong> Marshal Pétain's Vichy regime governed unoccupied France, collaborating with Germany. The Resistance organized sabotage and intelligence operations. General de Gaulle led Free French Forces from London.",
+          "chineseContent": "<strong>1940-1944:</strong> Vichy collaborated while de Gaulle led Free French Forces from London."
+        },
+        {
+          "title": "Liberation of Paris",
+          "chineseTitle": "Liberation of Paris",
+          "content": "<strong>August 25, 1944:</strong> Free French forces under General Leclerc liberated Paris as German forces surrendered. De Gaulle marched down the Champs-Élysées, restoring French sovereignty and pride.",
+          "chineseContent": "<strong>August 25, 1944:</strong> Free French forces liberated Paris; de Gaulle restored French sovereignty."
+        },
+        {
+          "title": "Post-War Status Restored",
+          "chineseTitle": "Post-War Status Restored",
+          "content": "<strong>1945:</strong> France received an occupation zone in Germany alongside the US, UK, and USSR. Despite initial American and Soviet reluctance, Stalin agreed to France's permanent UN Security Council seat, hoping for a political ally.",
+          "chineseContent": "<strong>1945:</strong> France received a German occupation zone and permanent UN Security Council seat."
+        }
+      ],
+      "significance": "De Gaulle's leadership preserved French claims to great power status despite defeat and occupation. The experience shaped French determination for strategic autonomy and European leadership.",
+      "chineseSignificance": "De Gaulle's leadership preserved French claims to great power status despite occupation."
+    },
+    "france_fifth_republic": {
+      "title": "Fourth and Fifth Republics",
+      "chineseTitle": "Fourth and Fifth Republics",
+      "period": "1946-present",
+      "introduction": "The Fourth Republic struggled with decolonization before de Gaulle established the Fifth Republic in 1958. France developed independent nuclear capability, withdrew from NATO's military command (1966), and became a founding EU member while maintaining strategic autonomy.",
+      "chineseIntroduction": "De Gaulle's Fifth Republic developed nuclear weapons and maintained strategic autonomy.",
+      "events": [
+        {
+          "title": "UN Founding Member",
+          "chineseTitle": "UN Founding Member",
+          "content": "<strong>June 26, 1945:</strong> France signed the UN Charter, ratifying it on August 31, 1945. As a permanent Security Council member with veto power, France retained great power status and influence over international affairs.",
+          "chineseContent": "<strong>June 26, 1945:</strong> France became a UN founding member with permanent Security Council seat."
+        },
+        {
+          "title": "Fifth Republic and Nuclear France",
+          "chineseTitle": "Fifth Republic and Nuclear France",
+          "content": "<strong>1958-1966:</strong> De Gaulle established the Fifth Republic with a strong presidency. France tested its first atomic bomb in 1960, becoming the fourth nuclear power. In 1966, France withdrew from NATO's integrated military command while remaining in the alliance.",
+          "chineseContent": "<strong>1958-1966:</strong> De Gaulle created the Fifth Republic and developed French nuclear weapons."
+        },
+        {
+          "title": "European Leadership",
+          "chineseTitle": "European Leadership",
+          "content": "<strong>1957-present:</strong> France was a founding member of the European Economic Community (1957) and drove European integration. The Franco-German partnership became the EU's engine. France maintained significant military forces as NATO's strategic reserve.",
+          "chineseContent": "<strong>1957-present:</strong> France led European integration through Franco-German partnership."
+        },
+        {
+          "title": "WTO and Global Role",
+          "chineseTitle": "WTO and Global Role",
+          "content": "<strong>January 1, 1995:</strong> France became a WTO founding member, having been a GATT member since 1948. France maintains global military presence, intervenes in former colonies, and advocates for European strategic autonomy alongside NATO commitment.",
+          "chineseContent": "<strong>January 1, 1995:</strong> France became a WTO founding member while maintaining global military presence."
+        }
+      ],
+      "significance": "France uniquely combines EU leadership with independent nuclear deterrent and UN Security Council veto. This strategic autonomy, begun by de Gaulle, remains central to French foreign policy.",
+      "chineseSignificance": "France combines EU leadership with independent nuclear deterrent and UN Security Council seat."
+    },
+    "greece_independence": {
+      "title": "Modern Greek Independence",
+      "chineseTitle": "Modern Greek Independence",
+      "period": "1821-1923",
+      "introduction": "The Greek War of Independence (1821-1829) created the first modern Greek state after centuries of Ottoman rule. The new kingdom gradually expanded, doubling its territory through the Balkan Wars before the Asia Minor catastrophe ended irredentist dreams.",
+      "chineseIntroduction": "Greece won independence from the Ottoman Empire and gradually expanded its territory.",
+      "events": [
+        {
+          "title": "Greek War of Independence",
+          "chineseTitle": "Greek War of Independence",
+          "content": "<strong>1821-1829:</strong> Greek revolutionaries rose against Ottoman rule, inspired by Enlightenment ideals and classical heritage. European philhellenes and great power intervention secured Greek independence, recognized in 1832.",
+          "chineseContent": "<strong>1821-1829:</strong> Greek revolutionaries won independence from the Ottoman Empire."
+        },
+        {
+          "title": "Kingdom Established",
+          "chineseTitle": "Kingdom Established",
+          "content": "<strong>1832:</strong> The Treaty of Constantinople recognized the independent Kingdom of Greece under Bavarian Prince Otto. The initial kingdom included only the Peloponnese, central Greece, and some islands—far less than Greeks inhabited.",
+          "chineseContent": "<strong>1832:</strong> The Kingdom of Greece was established under Bavarian monarchy."
+        },
+        {
+          "title": "Balkan Wars",
+          "chineseTitle": "Balkan Wars",
+          "content": "<strong>1912-1913:</strong> Greece joined the Balkan League against the Ottoman Empire, gaining Crete, Macedonia, Thessaloniki, and Aegean islands. Greek territory and population nearly doubled. These gains were confirmed by the Treaty of Bucharest.",
+          "chineseContent": "<strong>1912-1913:</strong> The Balkan Wars nearly doubled Greek territory and population."
+        },
+        {
+          "title": "Asia Minor Catastrophe",
+          "chineseTitle": "Asia Minor Catastrophe",
+          "content": "<strong>1919-1923:</strong> Greek invasion of Anatolia ended in disaster when Turkish forces under Mustafa Kemal defeated Greek armies. The Treaty of Lausanne mandated massive population exchange: 1.5 million Greeks left Turkey, 500,000 Muslims left Greece.",
+          "chineseContent": "<strong>1919-1923:</strong> Greek defeat in Anatolia led to massive population exchange with Turkey."
+        }
+      ],
+      "significance": "Modern Greece emerged from Ottoman rule but remained smaller than Greek national aspirations. The population exchange ended dreams of expansion while integrating refugees who transformed Greek society.",
+      "chineseSignificance": "Modern Greece emerged from Ottoman rule; population exchange ended expansion dreams."
+    },
+    "greece_wwii": {
+      "title": "Interwar Period and World War II",
+      "chineseTitle": "Interwar Period and World War II",
+      "period": "1923-1949",
+      "introduction": "Political instability and dictatorship marked interwar Greece. The nation heroically repelled Italian invasion in October 1940 before German occupation. Liberation led to civil war between communists and government forces—the first Cold War proxy conflict.",
+      "chineseIntroduction": "Greece repelled Italian invasion before German occupation and civil war.",
+      "events": [
+        {
+          "title": "Metaxas Dictatorship",
+          "chineseTitle": "Metaxas Dictatorship",
+          "content": "<strong>1936-1941:</strong> General Ioannis Metaxas established authoritarian rule. Despite fascist elements, Metaxas rejected Mussolini's ultimatum in October 1940 with a legendary 'Oxi' (No), beginning Greek resistance to Axis powers.",
+          "chineseContent": "<strong>1936-1941:</strong> Metaxas rejected Mussolini's ultimatum, beginning Greek resistance."
+        },
+        {
+          "title": "Greco-Italian War",
+          "chineseTitle": "Greco-Italian War",
+          "content": "<strong>October 1940-April 1941:</strong> Greece successfully repelled Italian invasion, driving Italian forces back into Albania. This was the first Allied land victory against Axis powers. Greek resistance delayed German invasion of the Soviet Union.",
+          "chineseContent": "<strong>1940-1941:</strong> Greece repelled Italian invasion—the first Allied land victory."
+        },
+        {
+          "title": "German Occupation",
+          "chineseTitle": "German Occupation",
+          "content": "<strong>April 1941-October 1944:</strong> Germany invaded in April 1941, occupying Greece until 1944. Greek resistance fighters fought Germans, Italians, and Bulgarians. The Great Famine (1941-1942) killed hundreds of thousands.",
+          "chineseContent": "<strong>1941-1944:</strong> German occupation caused Great Famine killing hundreds of thousands."
+        },
+        {
+          "title": "Greek Civil War",
+          "chineseTitle": "Greek Civil War",
+          "content": "<strong>1946-1949:</strong> Communist-led Democratic Army (backed by Yugoslavia, Albania, Bulgaria) fought the Greek government (backed by UK, then US). This became the first Cold War proxy conflict. Government victory came after Yugoslavia closed the border in 1949.",
+          "chineseContent": "<strong>1946-1949:</strong> The Greek Civil War became the first Cold War proxy conflict."
+        }
+      ],
+      "significance": "Greek resistance delayed Axis operations elsewhere. The civil war prompted the Truman Doctrine, beginning American containment policy that defined the Cold War.",
+      "chineseSignificance": "Greek resistance delayed Axis operations; civil war prompted the Truman Doctrine."
+    },
+    "greece_cold_war": {
+      "title": "Cold War Greece",
+      "chineseTitle": "Cold War Greece",
+      "period": "1949-1974",
+      "introduction": "American support through the Truman Doctrine and Marshall Plan secured Greece for the Western bloc. NATO membership in 1952 confirmed Western alignment. Political instability culminated in military dictatorship (1967-1974) that international pressure eventually ended.",
+      "chineseIntroduction": "American support and NATO membership secured Greece for the Western bloc.",
+      "events": [
+        {
+          "title": "Truman Doctrine",
+          "chineseTitle": "Truman Doctrine",
+          "content": "<strong>March 12, 1947:</strong> President Truman announced the US would support Greece and Turkey against communist pressure. This marked the beginning of American containment policy. Massive aid through the Marshall Plan rebuilt the Greek economy.",
+          "chineseContent": "<strong>March 12, 1947:</strong> The Truman Doctrine began American containment policy in Greece."
+        },
+        {
+          "title": "NATO Membership",
+          "chineseTitle": "NATO Membership",
+          "content": "<strong>February 18, 1952:</strong> Greece joined NATO alongside Turkey, extending the Western alliance into the Eastern Mediterranean. This confirmed Greece's alignment with the West and provided security guarantees against potential threats.",
+          "chineseContent": "<strong>February 18, 1952:</strong> Greece joined NATO, confirming Western alignment."
+        },
+        {
+          "title": "Post-War Recovery",
+          "chineseTitle": "Post-War Recovery",
+          "content": "<strong>1950s-1960s:</strong> Greece experienced economic growth and political stabilization. Strong diplomatic ties with Britain and the US defined foreign policy. However, the Cyprus issue created tensions with Turkey.",
+          "chineseContent": "<strong>1950s-1960s:</strong> Greece experienced economic growth with strong Western ties."
+        },
+        {
+          "title": "Military Junta",
+          "chineseTitle": "Military Junta",
+          "content": "<strong>1967-1974:</strong> Military coup established the 'Regime of the Colonels.' Political repression, censorship, and torture marked the dictatorship. International isolation and the 1974 Cyprus crisis led to the junta's collapse.",
+          "chineseContent": "<strong>1967-1974:</strong> Military dictatorship ruled Greece until collapse over Cyprus crisis."
+        }
+      ],
+      "significance": "American commitment to Greece established the containment doctrine that defined Cold War policy. NATO membership integrated Greece into Western defense structures despite periodic political instability.",
+      "chineseSignificance": "American commitment established containment doctrine; NATO integrated Greece into Western defense."
+    },
+    "greece_modern": {
+      "title": "Third Hellenic Republic",
+      "chineseTitle": "Third Hellenic Republic",
+      "period": "1974-present",
+      "introduction": "Democratic restoration ended the junta and established the Third Hellenic Republic. Greece joined the European Community (1981), hosted the 2004 Olympics, and adopted the euro. Despite severe financial crisis (2010-2018), Greece remains a key NATO and EU member.",
+      "chineseIntroduction": "Democratic restoration led to EU membership despite later financial crisis.",
+      "events": [
+        {
+          "title": "Democratic Restoration",
+          "chineseTitle": "Democratic Restoration",
+          "content": "<strong>July 24, 1974:</strong> The military junta collapsed after the Cyprus crisis. Constantine Karamanlis returned from exile to lead democratic transition. A referendum abolished the monarchy, establishing the Third Hellenic Republic.",
+          "chineseContent": "<strong>July 24, 1974:</strong> Democratic restoration established the Third Hellenic Republic."
+        },
+        {
+          "title": "European Community Membership",
+          "chineseTitle": "European Community Membership",
+          "content": "<strong>January 1, 1981:</strong> Greece became the tenth member of the European Economic Community. Membership brought economic development funds and anchored Greek democracy within European institutions.",
+          "chineseContent": "<strong>January 1, 1981:</strong> Greece joined the European Economic Community."
+        },
+        {
+          "title": "WTO and Euro Adoption",
+          "chineseTitle": "WTO and Euro Adoption",
+          "content": "<strong>1995-2001:</strong> Greece became a WTO founding member (1995) and adopted the euro currency (2001). Athens hosted the 2004 Summer Olympics, showcasing Greek modernization to the world.",
+          "chineseContent": "<strong>1995-2001:</strong> Greece joined the WTO and adopted the euro; hosted 2004 Olympics."
+        },
+        {
+          "title": "Financial Crisis",
+          "chineseTitle": "Financial Crisis",
+          "content": "<strong>2010-2018:</strong> Severe debt crisis required three international bailouts and painful austerity. Greece faced high unemployment, emigration, and social hardship. The crisis tested European unity but Greece remained in the eurozone.",
+          "chineseContent": "<strong>2010-2018:</strong> Severe debt crisis required international bailouts and austerity measures."
+        }
+      ],
+      "significance": "Greece transformed from post-authoritarian state to EU and NATO member. Despite financial crisis, Greece remains central to European security in the Eastern Mediterranean. UN founding member status (1945) and WTO membership (1995) confirm international integration.",
+      "chineseSignificance": "Greece transformed from post-authoritarian state to EU and NATO member despite financial crisis."
+    },
+    "italy_unification": {
+      "title": "Kingdom of Italy: Unification Era",
+      "chineseTitle": "Kingdom of Italy: Unification Era",
+      "period": "1861-1915",
+      "introduction": "The Risorgimento unified the Italian peninsula under the House of Savoy. Victor Emmanuel II became king of a united Italy in 1861. The new kingdom faced challenges of regional integration, industrialization, and building a colonial empire.",
+      "chineseIntroduction": "The Risorgimento unified Italy under the House of Savoy in 1861.",
+      "events": [
+        {
+          "title": "Kingdom Proclaimed",
+          "chineseTitle": "Kingdom Proclaimed",
+          "content": "<strong>March 17, 1861:</strong> The Kingdom of Italy was proclaimed with Victor Emmanuel II as king. Piedmont-Sardinia had led unification through wars against Austria and Garibaldi's southern campaign. Rome became capital in 1871.",
+          "chineseContent": "<strong>March 17, 1861:</strong> The Kingdom of Italy was proclaimed under Victor Emmanuel II."
+        },
+        {
+          "title": "Triple Alliance",
+          "chineseTitle": "Triple Alliance",
+          "content": "<strong>1882:</strong> Italy joined the Triple Alliance with Germany and Austria-Hungary. Despite this alliance, Italian irredentism sought Austrian-held territories where Italians lived, creating tensions that influenced WWI decisions.",
+          "chineseContent": "<strong>1882:</strong> Italy joined the Triple Alliance with Germany and Austria-Hungary."
+        },
+        {
+          "title": "Colonial Ventures",
+          "chineseTitle": "Colonial Ventures",
+          "content": "<strong>1885-1912:</strong> Italy established colonies in Eritrea, Somalia, and later Libya. The disastrous defeat at Adwa (1896) against Ethiopia humiliated Italy, but Libya was conquered from the Ottoman Empire in 1911-1912.",
+          "chineseContent": "<strong>1885-1912:</strong> Italy established African colonies despite defeat at Adwa."
+        },
+        {
+          "title": "Industrial Growth",
+          "chineseTitle": "Industrial Growth",
+          "content": "<strong>1890s-1914:</strong> Northern Italy industrialized rapidly, developing steel, automotive, and manufacturing industries. The economic gap between industrial north and agricultural south ('the Southern Question') became a defining national challenge.",
+          "chineseContent": "<strong>1890s-1914:</strong> Northern Italy industrialized while the south remained agricultural."
+        }
+      ],
+      "significance": "Italian unification created a new great power, though regional divisions persisted. Colonial ambitions and irredentist claims shaped foreign policy leading to WWI.",
+      "chineseSignificance": "Italian unification created a new great power with persistent regional divisions."
+    },
+    "italy_fascism": {
+      "title": "World Wars and Fascism",
+      "chineseTitle": "World Wars and Fascism",
+      "period": "1915-1943",
+      "introduction": "Italy abandoned the Triple Alliance and joined the Allies in WWI, gaining territory at great cost. Post-war turmoil brought Mussolini's fascist regime to power. Alliance with Nazi Germany led to military disasters and Italy switching sides in 1943.",
+      "chineseIntroduction": "Italy joined the Allies in WWI; Mussolini's fascism led to alliance with Nazi Germany.",
+      "events": [
+        {
+          "title": "Entry into World War I",
+          "chineseTitle": "Entry into World War I",
+          "content": "<strong>May 23, 1915:</strong> Italy declared war on Austria-Hungary, abandoning the Triple Alliance after the secret Treaty of London promised territorial gains. Italy mobilized 5.6 million soldiers, fighting along the Alpine border and later on the Western Front.",
+          "chineseContent": "<strong>May 23, 1915:</strong> Italy joined WWI on the Allied side, mobilizing 5.6 million soldiers."
+        },
+        {
+          "title": "Fascist Rise to Power",
+          "chineseTitle": "Fascist Rise to Power",
+          "content": "<strong>October 28, 1922:</strong> Mussolini's March on Rome brought fascists to power. He established a dictatorship, suppressing opposition and pursuing imperial expansion. Italy invaded Ethiopia in 1935-36 despite League of Nations sanctions.",
+          "chineseContent": "<strong>October 28, 1922:</strong> Mussolini's March on Rome brought fascism to power."
+        },
+        {
+          "title": "Axis Alliance",
+          "chineseTitle": "Axis Alliance",
+          "content": "<strong>June 10, 1940:</strong> Italy entered WWII on Germany's side after France's fall. Italian forces fought in North Africa, the Balkans, and the Mediterranean, but suffered repeated military defeats requiring German assistance.",
+          "chineseContent": "<strong>June 10, 1940:</strong> Italy entered WWII allied with Nazi Germany."
+        },
+        {
+          "title": "Fall of Mussolini",
+          "chineseTitle": "Fall of Mussolini",
+          "content": "<strong>September 1943:</strong> After Allied invasion of Sicily, Mussolini was overthrown in July 1943. Italy surrendered and declared war on Germany in September. The country was divided between German-occupied north and Allied-controlled south until liberation in 1945.",
+          "chineseContent": "<strong>September 1943:</strong> Italy surrendered and switched sides after Mussolini's fall."
+        }
+      ],
+      "significance": "WWI 'mutilated victory' and post-war chaos enabled fascism's rise. Mussolini's alliance with Hitler led to disaster, but switching sides in 1943 allowed Italy's eventual rehabilitation.",
+      "chineseSignificance": "Post-WWI chaos enabled fascism; Italy switched sides in 1943 after Mussolini's fall."
+    },
+    "italy_cold_war": {
+      "title": "Italian Republic: Cold War Era",
+      "chineseTitle": "Italian Republic: Cold War Era",
+      "period": "1943-1992",
+      "introduction": "The 1946 referendum abolished the monarchy and established the Italian Republic. Despite frequent government changes, Italy became a NATO founding member and European integrationist. The 'economic miracle' transformed Italy into a major industrial power.",
+      "chineseIntroduction": "The Italian Republic was established in 1946; economic miracle followed.",
+      "events": [
+        {
+          "title": "Republic Established",
+          "chineseTitle": "Republic Established",
+          "content": "<strong>June 2, 1946:</strong> Referendum abolished the monarchy; Italy became a republic. The new constitution established parliamentary democracy. The Christian Democrats dominated post-war politics, keeping the strong Communist Party from power.",
+          "chineseContent": "<strong>June 2, 1946:</strong> Referendum established the Italian Republic."
+        },
+        {
+          "title": "UN Membership",
+          "chineseTitle": "UN Membership",
+          "content": "<strong>December 14, 1955:</strong> Italy joined the United Nations, having been excluded as a former Axis power. UN membership marked Italy's return to full international legitimacy a decade after the war's end.",
+          "chineseContent": "<strong>December 14, 1955:</strong> Italy joined the United Nations, completing post-war rehabilitation."
+        },
+        {
+          "title": "NATO Founding Member",
+          "chineseTitle": "NATO Founding Member",
+          "content": "<strong>April 4, 1949:</strong> Italy was a founding NATO member, aligning firmly with the Western bloc. Italy's strategic Mediterranean location made it crucial to Western defense. American bases were established throughout the country.",
+          "chineseContent": "<strong>April 4, 1949:</strong> Italy was a founding NATO member with strategic Mediterranean location."
+        },
+        {
+          "title": "Economic Miracle",
+          "chineseTitle": "Economic Miracle",
+          "content": "<strong>1950s-1970s:</strong> Italy experienced miraculous economic growth, becoming the world's fifth-largest economy. Fiat, Olivetti, and other Italian companies became global brands. Italy was a founding member of the European Economic Community (1957).",
+          "chineseContent": "<strong>1950s-1970s:</strong> Italy's economic miracle made it the world's fifth-largest economy."
+        }
+      ],
+      "significance": "Italy transformed from defeated Axis power to prosperous democracy and key Western ally. European integration and NATO membership anchored Italian foreign policy throughout the Cold War.",
+      "chineseSignificance": "Italy transformed from Axis power to prosperous democracy and key Western ally."
+    },
+    "italy_modern": {
+      "title": "Second Republic",
+      "chineseTitle": "Second Republic",
+      "period": "1992-present",
+      "introduction": "The Tangentopoli corruption scandals destroyed the post-war party system, ushering in the 'Second Republic.' Italy deepened European integration, adopting the euro in 1999. Despite economic challenges and political volatility, Italy remains a G7 economy and key EU member.",
+      "chineseIntroduction": "Corruption scandals created the Second Republic; Italy adopted the euro.",
+      "events": [
+        {
+          "title": "Tangentopoli Scandal",
+          "chineseTitle": "Tangentopoli Scandal",
+          "content": "<strong>1992-1994:</strong> The 'Clean Hands' investigation exposed systemic corruption, destroying the Christian Democrats and Socialists who had dominated post-war politics. New parties emerged, beginning the 'Second Republic' era.",
+          "chineseContent": "<strong>1992-1994:</strong> Tangentopoli scandal destroyed post-war political parties."
+        },
+        {
+          "title": "WTO Membership",
+          "chineseTitle": "WTO Membership",
+          "content": "<strong>January 1, 1995:</strong> Italy became a WTO founding member, having been a GATT member since 1950. As a major trading nation, Italy advocated for open markets while protecting traditional industries.",
+          "chineseContent": "<strong>January 1, 1995:</strong> Italy became a WTO founding member."
+        },
+        {
+          "title": "Euro Adoption",
+          "chineseTitle": "Euro Adoption",
+          "content": "<strong>January 1, 1999:</strong> Italy adopted the euro, surrendering the lira. Eurozone membership tied Italian economic policy to European institutions. Italy hosted the Treaty of Rome's 50th anniversary celebration in 2007.",
+          "chineseContent": "<strong>January 1, 1999:</strong> Italy adopted the euro currency."
+        },
+        {
+          "title": "Contemporary Challenges",
+          "chineseTitle": "Contemporary Challenges",
+          "content": "<strong>2008-present:</strong> Financial crisis hit Italy hard; sovereign debt concerns emerged. Political instability continued with frequent government changes. Migration crisis and economic stagnation created political tensions, though Italy remains committed to EU and NATO.",
+          "chineseContent": "<strong>2008-present:</strong> Financial crisis and migration challenges tested Italian democracy."
+        }
+      ],
+      "significance": "Italy remains a G7 economy, NATO ally, and founding EU member despite political volatility. UN membership (1955), WTO (1995), and eurozone participation confirm Italy's integration into international institutions.",
+      "chineseSignificance": "Italy remains a G7 economy, NATO ally, and founding EU member despite challenges."
+    },
+    "spain_republic_civil_war": {
+      "title": "Second Republic and Civil War",
+      "chineseTitle": "Second Republic and Civil War",
+      "period": "1931-1939",
+      "introduction": "The Second Republic (1931-1939) brought democratic reforms, women's suffrage, and secularization, but faced intense political polarization. The Spanish Civil War (1936-1939) became an ideological battleground between fascism and democracy, with Franco's Nationalists ultimately victorious.",
+      "chineseIntroduction": "The Second Republic brought democratic reforms but led to the devastating Spanish Civil War.",
+      "events": [
+        {
+          "title": "Second Republic Proclaimed",
+          "chineseTitle": "Second Republic Proclaimed",
+          "content": "<strong>April 14, 1931:</strong> King Alfonso XIII left Spain after republican victories in municipal elections. The Second Republic was proclaimed, bringing democratic reforms, women's suffrage, land reform, and separation of church and state.",
+          "chineseContent": "<strong>April 14, 1931:</strong> The Second Republic was proclaimed after King Alfonso XIII left Spain."
+        },
+        {
+          "title": "Political Polarization",
+          "chineseTitle": "Political Polarization",
+          "content": "<strong>1931-1936:</strong> Spain polarized between left (socialists, communists, anarchists) and right (monarchists, fascists, Catholics). Regional autonomy for Catalonia and the Basque Country inflamed nationalist tensions. Street violence escalated.",
+          "chineseContent": "<strong>1931-1936:</strong> Spain polarized between left and right, with escalating street violence."
+        },
+        {
+          "title": "Spanish Civil War Begins",
+          "chineseTitle": "Spanish Civil War Begins",
+          "content": "<strong>July 17, 1936:</strong> Military uprising led by General Franco began in Morocco and spread to mainland Spain. The Republic held Madrid and industrial regions while Nationalists controlled rural areas. Nazi Germany and Fascist Italy supported Franco; the USSR aided the Republic.",
+          "chineseContent": "<strong>July 17, 1936:</strong> Military uprising began the Spanish Civil War with foreign intervention."
+        },
+        {
+          "title": "Nationalist Victory",
+          "chineseTitle": "Nationalist Victory",
+          "content": "<strong>April 1, 1939:</strong> Franco declared victory after capturing Madrid. The war killed over 500,000 people and sent hundreds of thousands into exile. The Republic's defeat came just months before WWII began in Europe.",
+          "chineseContent": "<strong>April 1, 1939:</strong> Franco's Nationalists won the Civil War, killing over 500,000."
+        }
+      ],
+      "significance": "The Civil War became a dress rehearsal for WWII, with German and Italian forces testing tactics later used in the world war. Republican defeat ended Spanish democracy for nearly four decades.",
+      "chineseSignificance": "The Civil War became a dress rehearsal for WWII and ended Spanish democracy for decades."
+    },
+    "spain_franco": {
+      "title": "Franco Dictatorship",
+      "chineseTitle": "Franco Dictatorship",
+      "period": "1939-1975",
+      "introduction": "Francisco Franco ruled Spain as dictator from 1939 until his death in 1975. Spain remained officially neutral in WWII despite Axis sympathies and sending the Blue Division to fight in Russia. Post-war isolation gave way to Cold War rehabilitation as Franco's anti-communism proved strategically valuable.",
+      "chineseIntroduction": "Franco ruled as dictator for 36 years, remaining neutral in WWII despite Axis sympathies.",
+      "events": [
+        {
+          "title": "WWII Neutrality",
+          "chineseTitle": "WWII Neutrality",
+          "content": "<strong>1939-1945:</strong> Spain remained officially neutral despite Franco's debt to Hitler and Mussolini. Franco met Hitler at Hendaye (1940) but demanded excessive concessions. Spain allowed German naval access and sent the Blue Division volunteers to fight in Russia, but never formally joined the Axis.",
+          "chineseContent": "<strong>1939-1945:</strong> Spain remained neutral in WWII despite Axis sympathies and Blue Division."
+        },
+        {
+          "title": "International Isolation",
+          "chineseTitle": "International Isolation",
+          "content": "<strong>1945-1953:</strong> The UN condemned the Franco regime in 1946, and most countries withdrew ambassadors. Spain was excluded from the Marshall Plan and NATO. Only Portugal's Salazar regime and Argentina's Perón maintained close ties.",
+          "chineseContent": "<strong>1945-1953:</strong> The UN condemned Franco; Spain was isolated internationally."
+        },
+        {
+          "title": "Cold War Rehabilitation",
+          "chineseTitle": "Cold War Rehabilitation",
+          "content": "<strong>1953-1955:</strong> The US signed the Pact of Madrid (1953), establishing military bases in Spain in exchange for economic aid. Spain joined the UN on December 14, 1955. Franco's anti-communism made Spain a strategic Cold War asset despite its authoritarian nature.",
+          "chineseContent": "<strong>1953-1955:</strong> US bases agreement and UN membership ended Spain's isolation."
+        },
+        {
+          "title": "Economic Development",
+          "chineseTitle": "Economic Development",
+          "content": "<strong>1959-1975:</strong> Technocrats modernized the Spanish economy, producing the 'Spanish Miracle' of rapid growth. Tourism boomed. However, political repression continued, and ETA began its Basque separatist campaign. Franco died on November 20, 1975.",
+          "chineseContent": "<strong>1959-1975:</strong> Economic modernization produced the 'Spanish Miracle' before Franco's death."
+        }
+      ],
+      "significance": "Franco's 36-year dictatorship isolated Spain from European integration but preserved stability. His decision to restore the monarchy enabled peaceful democratic transition after his death.",
+      "chineseSignificance": "Franco's 36-year dictatorship isolated Spain but enabled peaceful transition after his death."
+    },
+    "spain_transition": {
+      "title": "Democratic Transition",
+      "chineseTitle": "Democratic Transition",
+      "period": "1975-1986",
+      "introduction": "King Juan Carlos I, designated by Franco as successor, guided Spain's remarkable peaceful transition to democracy. The 1978 Constitution established a constitutional monarchy with regional autonomy. Spain survived a coup attempt in 1981 and joined NATO (1982) and the European Community (1986).",
+      "chineseIntroduction": "King Juan Carlos I guided Spain's peaceful transition to democracy after Franco.",
+      "events": [
+        {
+          "title": "Death of Franco",
+          "chineseTitle": "Death of Franco",
+          "content": "<strong>November 20, 1975:</strong> Francisco Franco died after 36 years in power. Two days later, Juan Carlos I was crowned king. Rather than continue authoritarianism, Juan Carlos supported democratic reform, appointing reformist Adolfo Suárez as Prime Minister.",
+          "chineseContent": "<strong>November 20, 1975:</strong> Franco died; Juan Carlos I became king and supported democracy."
+        },
+        {
+          "title": "First Democratic Elections",
+          "chineseTitle": "First Democratic Elections",
+          "content": "<strong>June 15, 1977:</strong> Spain held its first democratic elections since 1936. Suárez's centrist UCD won, beginning the constitutional process. Political parties including the Communist Party were legalized. A general amnesty released political prisoners.",
+          "chineseContent": "<strong>June 15, 1977:</strong> First democratic elections since 1936 began constitutional process."
+        },
+        {
+          "title": "1978 Constitution",
+          "chineseTitle": "1978 Constitution",
+          "content": "<strong>December 6, 1978:</strong> Spanish voters approved a new democratic constitution by referendum (88% approval). The constitution established a parliamentary monarchy, guaranteed rights and freedoms, and created autonomous communities for regions like Catalonia and the Basque Country.",
+          "chineseContent": "<strong>December 6, 1978:</strong> New constitution established parliamentary monarchy with 88% approval."
+        },
+        {
+          "title": "Failed Coup and NATO/EC Entry",
+          "chineseTitle": "Failed Coup and NATO/EC Entry",
+          "content": "<strong>1981-1986:</strong> On February 23, 1981 (23-F), military officers seized parliament, but King Juan Carlos rallied the military for democracy, and the coup failed. Spain joined NATO on May 30, 1982, and the European Community on January 1, 1986.",
+          "chineseContent": "<strong>1981-1986:</strong> Failed coup (23-F); Spain joined NATO (1982) and EC (1986)."
+        }
+      ],
+      "significance": "Spain's peaceful transition to democracy became a model for post-authoritarian transitions worldwide. Juan Carlos I's role in defeating the 1981 coup cemented the monarchy's democratic legitimacy.",
+      "chineseSignificance": "Spain's peaceful transition became a model; Juan Carlos defeated the 1981 coup."
+    },
+    "spain_modern": {
+      "title": "Modern Democratic Spain",
+      "chineseTitle": "Modern Democratic Spain",
+      "period": "1986-present",
+      "introduction": "European Community membership transformed Spain economically, bringing rapid modernization and integration into European structures. Spain became a stable democracy and WTO founding member despite challenges from Basque terrorism, the 2008 financial crisis, and Catalan independence movements.",
+      "chineseIntroduction": "EU membership transformed Spain into a modern European democracy despite various challenges.",
+      "events": [
+        {
+          "title": "European Integration",
+          "chineseTitle": "European Integration",
+          "content": "<strong>January 1, 1986:</strong> Spain joined the European Community alongside Portugal, ending decades of isolation. EU structural funds modernized infrastructure. Spain hosted the 1992 Barcelona Olympics and Seville Expo, showcasing its transformation.",
+          "chineseContent": "<strong>January 1, 1986:</strong> Spain joined the EC, ending isolation and modernizing rapidly."
+        },
+        {
+          "title": "WTO Founding Member",
+          "chineseTitle": "WTO Founding Member",
+          "content": "<strong>January 1, 1995:</strong> Spain became a founding member of the World Trade Organization. Adoption of the euro (1999) completed economic integration. Spain became the world's 8th largest economy at its peak.",
+          "chineseContent": "<strong>January 1, 1995:</strong> Spain became a WTO founding member and adopted the euro."
+        },
+        {
+          "title": "Terrorism and Security",
+          "chineseTitle": "Terrorism and Security",
+          "content": "<strong>2004-2011:</strong> The Madrid train bombings (March 11, 2004) killed 193 people in Europe's deadliest terror attack since Lockerbie. ETA's Basque separatist campaign ended with a permanent ceasefire in 2011 after decades of violence.",
+          "chineseContent": "<strong>2004-2011:</strong> Madrid bombings killed 193; ETA declared permanent ceasefire."
+        },
+        {
+          "title": "Contemporary Challenges",
+          "chineseTitle": "Contemporary Challenges",
+          "content": "<strong>2008-present:</strong> The 2008 financial crisis hit Spain hard, with unemployment exceeding 25%. Catalan independence tensions peaked with the 2017 referendum and declaration of independence, which the government suppressed. King Felipe VI acceded in 2014.",
+          "chineseContent": "<strong>2008-present:</strong> Financial crisis, Catalan tensions, and Felipe VI's accession marked recent years."
+        }
+      ],
+      "significance": "Spain transformed from isolated dictatorship to modern EU democracy in a single generation. As NATO and WTO member, Spain plays an important role in European and Atlantic institutions despite ongoing challenges.",
+      "chineseSignificance": "Spain transformed from dictatorship to EU democracy in a generation."
     }
   },
   "countryCards": {
