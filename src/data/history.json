@@ -125,63 +125,51 @@
       "title": "History of the United States 🇺🇸",
       "events": [
         {
-          "date": "1607",
-          "title": "Jamestown Founded",
-          "description": "First permanent English settlement in North America established in Virginia, beginning sustained European colonization.",
+          "date": "1607-1776",
+          "title": "Colonial Era",
+          "description": "The Colonial Era marked the establishment of British colonies in North America, beginning with Jamestown in Virginia. Thirteen colonies developed distinct economies and social structures while remaining under British rule. Growing tensions over taxation and governance ultimately led to revolutionary sentiment.",
           "dynastyId": "usa_colonial"
         },
         {
-          "date": "1776",
-          "title": "Declaration of Independence",
-          "description": "Thirteen colonies declare independence from Britain, articulating principles of individual liberty and self-governance.",
+          "date": "1775-1783",
+          "title": "Revolutionary Era",
+          "description": "The Revolutionary Era saw the thirteen colonies unite to fight for independence from Britain. The Continental Congress coordinated military efforts while articulating new democratic principles in the Declaration of Independence.",
           "dynastyId": "usa_revolutionary"
         },
         {
-          "date": "1787",
-          "title": "Constitution Ratified",
-          "description": "U.S. Constitution establishes federal government structure with checks and balances, becoming model for modern democracies.",
+          "date": "1789-1815",
+          "title": "Early Republic",
+          "description": "The Early Republic saw the implementation of the Constitution and establishment of federal government structure. George Washington set crucial precedents as first president, while political parties began to form.",
           "dynastyId": "usa_early_republic"
         },
         {
-          "date": "1803",
-          "title": "Louisiana Purchase",
-          "description": "Territory doubled through purchase from France, beginning westward expansion across the continent.",
-          "dynastyId": "usa_early_republic"
+          "date": "1815-1861",
+          "title": "Antebellum Period",
+          "description": "The Antebellum Period saw rapid territorial expansion westward alongside growing sectional tensions over slavery. Economic differences between industrial North and agricultural South deepened political divisions.",
+          "dynastyId": "usa_antebellum"
         },
         {
-          "date": "1861-1865",
-          "title": "Civil War",
-          "description": "Union defeats Confederacy, ending slavery and preserving the United States as a single nation.",
+          "date": "1861-1877",
+          "title": "Civil War and Reconstruction",
+          "description": "The Civil War erupted over slavery and states' rights, resulting in over 600,000 deaths. Union victory preserved the nation and ended slavery. Reconstruction attempted to integrate freed slaves into society but faced violent resistance.",
           "dynastyId": "usa_civil_war"
         },
         {
-          "date": "1869",
-          "title": "Transcontinental Railroad",
-          "description": "First transcontinental railroad completed, connecting East and West coasts and spurring economic development.",
+          "date": "1877-1920",
+          "title": "Gilded Age and Progressive Era",
+          "description": "Rapid industrialization transformed America into economic powerhouse. Massive immigration, urbanization, and technological innovation created wealth but also stark inequality. Progressive reforms addressed corruption and social problems.",
           "dynastyId": "usa_gilded_age"
         },
         {
-          "date": "1917-1918",
-          "title": "World War I",
-          "description": "U.S. enters world stage as major power, helping Allied victory and shaping post-war international order.",
-          "dynastyId": "usa_gilded_age"
+          "date": "1920-1941",
+          "title": "Interwar Period",
+          "description": "The Roaring Twenties brought prosperity and cultural transformation, followed by devastating Great Depression. Franklin Roosevelt's New Deal expanded federal government role in economy and social welfare.",
+          "dynastyId": "usa_interwar"
         },
         {
-          "date": "1941-1945",
-          "title": "World War II",
-          "description": "U.S. leads Allied victory, emerges as global superpower, and takes leading role in establishing international institutions.",
-          "dynastyId": "usa_gilded_age"
-        },
-        {
-          "date": "1969",
-          "title": "Moon Landing",
-          "description": "Apollo 11 mission achieves first lunar landing, demonstrating American technological leadership during Cold War.",
-          "dynastyId": "usa_postwar"
-        },
-        {
-          "date": "1991",
-          "title": "End of Cold War",
-          "description": "Soviet Union collapses, leaving United States as world's sole superpower in a unipolar global system.",
+          "date": "1941-1968",
+          "title": "World War II and Post-War Era",
+          "description": "World War II mobilized American economy and society on unprecedented scale. Post-war period saw U.S. emerge as superpower, leading Western alliance during Cold War while experiencing domestic prosperity and social upheaval.",
           "dynastyId": "usa_postwar"
         }
       ]
@@ -190,63 +178,45 @@
       "title": "History of the United Kingdom 🇬🇧",
       "events": [
         {
-          "date": "1066",
-          "title": "Norman Conquest",
-          "description": "William the Conqueror defeats Anglo-Saxons at Battle of Hastings, introducing Norman culture and feudalism to England.",
+          "date": "1066-1154",
+          "title": "House of Normandy",
+          "description": "The Norman Conquest transformed England, bringing French culture and feudal system. William the Conqueror established centralized royal authority, commissioning Domesday Book to catalog kingdom's resources.",
           "dynastyId": "uk_normandy"
         },
         {
-          "date": "1215",
-          "title": "Magna Carta",
-          "description": "King John signs charter limiting royal power and establishing principle that even monarchs are subject to law.",
+          "date": "1154-1399",
+          "title": "House of Plantagenet",
+          "description": "The Plantagenets ruled England for over two centuries, overseeing Magna Carta, parliamentary development, and the Hundred Years' War. The dynasty expanded English power but faced internal conflicts and succession disputes.",
           "dynastyId": "uk_plantagenet"
         },
         {
-          "date": "1534",
-          "title": "English Reformation",
-          "description": "Henry VIII breaks with Roman Catholic Church, establishing Church of England and strengthening royal authority.",
+          "date": "1399-1461",
+          "title": "House of Lancaster",
+          "description": "Lancastrian kings faced legitimacy challenges after Henry IV's usurpation. The dynasty presided over English losses in France and descent into Wars of the Roses against Yorkist rivals.",
+          "dynastyId": "uk_lancaster"
+        },
+        {
+          "date": "1461-1485",
+          "title": "House of York",
+          "description": "Yorkist kings briefly interrupted Lancastrian rule before consolidating power. Edward IV brought stability before his death led to controversy over succession and Richard III's controversial reign.",
+          "dynastyId": "uk_york"
+        },
+        {
+          "date": "1485-1603",
+          "title": "House of Tudor",
+          "description": "The Tudors brought stability after Wars of the Roses, establishing absolute monarchy. Henry VIII's break with Rome created Church of England, while Elizabeth I's reign saw England become major European power and cultural flowering.",
           "dynastyId": "uk_tudor"
         },
         {
-          "date": "1707",
-          "title": "Act of Union",
-          "description": "England and Scotland unite to form Kingdom of Great Britain, creating political foundation for modern UK.",
+          "date": "1603-1714",
+          "title": "House of Stuart",
+          "description": "Scottish Stuarts united English and Scottish crowns but faced religious and constitutional conflicts. The dynasty experienced Civil War, republic, restoration, and Glorious Revolution that established constitutional monarchy.",
           "dynastyId": "uk_stuart"
         },
         {
-          "date": "1760-1840",
-          "title": "Industrial Revolution",
-          "description": "Britain becomes 'workshop of the world' through mechanization, steam power, and factory system innovations.",
-          "dynastyId": "uk_hanover"
-        },
-        {
-          "date": "1815",
-          "title": "Battle of Waterloo",
-          "description": "Wellington defeats Napoleon, beginning century of British global dominance and 'Pax Britannica.'",
-          "dynastyId": "uk_hanover"
-        },
-        {
-          "date": "1837-1901",
-          "title": "Victorian Era",
-          "description": "Peak of British Empire under Queen Victoria, covering quarter of world's land and population.",
-          "dynastyId": "uk_hanover"
-        },
-        {
-          "date": "1914-1918",
-          "title": "World War I",
-          "description": "Britain leads Allied victory but suffers enormous casualties, beginning decline of empire and global influence.",
-          "dynastyId": "uk_hanover"
-        },
-        {
-          "date": "1940",
-          "title": "Battle of Britain",
-          "description": "RAF defeats German Luftwaffe, preventing Nazi invasion and marking turning point in World War II.",
-          "dynastyId": "uk_hanover"
-        },
-        {
-          "date": "1973",
-          "title": "Joins European Community",
-          "description": "UK joins European Economic Community (later EU), marking shift toward European integration and away from Commonwealth focus.",
+          "date": "1714-1901",
+          "title": "House of Hanover",
+          "description": "German Hanoverians maintained Protestant succession, presiding over Britain's transformation into industrial and imperial superpower. The dynasty saw American independence, Napoleonic Wars, and Victorian expansion.",
           "dynastyId": "uk_hanover"
         }
       ]
@@ -255,60 +225,34 @@
       "title": "History of France 🇫🇷",
       "events": [
         {
-          "date": "843",
-          "title": "Treaty of Verdun",
-          "description": "Charlemagne's empire divided, creating West Francia, the foundation of modern France.",
+          "date": "481-751",
+          "title": "Merovingian Dynasty",
+          "description": "The Merovingians established the first Frankish kingdom after Roman collapse. Clovis I united Frankish tribes and converted to Christianity, creating foundation for French state.",
+          "dynastyId": "france_merovingian"
+        },
+        {
+          "date": "751-987",
+          "title": "Carolingian Dynasty",
+          "description": "The Carolingians replaced Merovingians, reaching peak under Charlemagne who created vast empire and was crowned Holy Roman Emperor. The dynasty presided over Carolingian Renaissance before fragmenting.",
           "dynastyId": "france_carolingian"
         },
         {
-          "date": "987",
+          "date": "987-1328",
           "title": "Capetian Dynasty",
-          "description": "Hugh Capet becomes king, establishing dynasty that will rule France for centuries and strengthen royal power.",
+          "description": "Hugh Capet founded dynasty that would rule France for centuries through various branches. Early Capetians controlled small domain but gradually expanded royal power and territory.",
           "dynastyId": "france_capetian"
         },
         {
-          "date": "1337-1453",
-          "title": "Hundred Years' War",
-          "description": "Long conflict with England, featuring Joan of Arc, ultimately strengthening French national identity and monarchy.",
+          "date": "1328-1589",
+          "title": "House of Valois",
+          "description": "Valois branch succeeded when main Capetian line ended. The dynasty fought Hundred Years' War against England, survived peasant revolts and plague, and presided over Renaissance flowering.",
           "dynastyId": "france_valois"
         },
         {
-          "date": "1598",
-          "title": "Edict of Nantes",
-          "description": "Henry IV grants religious tolerance to Protestants, ending French Wars of Religion and strengthening royal authority.",
+          "date": "1589-1792",
+          "title": "House of Bourbon",
+          "description": "Bourbon dynasty brought religious peace after devastating Wars of Religion, then created absolute monarchy under Louis XIV. The 'Sun King' made France Europe's dominant power before revolutionary collapse.",
           "dynastyId": "france_bourbon"
-        },
-        {
-          "date": "1643-1715",
-          "title": "Louis XIV Reign",
-          "description": "Sun King establishes absolute monarchy, builds Versailles, and makes France dominant European power.",
-          "dynastyId": "france_bourbon"
-        },
-        {
-          "date": "1789",
-          "title": "French Revolution Begins",
-          "description": "Revolution overthrows monarchy, declares Rights of Man, and transforms European political landscape.",
-          "dynastyId": "france_bourbon"
-        },
-        {
-          "date": "1804",
-          "title": "Napoleon's Empire",
-          "description": "Napoleon becomes Emperor, conquers much of Europe, and spreads revolutionary ideals across continent."
-        },
-        {
-          "date": "1870",
-          "title": "Third Republic",
-          "description": "Franco-Prussian War defeat leads to Paris Commune and establishment of France's longest-lasting republic."
-        },
-        {
-          "date": "1944",
-          "title": "Liberation of Paris",
-          "description": "Allied forces liberate Paris from Nazi occupation, restoring French sovereignty and Charles de Gaulle's leadership."
-        },
-        {
-          "date": "1958",
-          "title": "Fifth Republic",
-          "description": "De Gaulle establishes current French political system with strong presidency and constitutional framework."
         }
       ]
     },
@@ -316,91 +260,46 @@
       "title": "History of Spain 🇪🇸",
       "events": [
         {
-          "date": "218-19 BCE",
-          "title": "Roman Conquest",
-          "description": "Romans defeat Carthaginians in Punic Wars, unifying Hispania as a province with lasting infrastructure and Latin influence."
+          "date": "418-711",
+          "title": "Visigothic Kingdom",
+          "description": "After Rome's collapse, Visigothic Germanic tribes established kingdom in Iberia. Initially Arian Christians, they converted to Catholicism under King Reccared in 589. The kingdom created legal codes blending Roman and Germanic traditions before falling to Islamic invasion.",
+          "dynastyId": "spain_visigothic"
         },
         {
-          "date": "418-711 CE",
-          "title": "Visigothic Rule",
-          "description": "Germanic Visigoths establish kingdom after Rome's fall; peak under Leovigild (unification) and Reccared (Catholic conversion in 589)."
+          "date": "718-924",
+          "title": "Kingdom of Asturias",
+          "description": "After Muslim conquest, Christian refugees in northern mountains elected Pelayo as king, establishing first Christian kingdom of Reconquista. From this small mountain kingdom, Christian Spain would eventually re-emerge.",
+          "dynastyId": "spain_asturias"
         },
         {
-          "date": "711",
-          "title": "Muslim Conquest",
-          "description": "Tariq ibn Ziyad defeats King Roderic at Guadalete; Al-Andalus flourishes as Islamic center under Umayyads."
+          "date": "1037-1516",
+          "title": "Kingdom of Castile",
+          "description": "Castile emerged as dominant Christian kingdom, leading Reconquista with conquest of Toledo, Córdoba, and Seville. Castilian language became Spanish, and kingdom's power grew through military expansion and wool trade.",
+          "dynastyId": "spain_castile"
         },
         {
-          "date": "722",
-          "title": "Battle of Covadonga",
-          "description": "Pelagius defeats Muslims, seeding Kingdom of Asturias and launching the 800-year Reconquista."
+          "date": "1035-1516",
+          "title": "Kingdom of Aragon",
+          "description": "Aragon expanded through Pyrenees and Mediterranean, developing different political culture than Castile with stronger nobility and merchant class. Union with Catalonia created Crown of Aragon, Mediterranean trading empire.",
+          "dynastyId": "spain_aragon"
         },
         {
-          "date": "929-1031",
-          "title": "Caliphate of Córdoba",
-          "description": "Abd al-Rahman III's era of tolerance, science (e.g., Averroes), and culture marks the golden age of Al-Andalus."
+          "date": "1469-1516",
+          "title": "Catholic Monarchs Era",
+          "description": "Marriage of Isabella I of Castile and Ferdinand II of Aragon united Spain's two major kingdoms while maintaining separate institutions. They completed Reconquista, expelled Jews, established Inquisition, and sponsored Columbus's voyage.",
+          "dynastyId": "spain_catholic_monarchs"
         },
         {
-          "date": "1212",
-          "title": "Battle of Las Navas de Tolosa",
-          "description": "Christian coalition shatters Almohad power, marking decisive turning point in the Reconquista."
+          "date": "1516-1700",
+          "title": "Spanish Habsburg Dynasty",
+          "description": "Habsburg Spain became world's first global empire under Charles V and Philip II, controlling vast European and American territories. Despite enormous wealth from Americas, continuous wars drained resources. Dynasty ended when Charles II died without heir.",
+          "dynastyId": "spain_habsburg"
         },
         {
-          "date": "1469-1492",
-          "title": "Unification under Catholic Monarchs",
-          "description": "Isabella and Ferdinand marry, conquer Granada (1492), expel Jews, fund Columbus—birth of unified Spain and empire."
-        },
-        {
-          "date": "1492-1588",
-          "title": "Spanish Golden Age",
-          "description": "Conquistadors (Cortés, Pizarro) claim Americas; Philip II's realm spans globe; cultural boom (Cervantes, Velázquez); Armada defeat signals limits."
-        },
-        {
-          "date": "1618-1648",
-          "title": "Thirty Years' War",
-          "description": "Spain bankrupted by endless conflicts; loses Netherlands (1648) and Portugal regains independence (1640)."
-        },
-        {
-          "date": "1701-1714",
-          "title": "War of Spanish Succession",
-          "description": "Bourbon Philip V wins throne; Spain loses European territories but centralizes power under new dynasty.",
+          "date": "1700-present",
+          "title": "Spanish Bourbon Dynasty",
+          "description": "After War of Spanish Succession, French Bourbons gained Spanish throne. They modernized administration and economy with Enlightenment reforms. Dynasty survived Napoleon, lost American colonies, was interrupted by Republic and Franco, but restored in 1975.",
           "dynastyId": "spain_bourbon"
-        },
-        {
-          "date": "1808",
-          "title": "Dos de Mayo Uprising",
-          "description": "Popular uprising against Napoleonic occupation sparks Peninsular War, inspiring Goya's famous paintings."
-        },
-        {
-          "date": "1808-1826",
-          "title": "Spanish-American Wars of Independence",
-          "description": "Napoleonic invasion sparks colonial revolts; Spain loses most American colonies including Mexico (1821)."
-        },
-        {
-          "date": "1898",
-          "title": "Spanish-American War",
-          "description": "Defeat by United States results in loss of Cuba, Philippines, and Puerto Rico, ending Spanish colonial empire."
-        },
-        {
-          "date": "1931",
-          "title": "Second Republic",
-          "description": "Brief liberal experiment amid economic woes, introducing democratic reforms before civil conflict."
-        },
-        {
-          "date": "1936-1939",
-          "title": "Spanish Civil War",
-          "description": "Republicans vs. Nationalists in devastating conflict; Franco wins, imposing dictatorship until 1975.",
-          "dynastyId": "spain_bourbon"
-        },
-        {
-          "date": "1975-1978",
-          "title": "Democratic Transition",
-          "description": "Franco dies; Juan Carlos I enables peaceful transition to constitutional monarchy and democracy."
-        },
-        {
-          "date": "1986",
-          "title": "Joins European Community",
-          "description": "Spain enters EC (later EU), accelerating economic modernization and integration with Western Europe."
         }
       ]
     },
@@ -408,110 +307,46 @@
       "title": "History of Portugal 🇵🇹",
       "events": [
         {
-          "date": "218 BCE - 5th CE",
-          "title": "Roman Lusitania",
-          "description": "Romans conquer Iberia, establishing provinces including Lusitania (south/central Portugal) with cities like Olisipo (Lisbon)."
-        },
-        {
-          "date": "409-585 CE",
-          "title": "Suebi Kingdom",
-          "description": "Germanic Suebi establish kingdom in Gallaecia (north Portugal) with capital Braga; first independent post-Roman state in Iberia."
-        },
-        {
-          "date": "585-711",
-          "title": "Visigothic Rule",
-          "description": "Visigoths conquer Suebi, unifying Iberia under Toledo and adopting Catholicism in 589."
-        },
-        {
-          "date": "711",
-          "title": "Muslim Conquest",
-          "description": "Umayyads under Tariq ibn Ziyad defeat Visigoths at Guadalete; Al-Andalus controls most of Portugal."
-        },
-        {
-          "date": "868",
-          "title": "County of Portugal Forms",
-          "description": "Vímara Peres creates County of Portugal (Portucale) under Asturias/León after conquering territory from Muslims.",
+          "date": "1139-1383",
+          "title": "House of Burgundy",
+          "description": "Afonso Henriques established independent Kingdom of Portugal, recognized by Pope in 1179. Dynasty expanded southward against Muslims, completed Reconquista by conquering Algarve, and developed Portuguese language and institutions.",
           "dynastyId": "portugal_burgundy"
         },
         {
-          "date": "1139",
-          "title": "Independence Proclaimed",
-          "description": "Afonso Henriques defeats Moors at Ourique and proclaims himself king; Treaty of Zamora (1143) recognizes Portugal."
-        },
-        {
-          "date": "1147",
-          "title": "Conquest of Lisbon",
-          "description": "Crusaders aid Portuguese in siege; Lisbon falls after 17 weeks, expanding territory south.",
-          "dynastyId": "portugal_burgundy"
-        },
-        {
-          "date": "1249",
-          "title": "Reconquista Completed",
-          "description": "Afonso III reconquers Algarve, completing the Reconquista and securing Portugal's modern borders."
-        },
-        {
-          "date": "1385",
-          "title": "Battle of Aljubarrota",
-          "description": "John I defeats Castilians, secures Aviz dynasty and independence; Treaty of Windsor (1386) allies with England."
-        },
-        {
-          "date": "1415",
-          "title": "Age of Discoveries Begins",
-          "description": "Conquest of Ceuta launches Age of Discoveries; Henry the Navigator pioneers African exploration."
-        },
-        {
-          "date": "1498",
-          "title": "Sea Route to India",
-          "description": "Vasco da Gama reaches Calicut, opening direct trade route; Treaty of Tordesillas (1494) divides world with Spain."
-        },
-        {
-          "date": "1500",
-          "title": "Brazil Claimed",
-          "description": "Pedro Álvares Cabral lands in Brazil; Portuguese empire now spans Africa, Asia, and the Americas."
-        },
-        {
-          "date": "1495-1521",
-          "title": "Peak Empire Under Manuel I",
-          "description": "Wealth from spices and gold funds Manueline architecture; Portugal dominates Indian Ocean trade."
+          "date": "1385-1580",
+          "title": "House of Aviz",
+          "description": "John I, illegitimate son of Pedro I and Master of Aviz, defeated Castilian invasion and founded new dynasty. Aviz kings launched Age of Discoveries, establishing Portuguese empire in Africa, Asia, and Brazil.",
+          "dynastyId": "portugal_aviz"
         },
         {
           "date": "1580-1640",
-          "title": "Iberian Union",
-          "description": "Sebastian's death at Alcácer Quibir (1578) leads to Philip II of Spain's union; Portugal loses autonomy, resources drained.",
+          "title": "Iberian Union (Habsburg)",
+          "description": "When Portuguese King Sebastian died without heir, Philip II of Spain claimed throne through his mother. Portugal maintained separate administration but Spanish wars damaged Portuguese empire. Dutch captured many Asian possessions.",
           "dynastyId": "portugal_habsburg"
         },
         {
-          "date": "1640-1668",
-          "title": "Restoration War",
-          "description": "João IV restores independence; Battle of Montes Claros (1665) confirms Portuguese sovereignty.",
+          "date": "1640-1910",
+          "title": "House of Braganza",
+          "description": "Duke of Braganza crowned as John IV after successful revolt against Spain. Dynasty restored Portuguese independence, rebuilt empire, survived Napoleonic invasion, and moved court to Brazil.",
           "dynastyId": "portugal_braganza"
         },
         {
-          "date": "1755",
-          "title": "Lisbon Earthquake",
-          "description": "Catastrophic earthquake kills 60,000; Pombaline reconstruction modernizes the capital.",
-          "dynastyId": "portugal_braganza"
+          "date": "1910-1926",
+          "title": "First Portuguese Republic",
+          "description": "Republican revolution overthrew monarchy but new government proved unstable with frequent changes. Economic problems and political chaos led to military coup establishing authoritarian Estado Novo regime.",
+          "dynastyId": "portugal_republic"
         },
         {
-          "date": "1822",
-          "title": "Brazil Independence",
-          "description": "Dom Pedro declares Brazil independent; Portugal loses its most valuable colony."
+          "date": "1933-1974",
+          "title": "Estado Novo",
+          "description": "António de Oliveira Salazar established authoritarian regime modeled on fascist states. Portugal remained neutral in World War II but fought colonial wars in Africa. Carnation Revolution peacefully overthrew regime in 1974.",
+          "dynastyId": "portugal_estado_novo"
         },
         {
-          "date": "1910",
-          "title": "Republic Established",
-          "description": "Revolution ends monarchy amid political instability, establishing the First Portuguese Republic."
-        },
-        {
-          "date": "1974",
-          "title": "Carnation Revolution",
-          "description": "Bloodless coup ends Salazar/Caetano dictatorship; decolonization of African territories follows in 1975.",
+          "date": "1974-present",
+          "title": "Third Portuguese Republic",
+          "description": "After Carnation Revolution, Portugal transitioned to democracy, granted independence to African colonies, and joined European Community in 1986. Modern Portugal is stable democracy within European Union.",
           "dynastyId": "portugal_third_republic"
-        },
-        {
-          "date": "1986",
-          "title": "Joins European Community",
-          "description": "Portugal enters EC (later EU), boosting economic development after decades of dictatorship."
         }
       ]
     },
@@ -519,58 +354,40 @@
       "title": "History of South Korea 🇰🇷",
       "events": [
         {
+          "date": "c. 2333 BCE - 108 BCE",
+          "title": "Gojoseon (Old Joseon)",
+          "description": "Gojoseon was the first Korean kingdom, according to legend founded by Dangun. It developed bronze culture and grew into significant state before falling to Han Chinese invasion.",
+          "dynastyId": "korea_gojoseon"
+        },
+        {
           "date": "57 BCE - 668 CE",
           "title": "Three Kingdoms Period",
-          "description": "Goguryeo, Baekje, and Silla kingdoms compete for control, developing distinct Korean culture and Buddhism.",
+          "description": "Three kingdoms—Goguryeo, Baekje, and Silla—competed for dominance on the peninsula. Each developed distinct cultures, adopted Buddhism, and created sophisticated states.",
           "dynastyId": "korea_three_kingdoms"
+        },
+        {
+          "date": "668-935",
+          "title": "Unified Silla Period",
+          "description": "Silla unified most of the peninsula, creating first unified Korean state. Buddhist culture flourished with temple construction and artistic achievements.",
+          "dynastyId": "korea_unified_silla"
         },
         {
           "date": "918-1392",
           "title": "Goryeo Dynasty",
-          "description": "Unified Korean kingdom, origin of name 'Korea,' known for celadon pottery and printing innovations.",
+          "description": "Goryeo reunified the peninsula after the Later Three Kingdoms period, giving Korea its English name. The dynasty created celadon pottery, movable metal type, and Tripitaka Koreana.",
           "dynastyId": "korea_goryeo"
         },
         {
           "date": "1392-1897",
           "title": "Joseon Dynasty",
-          "description": "Longest-ruling Korean dynasty, adopts Confucianism, creates Hangul alphabet, and establishes enduring cultural traditions.",
+          "description": "Longest Korean dynasty embraced Neo-Confucianism, replacing Buddhism as state ideology. King Sejong created hangul alphabet for common people.",
           "dynastyId": "korea_joseon"
         },
         {
-          "date": "1910-1945",
-          "title": "Japanese Colonial Period",
-          "description": "Japan annexes Korea, imposing harsh rule while modernizing infrastructure, ending with Japan's WWII defeat."
-        },
-        {
-          "date": "1945",
-          "title": "Division of Korea",
-          "description": "Korea divided at 38th parallel between Soviet and American occupation zones, leading to separate governments."
-        },
-        {
-          "date": "1950-1953",
-          "title": "Korean War",
-          "description": "North Korea invades South, leading to devastating war involving China and UN forces, ending in armistice.",
+          "date": "1897-1910",
+          "title": "Korean Empire",
+          "description": "King Gojong proclaimed empire to assert independence from China and modernize. However, Japanese influence grew until annexation in 1910 ended Korean sovereignty.",
           "dynastyId": "korea_empire"
-        },
-        {
-          "date": "1961",
-          "title": "Park Chung-hee Coup",
-          "description": "Military coup brings authoritarian but economically focused government, beginning rapid industrialization."
-        },
-        {
-          "date": "1987",
-          "title": "Democratic Transition",
-          "description": "Pro-democracy protests force political reforms, establishing South Korea as stable democratic republic."
-        },
-        {
-          "date": "1988",
-          "title": "Seoul Olympics",
-          "description": "Successful hosting of Olympics showcases South Korea's economic development and democratic progress to world."
-        },
-        {
-          "date": "1997-2000s",
-          "title": "Korean Wave Begins",
-          "description": "K-pop, K-dramas, and Korean culture gain international popularity, establishing Korea as cultural powerhouse."
         }
       ]
     },
@@ -578,59 +395,52 @@
       "title": "History of Japan 🇯🇵",
       "events": [
         {
-          "date": "660 BCE",
-          "title": "Legendary Founding",
-          "description": "Traditional date of Japan's founding by Emperor Jimmu, establishing continuous imperial line and Shinto traditions."
+          "date": "538-710",
+          "title": "Asuka Period",
+          "description": "The Asuka period saw Buddhism's introduction transform Japanese culture. The Yamato court consolidated power, adopting Chinese governmental models and creating centralized state.",
+          "dynastyId": "japan_asuka"
+        },
+        {
+          "date": "710-794",
+          "title": "Nara Period",
+          "description": "Japan's first permanent capital at Nara saw flowering of Buddhist culture. The state compiled first historical chronicles and expanded government bureaucracy based on Chinese models.",
+          "dynastyId": "japan_nara"
+        },
+        {
+          "date": "794-1185",
+          "title": "Heian Period",
+          "description": "The Heian period represents classical Japanese culture's golden age. Court aristocracy created refined aesthetic traditions while Fujiwara clan dominated politics through strategic marriages.",
+          "dynastyId": "japan_heian"
         },
         {
           "date": "1185-1333",
-          "title": "Kamakura Shogunate",
-          "description": "First military government, establishing samurai class dominance and bushido culture in Japanese society.",
+          "title": "Kamakura Period",
+          "description": "Minamoto Yoritomo established shogunate, beginning samurai rule that lasted until 1868. Zen Buddhism arrived from China, influencing warrior culture.",
           "dynastyId": "japan_kamakura"
         },
         {
+          "date": "1336-1573",
+          "title": "Muromachi Period",
+          "description": "Ashikaga shoguns ruled from Kyoto's Muromachi district but failed to maintain centralized control. Cultural arts flourished including Noh theater and tea ceremony, but period descended into Warring States chaos.",
+          "dynastyId": "japan_muromachi"
+        },
+        {
+          "date": "1573-1603",
+          "title": "Azuchi-Momoyama Period",
+          "description": "Three great unifiers—Oda Nobunaga, Toyotomi Hideyoshi, and Tokugawa Ieyasu—progressively reunified Japan through military conquest.",
+          "dynastyId": "japan_azuchi_momoyama"
+        },
+        {
           "date": "1603-1868",
-          "title": "Tokugawa Shogunate",
-          "description": "Unified Japan under strict isolation policy (sakoku), bringing peace but limiting foreign contact and trade.",
+          "title": "Edo Period",
+          "description": "Tokugawa shogunate imposed over 250 years of peace through rigid social hierarchy and isolation. Merchant culture flourished in cities, while Western knowledge trickled in through Dutch traders.",
           "dynastyId": "japan_edo"
         },
         {
-          "date": "1853",
-          "title": "Perry's Black Ships",
-          "description": "Commodore Perry forces Japan to open to West, ending isolation and triggering rapid modernization."
-        },
-        {
-          "date": "1868",
-          "title": "Meiji Restoration",
-          "description": "Emperor restored to power, beginning rapid westernization and industrialization to avoid colonization.",
+          "date": "1868-1912",
+          "title": "Meiji Period",
+          "description": "The Meiji Restoration ended shogunate and restored imperial rule, launching rapid modernization. Japan industrialized, adopted Western technology and institutions, and emerged as major power.",
           "dynastyId": "japan_meiji"
-        },
-        {
-          "date": "1904-1905",
-          "title": "Russo-Japanese War",
-          "description": "Japan defeats major European power, establishing itself as regional power and inspiring Asian nationalism."
-        },
-        {
-          "date": "1941-1945",
-          "title": "World War II",
-          "description": "Japan attacks Pearl Harbor, conquers much of Asia-Pacific, but suffers devastating defeat and atomic bombings.",
-          "dynastyId": "japan_meiji"
-        },
-        {
-          "date": "1945-1952",
-          "title": "Allied Occupation",
-          "description": "MacArthur leads democratic reforms, new pacifist constitution, and reconstruction of Japanese society."
-        },
-        {
-          "date": "1960s-1980s",
-          "title": "Economic Miracle",
-          "description": "Rapid economic growth makes Japan world's second-largest economy through manufacturing and technology innovation.",
-          "dynastyId": "japan_meiji"
-        },
-        {
-          "date": "1990s-Present",
-          "title": "Lost Decades & Revival",
-          "description": "Economic stagnation followed by gradual recovery and emergence as global cultural and technological leader."
         }
       ]
     },
@@ -638,377 +448,27 @@
       "title": "History of Greece 🇬🇷",
       "events": [
         {
-          "date": "c. 8500-9000 years ago",
-          "title": "Stone Age Settlements",
-          "description": "Early human settlements in Greece dating back to the Stone Age. <strong>Foundation:</strong> Agriculture forms the basis of early communities, establishing the roots of Greek civilization. <strong>Archaeological Evidence:</strong> Caves and early village sites show continuous habitation and development of farming techniques."
-        },
-        {
-          "date": "c. 3500-1100 BCE",
-          "title": "Minoan Civilization",
-          "description": "Advanced Bronze Age civilization on Crete with sophisticated palace complexes at Knossos, Phaistos, and Malia. <strong>Cultural Achievements:</strong> Linear A script, vibrant frescoes, advanced maritime trade networks, and peaceful society focused on art and commerce. <strong>Legacy:</strong> Influenced later Greek culture through religious practices, architectural techniques, and artistic styles.",
-          "dynastyId": "greece_mycenaean"
-        },
-        {
-          "date": "c. 3200 BCE",
-          "title": "Early Bronze Age Cultural Synthesis",
-          "description": "Greek cultural and linguistic identity solidifies during the early Bronze Age through waves of migration and settlement. <strong>Ethnic Formation:</strong> Proto-Greek speakers establish communities across mainland Greece. <strong>Cultural Development:</strong> Bronze working, pottery, and early religious practices develop distinctive Greek characteristics."
-        },
-        {
-          "date": "c. 1750-1050 BCE",
+          "date": "c. 1600-1100 BCE",
           "title": "Mycenaean Civilization",
-          "description": "Powerful Bronze Age civilization on mainland Greece with fortified palace centers at Mycenae, Tiryns, and Pylos. <strong>Political Structure:</strong> Warrior-kings (wanax) rule complex bureaucratic states. <strong>Cultural Legacy:</strong> Linear B script, Homeric traditions, early Greek religious practices, and military culture that influenced later periods.",
+          "description": "Mycenaean Greeks built palaces and developed Linear B script. They fought the Trojan War immortalized in Homer's epics. Civilization collapsed during Bronze Age catastrophe.",
           "dynastyId": "greece_mycenaean"
         },
         {
-          "date": "c. 1200-1100 BCE",
-          "title": "Bronze Age Collapse",
-          "description": "Destruction of Mycenaean palaces and collapse of Bronze Age civilization across the eastern Mediterranean. <strong>Causes:</strong> Sea Peoples invasions, internal conflicts, natural disasters, and economic disruption. <strong>Impact:</strong> Loss of writing system, population decline, and breakdown of complex political structures."
-        },
-        {
-          "date": "c. 1100-800 BCE",
-          "title": "Greek Dark Ages",
-          "description": "Period of cultural and economic decline following the Bronze Age collapse. <strong>Characteristics:</strong> Loss of writing (Linear B), reduced population, simpler material culture, and isolation of communities. <strong>Recovery:</strong> Gradual emergence of new pottery styles, iron working, and eventual development of city-states (poleis).",
-          "dynastyId": "greece_archaic"
-        },
-        {
-          "date": "c. 800-500 BCE",
+          "date": "800-480 BCE",
           "title": "Archaic Period",
-          "description": "Revival and expansion of Greek civilization with emergence of city-states and Mediterranean colonization. <strong>Political Development:</strong> Formation of poleis (city-states) with distinctive constitutions. <strong>Cultural Renaissance:</strong> Development of Greek alphabet, Homeric epics composed, and distinctive artistic styles emerge."
-        },
-        {
-          "date": "c. 800-600 BCE",
-          "title": "Greek Colonization",
-          "description": "Massive expansion of Greek settlements around the Mediterranean and Black Sea coasts. <strong>Scope:</strong> Colonies established from Spain to the Caucasus, including southern Italy (Magna Graecia), Sicily, and Asia Minor. <strong>Impact:</strong> Spreads Greek culture, creates trade networks, and establishes Greek as a Mediterranean lingua franca."
-        },
-        {
-          "date": "776 BCE",
-          "title": "First Olympic Games",
-          "description": "Traditional date for the first Olympic Games at Olympia in honor of Zeus. <strong>Cultural Significance:</strong> Panhellenic festival uniting all Greek city-states in peaceful competition. <strong>Athletic Ideals:</strong> Establishes Greek concepts of physical excellence, fair competition, and athletic glory. <strong>Modern Legacy:</strong> Foundation for modern Olympic movement revived in 1896."
-        },
-        {
-          "date": "c. 750-650 BCE",
-          "title": "Homeric Epics Composed",
-          "description": "The Iliad and Odyssey attributed to Homer become foundational texts of Greek literature. <strong>Cultural Impact:</strong> Establishes Greek values, religious concepts, and heroic ideals. <strong>Literary Innovation:</strong> Creates epic poetry traditions and narrative techniques. <strong>Educational Role:</strong> Becomes basis of Greek education and cultural identity for centuries."
-        },
-        {
-          "date": "c. 700 BCE",
-          "title": "Development of Greek Alphabet",
-          "description": "Greeks adapt Phoenician script, creating first true alphabet with vowels. <strong>Innovation:</strong> Addition of vowel symbols makes writing more precise and accessible. <strong>Cultural Revolution:</strong> Enables widespread literacy, written laws, and literary culture. <strong>Global Impact:</strong> Influences Latin alphabet and most modern writing systems."
-        },
-        {
-          "date": "c. 650-500 BCE",
-          "title": "Age of Tyrants",
-          "description": "Popular strongmen (tyrants) seize power in many Greek city-states, often with common people's support against aristocratic rule. <strong>Political Change:</strong> Challenges traditional aristocratic governance. <strong>Cultural Patronage:</strong> Tyrants often sponsor arts, architecture, and public works. <strong>Democratic Transition:</strong> Many tyrannies eventually give way to more democratic systems."
-        },
-        {
-          "date": "c. 594 BCE",
-          "title": "Solon's Reforms in Athens",
-          "description": "Athenian lawgiver Solon implements constitutional reforms addressing economic and social crises. <strong>Legal Innovation:</strong> Cancels debts, prohibits enslavement for debt, creates new legal procedures. <strong>Political Structure:</strong> Establishes property-based citizenship classes and council system. <strong>Democratic Foundation:</strong> Lays groundwork for later Athenian democracy."
-        },
-        {
-          "date": "508-507 BCE",
-          "title": "Cleisthenes Establishes Athenian Democracy",
-          "description": "Cleisthenes introduces radical constitutional reforms creating world's first democracy. <strong>Political Innovation:</strong> Citizens participate directly in governance through assemblies and juries. <strong>Institutional Framework:</strong> Creates demes (local districts), tribal system, and ostracism. <strong>Global Legacy:</strong> Influences modern democratic systems worldwide with over half of world's population living in democracies.",
+          "description": "Greek civilization re-emerged with alphabet, colonization, and city-states (poleis). Homer's epics codified myths. Athens and Sparta developed contrasting political systems.",
           "dynastyId": "greece_archaic"
         },
         {
-          "date": "c. 500-323 BCE",
+          "date": "480-323 BCE",
           "title": "Classical Period",
-          "description": "Golden age of Greek civilization marked by democracy, philosophy, arts, and military achievements. <strong>Cultural Flowering:</strong> Development of tragedy, comedy, philosophy, and historical writing. <strong>Political Innovation:</strong> Peak of Athenian democracy and Spartan military system. <strong>Intellectual Revolution:</strong> Birth of Western philosophy, science, and rational thought.",
+          "description": "Classical Greece saw Athens' golden age under Pericles, with Parthenon construction and flourishing of philosophy, drama, and art. The period ended with Alexander's conquest.",
           "dynastyId": "greece_classical"
         },
         {
-          "date": "499-449 BCE",
-          "title": "Greco-Persian Wars",
-          "description": "Series of conflicts between Greek city-states and Persian Empire defining Greek identity and independence. <strong>Key Battles:</strong> Marathon (490 BCE) demonstrates Greek military capability, Thermopylae (480 BCE) shows heroic resistance, Salamis (480 BCE) secures naval victory. <strong>Unity and Identity:</strong> Creates pan-Hellenic consciousness and pride in Greek freedom versus Persian despotism.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "490 BCE",
-          "title": "Battle of Marathon",
-          "description": "Athenians defeat much larger Persian force, proving Greek military effectiveness. <strong>Strategic Impact:</strong> Demonstrates effectiveness of hoplite warfare and Greek tactics. <strong>Cultural Memory:</strong> Creates legend of marathon run and symbol of Greek resistance. <strong>Political Confidence:</strong> Boosts Athenian confidence and commitment to democracy.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "480 BCE",
-          "title": "Battles of Thermopylae and Salamis",
-          "description": "Spartan sacrifice at Thermopylae and Greek naval victory at Salamis define Persian War climax. <strong>Heroic Legacy:</strong> Leonidas and 300 Spartans become symbols of sacrifice for freedom. <strong>Naval Revolution:</strong> Themistocles' naval strategy at Salamis saves Greece and establishes Athenian maritime empire. <strong>Unity Achievement:</strong> Greek city-states cooperate effectively against common threat.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "479 BCE",
-          "title": "Battle of Plataea",
-          "description": "Final land battle of Persian Wars with decisive Greek victory ending Persian invasion. <strong>Military Achievement:</strong> Combined Greek forces defeat Persian army and liberate Greek cities. <strong>Political Outcome:</strong> Establishes Greek independence and begins period of expansion. <strong>Alliance Formation:</strong> Creates foundation for Delian League under Athenian leadership.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "478 BCE",
-          "title": "Formation of Delian League",
-          "description": "Athens leads defensive alliance of Greek city-states against Persia. <strong>Imperial Development:</strong> Gradually transforms from voluntary alliance into Athenian empire. <strong>Economic Impact:</strong> Tribute payments fund Athenian prosperity and building programs. <strong>Political Tension:</strong> Creates resentment among allies and rivalry with Sparta.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "461-429 BCE",
-          "title": "Age of Pericles",
-          "description": "Golden Age of Athens under Pericles' leadership with democracy, empire, and cultural achievements. <strong>Democratic Peak:</strong> Athenian democracy reaches full development with citizen participation. <strong>Cultural Flowering:</strong> Parthenon built, tragedies of Sophocles and Euripides, philosophy of Socrates begins. <strong>Imperial Power:</strong> Athens dominates Aegean through Delian League.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "447-432 BCE",
-          "title": "Construction of the Parthenon",
-          "description": "Pericles oversees construction of Parthenon and other monuments on the Acropolis. <strong>Architectural Innovation:</strong> Represents peak of Classical Greek architecture and engineering. <strong>Cultural Symbol:</strong> Demonstrates Athenian wealth, power, and artistic achievement. <strong>Religious Significance:</strong> Temple to Athena reinforces Athenian civic identity and divine protection.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "431-404 BCE",
-          "title": "Peloponnesian War",
-          "description": "Devastating conflict between Athens and Sparta ultimately weakening all Greek city-states. <strong>Strategic Warfare:</strong> Contrasts Athenian naval power with Spartan land dominance. <strong>Political Impact:</strong> Undermines democracy in Athens and weakens Greek resistance to external powers. <strong>Historical Record:</strong> Thucydides provides first scientific historical analysis of war and politics.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "429 BCE",
-          "title": "Death of Pericles",
-          "description": "Pericles dies of plague during Peloponnesian War, ending Athens' golden age leadership. <strong>Political Transition:</strong> Less capable leaders (demagogues) dominate Athenian politics. <strong>Strategic Loss:</strong> Athens loses its most skilled statesman during critical war period. <strong>Cultural Impact:</strong> Marks end of Classical Athens' greatest period of achievement.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "415-413 BCE",
-          "title": "Sicilian Expedition",
-          "description": "Disastrous Athenian invasion of Sicily during Peloponnesian War. <strong>Strategic Overreach:</strong> Athens attempts simultaneous wars in Greece and Sicily. <strong>Military Disaster:</strong> Entire expedition destroyed with massive loss of ships, soldiers, and prestige. <strong>Political Consequences:</strong> Severely weakens Athens and leads to oligarchic revolution of 411 BCE.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "404 BCE",
-          "title": "Fall of Athens",
-          "description": "Sparta defeats Athens, ending Peloponnesian War and Athenian empire. <strong>Political Change:</strong> Thirty Tyrants imposed on Athens, temporarily ending democracy. <strong>Imperial Collapse:</strong> Delian League dissolved, ending Athenian maritime empire. <strong>Greek Weakness:</strong> Prolonged warfare leaves all Greek states vulnerable to external intervention.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "399 BCE",
-          "title": "Trial and Death of Socrates",
-          "description": "Socrates condemned to death for corrupting youth and impiety, creating philosophical martyrdom. <strong>Philosophical Legacy:</strong> Establishes model of intellectual integrity and rational inquiry. <strong>Political Critique:</strong> Highlights tensions between philosophy and democracy. <strong>Cultural Impact:</strong> Inspires Plato's philosophical works and foundation of Western philosophy.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "387 BCE",
-          "title": "Plato Founds the Academy",
-          "description": "Plato establishes Academy in Athens, world's first institution of higher learning. <strong>Educational Innovation:</strong> Creates model for universities and advanced education. <strong>Philosophical Development:</strong> Develops systematic philosophy, political theory, and educational methods. <strong>Intellectual Legacy:</strong> Academy operates for nearly 900 years, influencing countless thinkers.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "371 BCE",
-          "title": "Battle of Leuctra",
-          "description": "Thebes defeats Sparta, ending Spartan hegemony and freeing helots. <strong>Military Innovation:</strong> Epaminondas develops new tactical formations defeating Spartan phalanx. <strong>Political Revolution:</strong> Breaks Spartan power and liberates Messenian helots. <strong>Balance Shift:</strong> Creates power vacuum leading to increased Macedonian influence.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "359 BCE",
-          "title": "Philip II Becomes King of Macedon",
-          "description": "Philip II begins transformation of Macedon into dominant Greek power. <strong>Military Innovation:</strong> Develops professional army with sarissa phalanx and combined-arms tactics. <strong>Political Strategy:</strong> Uses diplomacy, marriage alliances, and warfare to expand influence. <strong>Greek Impact:</strong> Begins Macedonian intervention in Greek affairs.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "338 BCE",
-          "title": "Battle of Chaeronea",
-          "description": "Philip II of Macedon defeats combined Greek forces, establishing Macedonian hegemony. <strong>Military Superiority:</strong> Macedonian phalanx and cavalry prove superior to traditional Greek tactics. <strong>Political Unification:</strong> Creates League of Corinth under Macedonian leadership. <strong>Greek Independence:</strong> Ends era of independent city-states and begins Macedonian dominance.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "336 BCE",
-          "title": "Assassination of Philip II",
-          "description": "Philip II murdered at daughter's wedding, succeeded by 20-year-old Alexander. <strong>Political Crisis:</strong> Succession crisis threatens Macedonian unity and Greek control. <strong>Alexander's Response:</strong> Alexander quickly secures throne and crushes Greek rebellions. <strong>Historical Turning Point:</strong> Sets stage for Alexander's unprecedented conquests.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "334-323 BCE",
-          "title": "Alexander the Great's Conquests",
-          "description": "Alexander conquers Persian Empire and creates vast Hellenistic kingdom from Egypt to India. <strong>Military Genius:</strong> Never loses a battle, demonstrates exceptional tactical and strategic skills. <strong>Cultural Synthesis:</strong> Promotes fusion of Greek and Eastern cultures. <strong>Global Impact:</strong> Spreads Greek language, culture, and ideas across three continents.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "334 BCE",
-          "title": "Battle of Granicus",
-          "description": "Alexander's first major victory in Asia Minor, establishing his reputation and momentum. <strong>Strategic Opening:</strong> Secures Asian bridgehead and frees Greek cities. <strong>Personal Leadership:</strong> Alexander's heroic fighting inspires troops and intimidates enemies. <strong>Propaganda Victory:</strong> Demonstrates divine favor and invincibility.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "333 BCE",
-          "title": "Battle of Issus",
-          "description": "Alexander defeats Persian King Darius III, capturing his family and treasury. <strong>Strategic Victory:</strong> Opens route to Syria, Phoenicia, and Egypt. <strong>Personal Triumph:</strong> Alexander's tactical brilliance defeats much larger Persian force. <strong>Political Impact:</strong> Establishes Alexander as legitimate successor to Persian Empire.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "331 BCE",
-          "title": "Battle of Gaugamela",
-          "description": "Alexander's decisive victory over Darius III, destroying Persian military power. <strong>Tactical Masterpiece:</strong> Alexander's innovative tactics defeat Darius's prepared battlefield. <strong>Imperial Conquest:</strong> Opens path to Persian heartland and imperial capitals. <strong>Historical Significance:</strong> Marks end of Persian Empire and birth of Hellenistic world.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "331 BCE",
-          "title": "Foundation of Alexandria",
-          "description": "Alexander founds Alexandria in Egypt, future center of Hellenistic learning and culture. <strong>Urban Planning:</strong> Creates planned city with harbor, library, and research institutions. <strong>Cultural Center:</strong> Becomes hub of Greek learning, science, and literature. <strong>Economic Hub:</strong> Controls trade between Mediterranean and Indian Ocean.",
-          "dynastyId": "greece_classical"
-        },
-        {
-          "date": "323 BCE",
-          "title": "Death of Alexander",
-          "description": "Alexander dies in Babylon at age 32, ending unified Hellenistic empire. <strong>Succession Crisis:</strong> Empire immediately fragments among competing generals (Diadochi). <strong>Cultural Legacy:</strong> Greek culture permanently established across former Persian Empire. <strong>Historical Impact:</strong> Creates Hellenistic kingdoms that dominate eastern Mediterranean for centuries.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "323-30 BCE",
+          "date": "323-31 BCE",
           "title": "Hellenistic Period",
-          "description": "Greek culture spreads across Mediterranean and Middle East through successor kingdoms. <strong>Political Structure:</strong> Large kingdoms ruled by Macedonian dynasties (Ptolemies, Seleucids, Antigonids). <strong>Cultural Synthesis:</strong> Greek and Eastern cultures blend creating new artistic and intellectual forms. <strong>Scientific Achievement:</strong> Major advances in mathematics, astronomy, medicine, and engineering.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "300 BCE",
-          "title": "Euclid's Elements",
-          "description": "Euclid compiles definitive work on geometry in Alexandria. <strong>Mathematical Foundation:</strong> Establishes logical proofs and systematic geometry. <strong>Educational Impact:</strong> Becomes standard mathematics textbook for over 2000 years. <strong>Scientific Method:</strong> Demonstrates power of logical reasoning and mathematical proof.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "c. 280 BCE",
-          "title": "Colossus of Rhodes",
-          "description": "Giant statue of Helios built at Rhodes, one of Seven Wonders of Ancient World. <strong>Engineering Achievement:</strong> Demonstrates Hellenistic technical capabilities and artistic ambition. <strong>Economic Symbol:</strong> Represents Rhodes's commercial prosperity and independence. <strong>Cultural Pride:</strong> Shows Greek artistic achievement in Hellenistic period.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "c. 250 BCE",
-          "title": "Archimedes' Discoveries",
-          "description": "Archimedes makes fundamental discoveries in mathematics, physics, and engineering in Syracuse. <strong>Scientific Innovation:</strong> Discovers principles of buoyancy, calculus methods, and mechanical advantage. <strong>Engineering Applications:</strong> Invents war machines, water pumps, and measuring devices. <strong>Intellectual Legacy:</strong> Establishes model of theoretical and applied science.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "214-148 BCE",
-          "title": "Macedonian Wars",
-          "description": "Series of wars between Rome and Macedonian kingdoms, ending Greek independence. <strong>Strategic Shift:</strong> Rising Roman power challenges Hellenistic kingdoms. <strong>Greek Resistance:</strong> Various coalitions attempt to preserve Greek freedom. <strong>Military Evolution:</strong> Roman legions prove superior to Hellenistic armies.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "146 BCE",
-          "title": "Roman Conquest of Greece",
-          "description": "Rome destroys Corinth and establishes province of Achaea, ending Greek political independence. <strong>Cultural Preservation:</strong> Romans admire and preserve Greek culture while ending political autonomy. <strong>Educational Impact:</strong> Greece becomes educational center for Roman elite. <strong>Cultural Influence:</strong> Greek philosophy, art, and literature profoundly influence Roman civilization.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "86 BCE",
-          "title": "Sulla's Sack of Athens",
-          "description": "Roman general Sulla captures and plunders Athens during Mithridatic Wars. <strong>Cultural Destruction:</strong> Many treasures and artworks removed to Rome. <strong>Political Submission:</strong> Demonstrates complete Roman control over Greek cities. <strong>Economic Decline:</strong> Athens loses much of its remaining wealth and political importance.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "31 BCE",
-          "title": "Battle of Actium",
-          "description": "Octavian defeats Mark Antony and Cleopatra, ending last Hellenistic kingdom. <strong>Imperial Unification:</strong> Brings all former Greek territories under unified Roman rule. <strong>Cultural Transition:</strong> Marks end of Hellenistic period and beginning of Roman imperial culture. <strong>Alexandria's Decline:</strong> Egypt's incorporation reduces Alexandria's independence and cultural leadership.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "330 CE",
-          "title": "Founding of Constantinople",
-          "description": "Constantine establishes 'New Rome' at Byzantium, creating Christian Greek empire. <strong>Religious Revolution:</strong> Creates Christian capital of Greek-speaking empire. <strong>Cultural Continuity:</strong> Preserves Greek language and learning in Christian context. <strong>Political Innovation:</strong> Combines Roman administration with Greek culture and Christian religion.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "529 CE",
-          "title": "Closure of Plato's Academy",
-          "description": "Justinian closes Academy and other pagan schools, ending ancient Greek philosophical tradition. <strong>Religious Policy:</strong> Christian empire suppresses remaining pagan institutions. <strong>Cultural Loss:</strong> Ends nearly 1000 years of continuous philosophical education. <strong>Knowledge Preservation:</strong> Many Greek texts preserved through Islamic and Byzantine scholars.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1453 CE",
-          "title": "Fall of Constantinople",
-          "description": "Ottoman Turks capture Constantinople, ending Byzantine Empire and medieval Greek state. <strong>Political End:</strong> Last remnant of Roman/Byzantine Empire falls to Islamic conquest. <strong>Cultural Diaspora:</strong> Greek scholars flee west, contributing to Renaissance humanism. <strong>Religious Change:</strong> Hagia Sophia converted to mosque, symbolizing Ottoman dominance.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1453-1821",
-          "title": "Ottoman Period",
-          "description": "Greece under Ottoman Turkish rule with sporadic uprisings and cultural preservation. <strong>Religious Identity:</strong> Orthodox Christianity maintains Greek cultural identity under Islamic rule. <strong>Economic Role:</strong> Greeks become prominent in Ottoman trade and administration. <strong>Cultural Preservation:</strong> Greek language and traditions maintained through church and education.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1821-1829",
-          "title": "Greek War of Independence",
-          "description": "Greek revolution against Ottoman rule leads to independence and modern Greek state. <strong>National Revival:</strong> Philhellenism and classical Greek ideals inspire independence movement. <strong>International Support:</strong> European powers (Britain, France, Russia) support Greek cause. <strong>Political Foundation:</strong> Creates modern Greek kingdom and constitutional government.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1832",
-          "title": "Greek Kingdom Established",
-          "description": "Treaty of Constantinople recognizes independent Greek Kingdom under Bavarian monarchy. <strong>Territorial Limits:</strong> Initial kingdom includes only southern mainland and some islands. <strong>Political Structure:</strong> Constitutional monarchy with elected parliament. <strong>Cultural Mission:</strong> New state promotes classical Greek heritage and modern Greek identity.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1896",
-          "title": "First Modern Olympics",
-          "description": "Modern Olympic Games revived in Athens, celebrating Greek classical heritage. <strong>Cultural Revival:</strong> Links modern Greece to ancient Olympic tradition. <strong>International Recognition:</strong> Demonstrates Greece's role in world culture and history. <strong>Athletic Legacy:</strong> Establishes modern international Olympic movement.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1912-1913",
-          "title": "Balkan Wars",
-          "description": "Greece gains significant territory including Crete, Macedonia, and Aegean islands. <strong>Territorial Expansion:</strong> Nearly doubles Greek territory and population. <strong>National Integration:</strong> Incorporates diverse Greek populations into unified state. <strong>Regional Power:</strong> Establishes Greece as major Balkan power.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1919-1922",
-          "title": "Greco-Turkish War",
-          "description": "Disastrous war with Turkey ends Greek territorial ambitions in Asia Minor. <strong>Military Defeat:</strong> Turkish forces under Mustafa Kemal defeat Greek armies. <strong>Population Exchange:</strong> Massive forced migration of Greeks from Turkey and Turks from Greece. <strong>Political Crisis:</strong> Military defeat leads to political instability and republican revolution.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1940-1941",
-          "title": "Greek Resistance to Italy",
-          "description": "Greece successfully resists Italian invasion, first Allied victory against Axis powers. <strong>Military Success:</strong> Greek forces drive Italians back into Albania. <strong>Strategic Impact:</strong> Delays German invasion and demonstrates Axis vulnerability. <strong>National Pride:</strong> Boosts Greek morale and international reputation.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1941-1944",
-          "title": "German Occupation",
-          "description": "Germany occupies Greece following Italian failure, leading to resistance and famine. <strong>Resistance Movement:</strong> Strong guerrilla warfare against occupation forces. <strong>Humanitarian Crisis:</strong> Severe famine kills hundreds of thousands of Greeks. <strong>Political Division:</strong> Communist and non-communist resistance groups conflict.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1946-1949",
-          "title": "Greek Civil War",
-          "description": "Civil war between communist and government forces with British and American support. <strong>Cold War Beginning:</strong> First major Cold War conflict with superpower involvement. <strong>Truman Doctrine:</strong> American aid prevents communist victory in Greece. <strong>Social Trauma:</strong> Devastating conflict divides Greek society for generations.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1967-1974",
-          "title": "Military Junta",
-          "description": "Military coup establishes authoritarian regime known as 'Regime of the Colonels.' <strong>Political Repression:</strong> Suspension of democracy, censorship, and persecution of opponents. <strong>Cultural Impact:</strong> Suppression of free expression and artistic creativity. <strong>International Isolation:</strong> Greece suspended from Council of Europe and faces international criticism.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1974",
-          "title": "Restoration of Democracy",
-          "description": "Military junta collapses following Cyprus crisis, leading to democratic restoration. <strong>Constitutional Reform:</strong> New constitution establishes stable parliamentary democracy. <strong>European Integration:</strong> Greece begins process of joining European communities. <strong>Political Stability:</strong> Establishes foundations for modern democratic Greece.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "1981",
-          "title": "Joins European Community",
-          "description": "Greece becomes tenth member of European Economic Community (later European Union). <strong>Economic Integration:</strong> Access to European markets and development funds. <strong>Political Alignment:</strong> Commits Greece to Western European democratic values. <strong>Cultural Exchange:</strong> Increases Greek participation in European cultural and educational programs.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "2001",
-          "title": "Adopts Euro Currency",
-          "description": "Greece joins Eurozone, adopting European single currency. <strong>Economic Integration:</strong> Completes Greek integration into European monetary system. <strong>Financial Benefits:</strong> Lower interest rates and increased investment. <strong>Future Challenges:</strong> Economic convergence requirements create fiscal pressures.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "2004",
-          "title": "Athens Olympic Games",
-          "description": "Greece hosts Summer Olympics, returning games to their ancient homeland. <strong>Cultural Celebration:</strong> Showcases Greek heritage and modern achievements. <strong>Infrastructure Development:</strong> Major improvements to transportation and facilities. <strong>International Recognition:</strong> Demonstrates Greece's capacity for major international events.",
-          "dynastyId": "greece_hellenistic"
-        },
-        {
-          "date": "2010-2018",
-          "title": "Greek Financial Crisis",
-          "description": "Severe debt crisis requires international bailouts and austerity measures. <strong>Economic Restructuring:</strong> Major fiscal reforms and privatization programs. <strong>Social Impact:</strong> High unemployment, emigration, and social hardship. <strong>European Challenge:</strong> Tests European unity and economic governance systems.",
+          "description": "After Alexander's death, his empire split into Hellenistic kingdoms. Greek culture blended with Near Eastern traditions. Science and philosophy advanced in Alexandria and other centers.",
           "dynastyId": "greece_hellenistic"
         }
       ]
@@ -1017,237 +477,40 @@
       "title": "History of Italy 🇮🇹",
       "events": [
         {
-          "date": "c. 753 BCE",
-          "title": "Founding of Rome",
-          "description": "Traditional founding of Rome by Romulus on April 21. <strong>Politics:</strong> Monarchical rule by seven legendary kings establishing early religious, legal, and political institutions, including the Senate as an advisory body. <strong>Economy:</strong> Agrarian-based with early trade links to Etruscans and Latin neighbors. <strong>Legacy:</strong> Foundation for Roman civic identity, religion intertwined with destiny and political power.",
+          "date": "c. 753-509 BCE",
+          "title": "Roman Kingdom",
+          "description": "According to legend, Romulus founded Rome in 753 BCE. Seven kings ruled until Tarquin the Proud was overthrown. Kings established basic institutions and expanded Roman territory.",
           "dynastyId": "italy_kingdom"
         },
         {
-          "date": "509 BCE",
-          "title": "Roman Republic Established",
-          "description": "Monarchy overthrown; Republic established with elected magistrates and Senate. Foundation of republican governance emphasizing collective magistracies and checks on power. Established the principle of <em>imperium</em> (executive authority) balanced by senatorial wisdom and popular assemblies.",
+          "date": "509-27 BCE",
+          "title": "Roman Republic",
+          "description": "Roman Republic expanded from city-state to Mediterranean superpower through military prowess and political flexibility. Internal conflicts between patricians and plebeians led to more inclusive system.",
           "dynastyId": "italy_republic"
         },
         {
-          "date": "494 BCE",
-          "title": "First Secession of the Plebeians",
-          "description": "Plebeians withdraw from Rome to Sacred Mount, demanding political rights and protection from patrician abuse. Results in creation of Tribunes of the Plebs with power to veto magistrates' decisions. Marks beginning of 'Conflict of the Orders' - the struggle for plebeian political equality.",
-          "dynastyId": "italy_republic"
-        },
-        {
-          "date": "450 BCE",
-          "title": "The Twelve Tables",
-          "description": "First comprehensive Roman law code codified and publicly displayed. <strong>Legal Legacy:</strong> Foundation for Western legal traditions, establishing principle that law must be written, public, and equally applied. Influenced civil law systems worldwide and concept of due process.",
-          "dynastyId": "italy_republic"
-        },
-        {
-          "date": "396 BCE",
-          "title": "Conquest of Veii",
-          "description": "Rome conquers important Etruscan city of Veii after 10-year siege, marking expansion beyond Latium. <strong>Military Innovation:</strong> First use of systematic siege warfare and professional soldiers paid from public treasury. Doubles Roman territory and establishes pattern of territorial expansion.",
-          "dynastyId": "italy_republic"
-        },
-        {
-          "date": "390 BCE",
-          "title": "Sack of Rome by Gauls",
-          "description": "Gallic tribes under Brennus capture and sack Rome, except for the Capitol. <strong>Military Impact:</strong> Triggers major military reforms including improved fortifications (Servian Wall), reorganized legions, and new tactical formations. Demonstrates Roman resilience and ability to recover from devastating defeats.",
-          "dynastyId": "italy_republic"
-        },
-        {
-          "date": "264-241 BCE",
-          "title": "First Punic War",
-          "description": "Rome defeats Carthage in struggle for Sicily. <strong>Naval Development:</strong> Rome builds its first major fleet, develops the corvus (boarding bridge), and gains Sicily as its first overseas province. <strong>Economic Impact:</strong> Establishes Rome as a maritime power and opens Mediterranean trade networks.",
-          "dynastyId": "italy_republic"
-        },
-        {
-          "date": "218-201 BCE",
-          "title": "Second Punic War",
-          "description": "Hannibal invades Italy by crossing the Alps with elephants, wins battles at Trebia, Lake Trasimene, and Cannae. <strong>Roman Strategy:</strong> Fabius Maximus develops 'Fabian strategy' of avoiding pitched battles. <strong>Victory:</strong> Scipio Africanus defeats Hannibal at Zama (202 BCE), gaining Spain and North Africa.",
-          "dynastyId": "italy_republic"
-        },
-        {
-          "date": "149-146 BCE",
-          "title": "Third Punic War",
-          "description": "Complete destruction of Carthage by Scipio Aemilianus; city razed and territory becomes Roman province of Africa. <strong>Strategic Impact:</strong> Secures Roman dominance over Western Mediterranean. Cato the Elder's famous phrase 'Carthage must be destroyed' (Carthago delenda est) fulfilled.",
-          "dynastyId": "italy_republic"
-        },
-        {
-          "date": "133 BCE",
-          "title": "Assassination of Tiberius Gracchus",
-          "description": "Tribune Tiberius Gracchus murdered by senators opposing his land reforms. <strong>Political Crisis:</strong> Breaks republican norms against violence in politics. <strong>Social Issues:</strong> Highlights growing inequality between rich and poor, displacement of small farmers by slave-worked estates (latifundia)."
-        },
-        {
-          "date": "107-86 BCE",
-          "title": "Marian Reforms",
-          "description": "Gaius Marius transforms Roman military from citizen-militia to professional army. <strong>Military Changes:</strong> Recruits landless poor, standardizes equipment (Marian Mule), creates veteran colonies. <strong>Political Impact:</strong> Creates loyalty between soldiers and commanders rather than state, enabling future civil wars.",
-          "dynastyId": "italy_republic"
-        },
-        {
-          "date": "82-79 BCE",
-          "title": "Sulla's Dictatorship",
-          "description": "Lucius Cornelius Sulla marches on Rome, defeats Marius' faction, and becomes dictator. <strong>Constitutional Impact:</strong> Breaks republican norms by using army against Rome, setting precedent for autocratic rule. <strong>Reforms:</strong> Strengthens Senate, limits tribunes' power, creates proscription lists of enemies.",
-          "dynastyId": "italy_republic"
-        },
-        {
-          "date": "73-71 BCE",
-          "title": "Spartacus Slave Revolt",
-          "description": "Gladiator Spartacus leads massive slave rebellion across Italy with army reaching 120,000. Suppressed by Marcus Licinius Crassus; 6,000 rebels crucified along Appian Way. <strong>Social Impact:</strong> Exposes tensions in slave-based economy and fear of servile revolts."
-        },
-        {
-          "date": "60 BCE",
-          "title": "First Triumvirate",
-          "description": "Unofficial alliance between Julius Caesar, Pompey, and Crassus to dominate Roman politics. <strong>Political Manipulation:</strong> Circumvents Senate through private agreements, demonstrates weakness of republican institutions when faced with ambitious individuals.",
-          "dynastyId": "italy_republic"
-        },
-        {
-          "date": "58-50 BCE",
-          "title": "Caesar's Gallic Wars",
-          "description": "Julius Caesar conquers Gaul (modern France), defeats Vercingetorix at Alesia (52 BCE). <strong>Military Genius:</strong> Demonstrates tactical brilliance and speed of operations. <strong>Economic Impact:</strong> Brings vast wealth and slaves to Rome. <strong>Literary Legacy:</strong> Caesar's 'Commentaries' become model of military historical writing."
-        },
-        {
-          "date": "49-45 BCE",
-          "title": "Caesar's Civil War",
-          "description": "Caesar crosses Rubicon ('the die is cast'), defeats Pompey at Pharsalus (48 BCE), pursues enemies to Egypt and Africa. <strong>Political Revolution:</strong> Destroys republican government, concentrates unprecedented power in single individual."
-        },
-        {
-          "date": "44 BCE",
-          "title": "Assassination of Julius Caesar",
-          "description": "Caesar murdered on Ides of March by senators led by Brutus and Cassius, fearing he would become king. <strong>Political Chaos:</strong> Triggers final civil wars of Republic. <strong>Cultural Legacy:</strong> Immortalized in Shakespeare's play and symbol of tyrannicide vs. betrayal.",
-          "dynastyId": "italy_republic"
-        },
-        {
-          "date": "43-31 BCE",
-          "title": "Second Triumvirate and Final Civil Wars",
-          "description": "Mark Antony, Octavian, and Lepidus form official triumvirate, defeat Caesar's assassins at Philippi (42 BCE). <strong>Political Evolution:</strong> Leads to division of Roman world between Antony (East) and Octavian (West), culminating in Battle of Actium (31 BCE)."
-        },
-        {
-          "date": "31 BCE",
-          "title": "Battle of Actium",
-          "description": "Octavian's naval victory over Mark Antony and Cleopatra ends Republic's final civil war. <strong>Historical Turning Point:</strong> Paves way for Empire, makes Octavian sole ruler of Roman world. Antony and Cleopatra flee to Egypt and commit suicide.",
+          "date": "27 BCE - 68 CE",
+          "title": "Julio-Claudian Dynasty",
+          "description": "Augustus established the principate, appearing to preserve the republic while holding supreme power. Dynasty saw expansion under Claudius, Augustan cultural flowering, and Nero's tyranny.",
           "dynastyId": "italy_julio_claudian"
         },
         {
-          "date": "27 BCE",
-          "title": "Augustus and the Principate",
-          "description": "Octavian receives title 'Augustus' from Senate, becomes first Roman Emperor while maintaining republican facade. <strong>Political Innovation:</strong> Creates Principate system - emperor as 'first citizen' with supreme authority. <strong>Constitutional Legacy:</strong> Balances autocracy with traditional institutions.",
-          "dynastyId": "italy_julio_claudian"
-        },
-        {
-          "date": "27 BCE-180 CE",
-          "title": "Pax Romana",
-          "description": "200 years of relative peace and prosperity across Roman Empire. <strong>Territorial Peak:</strong> Expansion to Britain (43 CE), Dacia (106 CE), reaches greatest extent under Trajan. <strong>Cultural Development:</strong> Golden Age of Latin literature (Virgil, Ovid, Horace), monumental architecture (Pantheon, Colosseum), advanced engineering (roads, aqueducts).",
-          "dynastyId": "italy_julio_claudian"
-        },
-        {
-          "date": "64 CE",
-          "title": "Great Fire of Rome",
-          "description": "Devastating fire destroys much of Rome during Nero's reign. <strong>Urban Planning:</strong> Leads to new building codes and urban planning. <strong>Christian Persecution:</strong> Nero blames Christians, beginning systematic persecutions. <strong>Architectural Legacy:</strong> Enables construction of Nero's Golden House (Domus Aurea).",
-          "dynastyId": "italy_julio_claudian"
-        },
-        {
-          "date": "70 CE",
-          "title": "Destruction of Jerusalem",
-          "description": "Titus captures Jerusalem, destroys Second Temple, ending First Jewish-Roman War. <strong>Cultural Impact:</strong> Diaspora of Jewish people, commemated in Arch of Titus. <strong>Economic Benefit:</strong> Temple treasures fund construction of Colosseum."
-        },
-        {
-          "date": "79 CE",
-          "title": "Eruption of Mount Vesuvius",
-          "description": "Volcanic eruption destroys Pompeii and Herculaneum. <strong>Historical Preservation:</strong> Preserves daily life in Roman cities, providing unprecedented archaeological evidence. <strong>Literary Record:</strong> Pliny the Younger's eyewitness account creates model of scientific observation."
-        },
-        {
-          "date": "98-180 CE",
-          "title": "Five Good Emperors",
-          "description": "Nerva, Trajan, Hadrian, Antoninus Pius, and Marcus Aurelius preside over Empire's golden age. <strong>Administrative Excellence:</strong> Efficient governance, public works, legal reforms. <strong>Territorial Management:</strong> Hadrian's Wall in Britain, Trajan's conquests in Dacia and Mesopotamia."
-        },
-        {
-          "date": "212 CE",
-          "title": "Edict of Caracalla",
-          "description": "Emperor Caracalla grants Roman citizenship to all free inhabitants of Empire. <strong>Legal Revolution:</strong> Creates unified legal identity across diverse territories. <strong>Administrative Impact:</strong> Increases tax base but dilutes value of Roman citizenship."
+          "date": "96-192 CE",
+          "title": "Nerva-Antonine Dynasty",
+          "description": "The 'Five Good Emperors' (Nerva, Trajan, Hadrian, Antoninus Pius, Marcus Aurelius) presided over empire's peak. Territory reached maximum extent, arts flourished.",
+          "dynastyId": "italy_five_good_emperors"
         },
         {
           "date": "235-284 CE",
           "title": "Crisis of the Third Century",
-          "description": "Period of near-constant civil war, economic collapse, and barbarian invasions. <strong>Political Chaos:</strong> 50 emperors in 50 years, many dying violent deaths. <strong>Economic Collapse:</strong> Currency debasement, inflation, disrupted trade. <strong>Military Pressure:</strong> Germanic tribes penetrate frontiers, Sassanid Persia threatens East."
+          "description": "Fifty years of chaos saw over 50 emperors, most dying violently. Barbarian invasions, plague, and economic collapse threatened empire's survival.",
+          "dynastyId": "italy_crisis"
         },
         {
-          "date": "284 CE",
-          "title": "Diocletian's Reforms",
-          "description": "Diocletian divides Empire into East and West, institutes Tetrarchy (rule by four). <strong>Administrative Revolution:</strong> Creates more manageable governmental units. <strong>Economic Reforms:</strong> Price controls, tax reforms, new coinage. <strong>Military Changes:</strong> Separates civil and military commands.",
+          "date": "284-476 CE",
+          "title": "Dominate Period",
+          "description": "Diocletian established the dominate with absolute monarchy and administrative reforms. Constantine converted to Christianity and founded Constantinople. Empire split into East and West.",
           "dynastyId": "italy_dominate"
-        },
-        {
-          "date": "313 CE",
-          "title": "Edict of Milan",
-          "description": "Constantine legalizes Christianity throughout Empire. <strong>Religious Revolution:</strong> Ends persecution, begins transformation of Empire into Christian state. <strong>Cultural Impact:</strong> Churches receive imperial patronage, Christian symbols appear on coins and standards.",
-          "dynastyId": "italy_dominate"
-        },
-        {
-          "date": "325 CE",
-          "title": "Council of Nicaea",
-          "description": "Constantine convenes first ecumenical council to address Arian controversy. <strong>Religious Unification:</strong> Establishes Nicene Creed, imperial involvement in church doctrine. <strong>Political-Religious Integration:</strong> Emperor as protector of Christian orthodoxy."
-        },
-        {
-          "date": "330 CE",
-          "title": "Founding of Constantinople",
-          "description": "Constantine establishes 'New Rome' at Byzantium, creating eastern capital. <strong>Strategic Importance:</strong> Controls Bosphorus strait between Europe and Asia. <strong>Economic Center:</strong> Becomes hub of eastern trade networks. <strong>Political Division:</strong> Creates rival power center to Rome."
-        },
-        {
-          "date": "378 CE",
-          "title": "Battle of Adrianople",
-          "description": "Visigoths defeat and kill Emperor Valens in devastating military disaster. <strong>Military Revolution:</strong> Demonstrates superiority of barbarian cavalry over Roman infantry. <strong>Political Impact:</strong> Weakens imperial prestige, accelerates barbarian settlement within Empire."
-        },
-        {
-          "date": "395 CE",
-          "title": "Permanent Division of Empire",
-          "description": "Empire permanently split between East and West after Theodosius I's death. <strong>Administrative Necessity:</strong> Recognizes reality that Empire too large for single ruler. <strong>Political Evolution:</strong> Eastern Empire (Byzantine) develops distinct identity and survives until 1453."
-        },
-        {
-          "date": "410 CE",
-          "title": "Sack of Rome by Visigoths",
-          "description": "Alaric and Visigoths capture and plunder Rome for three days. <strong>Psychological Shock:</strong> First foreign capture of Rome in 800 years devastates Roman morale. <strong>Religious Impact:</strong> Augustine writes 'City of God' responding to pagan claims that Christianity weakened Empire."
-        },
-        {
-          "date": "455 CE",
-          "title": "Vandal Sack of Rome",
-          "description": "Vandals under Genseric systematically loot Rome for two weeks. <strong>Economic Devastation:</strong> Removes vast wealth including temple treasures and imperial regalia. <strong>Political Decline:</strong> Further weakens Western imperial prestige and authority."
-        },
-        {
-          "date": "476 CE",
-          "title": "Fall of Western Roman Empire",
-          "description": "Germanic chieftain Odoacer deposes Romulus Augustulus, last Western Roman Emperor, and sends imperial regalia to Constantinople. <strong>End of Ancient World:</strong> Traditional date for fall of Western Roman Empire and beginning of Medieval period. <strong>Continuity:</strong> Eastern Roman (Byzantine) Empire continues until 1453.",
-          "dynastyId": "italy_dominate"
-        },
-        {
-          "date": "800 CE",
-          "title": "Charlemagne Crowned Emperor",
-          "description": "Pope Leo III crowns Charlemagne 'Emperor of the Romans,' reviving Western imperial title. <strong>Political Revival:</strong> Creates Holy Roman Empire, linking Italy to Frankish power. <strong>Religious Authority:</strong> Establishes papal right to crown emperors."
-        },
-        {
-          "date": "1300s-1600s",
-          "title": "Italian Renaissance",
-          "description": "Period of extraordinary cultural, artistic, and scientific achievement centered in Italian city-states. <strong>Cultural Revolution:</strong> Revival of classical learning, humanist philosophy, artistic innovation. <strong>Roman Legacy:</strong> Rediscovery of Roman texts, architecture, and political ideals influences Renaissance thought.",
-          "dynastyId": "italy_dominate"
-        },
-        {
-          "date": "1861",
-          "title": "Italian Unification",
-          "description": "Kingdom of Italy proclaimed, unifying most Italian states under one monarchy. <strong>Roman Symbolism:</strong> New state consciously evokes Roman imperial grandeur and adopts Roman symbols and terminology.",
-          "dynastyId": "italy_dominate"
-        },
-        {
-          "date": "1922-1943",
-          "title": "Fascist Regime",
-          "description": "Benito Mussolini establishes dictatorship, leading Italy through WWII as part of Axis Powers. <strong>Roman Revival:</strong> Fascists extensively use Roman symbols (fasces, eagles, imperial imagery) and rhetoric about restoring Roman greatness."
-        },
-        {
-          "date": "1946",
-          "title": "Italian Republic",
-          "description": "Monarchy abolished by referendum; Italy becomes a republic. <strong>Republican Ideals:</strong> New constitution draws inspiration from Roman republican values and modern democratic principles.",
-          "dynastyId": "italy_dominate"
-        },
-        {
-          "date": "1957",
-          "title": "Founding Member of EEC",
-          "description": "Italy helps found the European Economic Community (later European Union). <strong>European Integration:</strong> Rome hosts signing of Treaty of Rome (1957), symbolically linking European unity to Roman universalist ideals."
         }
       ]
     }

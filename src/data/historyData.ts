@@ -134,11 +134,11 @@ export function getAllWorldEvents(): WorldHistoryEvent[] {
 
   const allEvents: WorldHistoryEvent[] = [];
 
-  Object.entries(historyData).forEach(([countryId, countryData]) => {
+  Object.entries(historyData).forEach(([countryId, countryData]: [string, CountryData]) => {
     const countryInfo = countryNames[countryId];
     if (!countryInfo) return;
 
-    countryData.events.forEach(event => {
+    countryData.events.forEach((event: HistoryEvent) => {
       allEvents.push({
         ...event,
         country: countryId,
