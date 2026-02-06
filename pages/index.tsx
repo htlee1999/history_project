@@ -1,12 +1,15 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
+import Link from 'next/link'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { CountryCard } from "@/components/CountryCard"
+import { EmptySearchState } from "@/components/EmptySearchState"
+import { SearchBar } from "@/components/SearchBar"
 import { TimelineModal } from "@/components/TimelineModal"
 import { CultureGallery } from "@/components/CultureGallery"
 import { WorldTimeline } from "@/components/WorldTimeline"
 import { ScrollToTopButton } from "@/components/ScrollToTopButton"
 import { countryCards } from "@/data/historyData"
-import { Flag, Crown, Landmark, Palette, Globe, ChevronDown, Search, X } from 'lucide-react'
+import { Flag, Crown, Landmark, Palette, Globe, ChevronDown, BookOpen } from 'lucide-react'
 
 export default function Home() {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
@@ -16,7 +19,6 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState('world')
   const [searchQuery, setSearchQuery] = useState('')
   const dropdownRef = useRef<HTMLDivElement>(null)
-  const searchInputRef = useRef<HTMLInputElement>(null)
 
   // Map tab values to display names for breadcrumbs
   const categoryDisplayNames: Record<string, string> = {
@@ -99,7 +101,14 @@ export default function Home() {
       {/* Header */}
       <header className="custom-header">
         <div className="content-section">
-          <div className="breadcrumb">Historical Archives</div>
+          <div className="breadcrumb flex items-center gap-3">
+            <span>Historical Archives</span>
+            <span className="text-border">|</span>
+            <Link href="/glossary" className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors">
+              <BookOpen className="h-3 w-3" />
+              Glossary
+            </Link>
+          </div>
           <h1 className="text-balance">World History Documentation</h1>
           <p className="subtitle text-pretty">A comprehensive digital repository exploring the evolution of civilizations, empires, and cultures throughout human history.</p>
         </div>
@@ -127,27 +136,11 @@ export default function Home() {
       <div className="container mx-auto px-4 md:px-6 py-8">
 
         {/* Search Bar */}
-        <div className="mb-6">
-          <div className="relative max-w-md">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-            <input
-              ref={searchInputRef}
-              type="text"
-              placeholder="Search civilizations, empires, events..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="search-input w-full pl-11 pr-10 py-3 rounded-xl text-sm focus:outline-none"
-            />
-            {searchQuery && (
-              <button
-                onClick={() => setSearchQuery('')}
-                className="absolute right-3 top-1/2 -translate-y-1/2 p-1 hover:bg-muted rounded-full transition-colors"
-              >
-                <X className="h-4 w-4 text-muted-foreground" />
-              </button>
-            )}
-          </div>
-        </div>
+        <SearchBar
+          value={searchQuery}
+          onChange={setSearchQuery}
+          placeholder="Search civilizations, empires, events..."
+        />
 
         {/* Navigation */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
@@ -223,7 +216,7 @@ export default function Home() {
                 ))}
               </div>
             ) : (
-              <EmptySearchState query={searchQuery} />
+              <EmptySearchState query={searchQuery} message="No civilizations or empires match" />
             )}
           </TabsContent>
 
@@ -233,15 +226,15 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredCountryCards.empire.map((country, index) => (
                   <div key={country.id} className="animate-fade-in" style={{ animationDelay: `${index * 50}ms` }}>
-                    <CountryCard 
-                      country={country} 
+                    <CountryCard
+                      country={country}
                       onOpenTimeline={handleOpenTimeline}
                     />
                   </div>
                 ))}
               </div>
             ) : (
-              <EmptySearchState query={searchQuery} />
+              <EmptySearchState query={searchQuery} message="No civilizations or empires match" />
             )}
           </TabsContent>
 
@@ -251,15 +244,15 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredCountryCards.culture.map((country, index) => (
                   <div key={country.id} className="animate-fade-in" style={{ animationDelay: `${index * 50}ms` }}>
-                    <CountryCard 
-                      country={country} 
+                    <CountryCard
+                      country={country}
                       onOpenTimeline={handleOpenTimeline}
                     />
                   </div>
                 ))}
               </div>
             ) : (
-              <EmptySearchState query={searchQuery} />
+              <EmptySearchState query={searchQuery} message="No civilizations or empires match" />
             )}
           </TabsContent>
 
@@ -280,21 +273,6 @@ export default function Home() {
         {/* Scroll to Top Button */}
         <ScrollToTopButton targetElementId="navigation-tabs" />
       </div>
-    </div>
-  )
-}
-
-// Empty state component for search results
-function EmptySearchState({ query }: { query: string }) {
-  return (
-    <div className="flex flex-col items-center justify-center py-16 px-4">
-      <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
-        <Search className="h-8 w-8 text-muted-foreground/50" />
-      </div>
-      <h3 className="text-lg font-medium text-foreground mb-2">No results found</h3>
-      <p className="text-muted-foreground text-sm text-center max-w-md">
-        No civilizations or empires match "{query}". Try adjusting your search terms.
-      </p>
     </div>
   )
 }

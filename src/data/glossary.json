@@ -1,0 +1,304 @@
+[
+  {
+    "id": "allied-powers-wwi",
+    "term": "Allied Powers (WWI)",
+    "definition": "Coalition of countries that fought against the Central Powers during World War I (1914-1918), led by France, Britain, Russia, and later the United States.",
+    "tags": ["World War I", "military alliance", "international relations"]
+  },
+  {
+    "id": "allied-powers-wwii",
+    "term": "Allied Powers (WWII)",
+    "definition": "Coalition of countries that opposed the Axis powers during World War II, led by the United Kingdom, Soviet Union, United States, and China (the \"Big Four\"), along with France. The Allies fought against fascist expansion and militarism from 1939-1945.",
+    "tags": ["World War II", "international relations", "military alliance"]
+  },
+  {
+    "id": "appeasement",
+    "term": "Appeasement",
+    "definition": "Policy pursued by Britain and France in the 1930s toward Nazi Germany to avoid war through diplomatic concessions. The Munich Agreement of 1938, which ceded Czechoslovakia's Sudetenland to Hitler, was Britain's most significant act of appeasement. The policy ultimately failed to prevent World War II and came to symbolize diplomatic naïveté.",
+    "tags": ["diplomacy", "World War II", "foreign policy", "Neville Chamberlain"]
+  },
+  {
+    "id": "armistice",
+    "term": "Armistice",
+    "definition": "Agreement for the cessation of active hostilities between two or more belligerents. An armistice is a truce or cease-fire, not a surrender. The most famous is the Armistice of November 11, 1918, which ended World War I when Germany and the Allied Forces halted fighting at 11:00 AM on the Western Front.",
+    "tags": ["peace agreement", "cease-fire", "World War I", "truce"]
+  },
+  {
+    "id": "atomic-bomb",
+    "term": "Atomic Bomb",
+    "definition": "Nuclear weapon developed by the United States through the Manhattan Project during World War II. The U.S. dropped atomic bombs on the Japanese cities of Hiroshima (August 6, 1945) and Nagasaki (August 9, 1945), killing at least 70,000 people instantly in Hiroshima alone. These bombings led to Japan's surrender and remain the only wartime use of nuclear weapons in history.",
+    "tags": ["World War II", "nuclear weapons", "Manhattan Project", "Japan"]
+  },
+  {
+    "id": "axis-powers",
+    "term": "Axis Powers",
+    "definition": "Military coalition led by Nazi Germany, Kingdom of Italy, and Empire of Japan that initiated World War II and fought against the Allied Powers. United by far-right ideologies, fascism, and militarism, they sought territorial expansion through military aggression across Europe, Africa, and Asia.",
+    "tags": ["World War II", "fascism", "militarism"]
+  },
+  {
+    "id": "battle-of-midway",
+    "term": "Battle of Midway",
+    "definition": "Major naval battle in the Pacific Theater of World War II fought June 4-7, 1942, six months after Pearl Harbor. The United States dealt a decisive defeat to the Japanese Combined Fleet, sinking four Japanese aircraft carriers and marking a turning point in the Pacific War.",
+    "tags": ["World War II", "Pacific War", "naval warfare", "turning point"]
+  },
+  {
+    "id": "berlin-wall",
+    "term": "Berlin Wall",
+    "definition": "Guarded concrete barrier constructed on August 13, 1961, that encircled West Berlin, separating it from East Berlin and East Germany. The 155-kilometer-long wall became a powerful symbol of Cold War division and communist repression. It fell on November 9, 1989, following mass protests and the opening of borders, marking the end of the Cold War division.",
+    "tags": ["Cold War", "Germany", "division", "communism"]
+  },
+  {
+    "id": "blitzkrieg",
+    "term": "Blitzkrieg",
+    "definition": "German military tactic meaning \"lightning war\" that emphasized rapid and concentrated attacks using armored vehicles, mechanized infantry, artillery, and air support. Blitzkrieg combined surprise, speed, and overwhelming firepower to achieve quick victories, and was responsible for Nazi Germany's military successes in the early years of World War II, particularly in Poland (1939) and France (1940).",
+    "tags": ["World War II", "military tactics", "Germany", "strategy"]
+  },
+  {
+    "id": "capitalism",
+    "term": "Capitalism",
+    "definition": "Economic and political system based on private ownership of the means of production, free markets, and individual profit. Characterized by voluntary exchange of goods and services, minimal government intervention in the economy, and competition driving economic growth.",
+    "tags": ["economics", "political ideology", "free market"]
+  },
+  {
+    "id": "central-powers",
+    "term": "Central Powers",
+    "definition": "Military coalition during World War I consisting of Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria that fought against the Allied Powers from 1914-1918.",
+    "tags": ["World War I", "military alliance", "Germany"]
+  },
+  {
+    "id": "cold-war",
+    "term": "Cold War",
+    "definition": "Period of sustained geopolitical tension between the Soviet Union and the West (primarily the United States) that lasted from the end of World War II until the early 1990s. Characterized by ideological conflict between communism and capitalism, nuclear arms race, proxy wars, and formation of rival military alliances like NATO and the Warsaw Pact.",
+    "tags": ["superpowers", "communism", "capitalism", "nuclear arms race"]
+  },
+  {
+    "id": "colonialism",
+    "term": "Colonialism",
+    "definition": "Practice of domination involving the subjugation of one people to another, typically referring to European settlement and political control over the Americas, Australia, Africa, and parts of Asia. In colonialism, there is physical movement of people to new territories who become permanent settlers, with the colonizing power establishing direct governance.",
+    "tags": ["imperialism", "European expansion", "settlement", "domination"]
+  },
+  {
+    "id": "communism",
+    "term": "Communism",
+    "definition": "Ultra-left-wing political and economic system advocating for collective or state ownership of the means of production and the abolition of social classes. Based on Marxist principles, it seeks to create a classless society where wealth is shared equally among all people, though in practice states typically exercise high degrees of control.",
+    "tags": ["political ideology", "economics", "Marxism", "socialism"]
+  },
+  {
+    "id": "containment",
+    "term": "Containment",
+    "definition": "U.S. foreign policy strategy proposed by diplomat George F. Kennan to halt Soviet expansionism without direct military confrontation that could lead to nuclear war. The policy involved \"unalterable counterforce\" over the long term to resist and contain Soviet expansion, with the belief that this would eventually lead to the dissolution of the Soviet Union. Containment became the basic U.S. strategy for nearly 40 years during the Cold War.",
+    "tags": ["Cold War", "U.S. foreign policy", "George Kennan", "strategy"]
+  },
+  {
+    "id": "d-day",
+    "term": "D-Day (Operation Overlord)",
+    "definition": "Allied invasion of Normandy, France on June 6, 1944, marking the beginning of the liberation of Western Europe from Nazi occupation during World War II. The largest amphibious military assault in history involved approximately 156,000 American, British, and Canadian forces landing on five beaches.",
+    "source": "Common historical knowledge",
+    "tags": ["World War II", "military operation", "Allied invasion", "France"]
+  },
+  {
+    "id": "decolonization",
+    "term": "Decolonization",
+    "definition": "Process through which former colonies—primarily in Asia, Africa, and the Caribbean—gained independence from European imperial powers. This movement accelerated after World War II as anti-colonial sentiment grew globally and imperial powers faced economic strain and mounting pressure to deconstruct their empires.",
+    "tags": ["independence", "colonialism", "post-WWII", "nationalism"]
+  },
+  {
+    "id": "detente",
+    "term": "Détente",
+    "definition": "French term meaning \"release from tensions\" referring to the period of easing of geopolitical tensions between the Soviet Union and the United States during the Cold War. Détente began in 1969 as a core element of President Richard Nixon's foreign policy, promoted by Henry Kissinger, involving greater dialogue to facilitate negotiations over arms control and bilateral agreements. The period lasted from approximately 1969 to 1979.",
+    "tags": ["Cold War", "diplomacy", "Nixon", "arms control"]
+  },
+  {
+    "id": "embargo",
+    "term": "Embargo",
+    "definition": "Government-imposed comprehensive ban on trade, investment, and economic activities with a particular country or group of countries. Embargoes are the most severe type of trade sanction, designed to isolate a nation economically and politically to pressure it to change policies or behaviors. Examples include the U.S. embargoes against Cuba and North Korea.",
+    "tags": ["trade restrictions", "sanctions", "economic policy", "diplomacy"]
+  },
+  {
+    "id": "european-union",
+    "term": "European Union (EU)",
+    "definition": "Political and economic union founded through the Maastricht Treaty signed in 1992 (effective 1993) that unified three European communities into a single body. The treaty established greater cooperation between member states through economic, social, and legal channels, introduced European citizenship, and laid the foundation for the single currency (euro). As of 2021, 27 member states comprise the EU.",
+    "tags": ["international organization", "Europe", "economic union", "integration"]
+  },
+  {
+    "id": "fascism",
+    "term": "Fascism",
+    "definition": "Ultra-right-wing authoritarian political ideology that implements an autocratic state ruled by a dictatorial leader with complete control over state powers, institutions, and the economy. Emphasizes nationalism, militarism, traditional social hierarchies, and often racial supremacy while suppressing opposition through force. Examples include Nazi Germany, Fascist Italy under Mussolini, and Imperial Japan.",
+    "tags": ["political ideology", "authoritarianism", "dictatorship", "nationalism"]
+  },
+  {
+    "id": "gatt",
+    "term": "GATT (General Agreement on Tariffs and Trade)",
+    "definition": "Multilateral agreement established in 1948 to promote international trade by reducing tariffs and other trade barriers. Served as the precursor to the World Trade Organization, with many WTO members having been GATT members from 1948-1995.",
+    "tags": ["international trade", "economics", "WTO predecessor"]
+  },
+  {
+    "id": "genocide",
+    "term": "Genocide",
+    "definition": "Any of five acts committed with intent to destroy, in whole or in part, a national, ethnic, racial, or religious group. These acts include killing members of the group, causing serious bodily or mental harm, deliberately inflicting conditions calculated to destroy the group, preventing births, and forcibly transferring children. Defined by the UN Convention on the Prevention and Punishment of the Crime of Genocide, adopted December 9, 1948, and entered into force January 12, 1951.",
+    "tags": ["international law", "human rights", "UN Convention", "atrocity"]
+  },
+  {
+    "id": "great-depression",
+    "term": "Great Depression",
+    "definition": "Worldwide economic downturn that began in 1929 and lasted until about 1939. It was the longest and most severe depression ever experienced by the industrialized Western world. Caused by factors including the 1929 stock market crash, banking panics, the gold standard, and protectionist tariffs like the Smoot-Hawley Tariff Act. The depression resulted in massive unemployment (over 13 million in the U.S. by 1932), widespread poverty, and fundamental changes in economic institutions and policy.",
+    "tags": ["economics", "1929", "unemployment", "global crisis"]
+  },
+  {
+    "id": "holocaust",
+    "term": "Holocaust",
+    "definition": "Systematic, state-sponsored persecution and murder of six million European Jews by the Nazi regime and its collaborators during World War II (1933-1945). The Holocaust also targeted Roma, disabled persons, political dissidents, homosexuals, and other groups deemed \"undesirable.\" It represents one of history's most heinous genocides.",
+    "tags": ["genocide", "World War II", "Nazi Germany", "atrocity"]
+  },
+  {
+    "id": "imperialism",
+    "term": "Imperialism",
+    "definition": "State policy, practice, or advocacy of extending power and dominion, especially by direct territorial acquisition or by gaining political and economic control of other territories and peoples. Unlike colonialism, imperialism focuses on exerting control through direct governance or indirect control mechanisms without necessarily settling populations.",
+    "tags": ["expansion", "colonialism", "political control", "domination"]
+  },
+  {
+    "id": "iron-curtain",
+    "term": "Iron Curtain",
+    "definition": "Political, military, and ideological barrier that divided Europe after World War II, separating communist Eastern Europe (Soviet bloc) from capitalist Western nations. The term was popularized by Winston Churchill in his March 5, 1946, \"Sinews of Peace\" speech and referred to both the physical blockade (including the Berlin Wall) and the ideological divide.",
+    "tags": ["Cold War", "Soviet Union", "Europe", "division"]
+  },
+  {
+    "id": "league-of-nations",
+    "term": "League of Nations",
+    "definition": "International organization established after World War I (January 10, 1920) to promote peace, disarmament, and cooperation among nations through diplomacy and arbitration. Despite some successes in international cooperation, it failed in its primary goal to prevent another world war due to lack of U.S. participation, limited enforcement power, and inability to resolve major international disputes. Dissolved in 1946, its legacy continued through the United Nations.",
+    "tags": ["international organization", "diplomacy", "World War I", "peacekeeping"]
+  },
+  {
+    "id": "maastricht-treaty",
+    "term": "Maastricht Treaty",
+    "definition": "International agreement signed in 1992 in the Dutch city of Maastricht that created the European Union. The treaty became effective in 1993 and led to greater cooperation between 12 member nations by promoting unified citizenship, economic and social progress, and establishing the foundation for a single currency (the euro).",
+    "tags": ["European Union", "treaty", "integration", "euro"]
+  },
+  {
+    "id": "manhattan-project",
+    "term": "Manhattan Project",
+    "definition": "U.S. government research project (1942-1945) that produced the first atomic bombs. Named after its initial location at Columbia University, the project culminated in the first atomic bomb test at Alamogordo, New Mexico on July 16, 1945, followed by the bombings of Hiroshima and Nagasaki in August 1945.",
+    "tags": ["World War II", "nuclear weapons", "atomic bomb", "United States"]
+  },
+  {
+    "id": "marshall-plan",
+    "term": "Marshall Plan",
+    "definition": "U.S. economic aid program officially known as the European Recovery Program that pledged $13 billion to help rebuild Western Europe after World War II. Announced in 1947, it aimed to promote economic recovery, prevent the spread of communism, and stabilize democratic governments in Europe.",
+    "tags": ["Cold War", "economic aid", "Europe", "reconstruction"]
+  },
+  {
+    "id": "munich-agreement",
+    "term": "Munich Agreement",
+    "definition": "International agreement signed on September 30, 1938, at a conference attended by the leaders of Britain, France, Italy, and Germany, that handed over the Sudetenland of Czechoslovakia to Germany. The agreement represented Britain's most significant act of appeasement toward Nazi Germany and failed to prevent World War II.",
+    "tags": ["appeasement", "World War II", "diplomacy", "Czechoslovakia"]
+  },
+  {
+    "id": "nationalism",
+    "term": "Nationalism",
+    "definition": "Political ideology emphasizing loyalty, devotion, and allegiance to one's nation and national identity. Often involves belief in national sovereignty, self-determination, and the promotion of national interests and culture. Nationalism was a major force driving both World Wars and decolonization movements.",
+    "source": "Common political science knowledge",
+    "tags": ["political ideology", "identity", "self-determination"]
+  },
+  {
+    "id": "nato",
+    "term": "NATO (North Atlantic Treaty Organization)",
+    "definition": "Military alliance established on April 4, 1949, originally with 12 founding members from North America and Europe. Created to provide collective defense against Soviet threats after World War II, based on Article 5 principle that \"an armed attack against one or more members shall be considered an attack against them all.\" Now has 32 member countries and serves as the principal security instrument of the transatlantic community.",
+    "tags": ["military alliance", "collective defense", "Cold War", "security"]
+  },
+  {
+    "id": "pearl-harbor",
+    "term": "Pearl Harbor",
+    "definition": "U.S. Pacific Fleet naval base in Hawaii attacked by approximately 360 Japanese aircraft on December 7, 1941. The surprise attack sank or heavily damaged all 8 U.S. battleships present, destroyed about 300 aircraft, and brought the United States into World War II.",
+    "tags": ["World War II", "Japan", "United States", "surprise attack"]
+  },
+  {
+    "id": "potsdam-conference",
+    "term": "Potsdam Conference",
+    "definition": "Allied conference held July 17-August 2, 1945, in Potsdam, Germany, with U.S. President Harry S. Truman, British Prime Minister Winston Churchill (later Clement Attlee), and Soviet Premier Joseph Stalin. The conference finalized post-WWII arrangements including Germany's division into four occupation zones, border adjustments, disarmament, denazification, and democratic reforms.",
+    "tags": ["World War II", "Allied conference", "post-war settlement", "Germany"]
+  },
+  {
+    "id": "propaganda",
+    "term": "Propaganda",
+    "definition": "Information, especially of a biased or misleading nature, used to promote a political cause or point of view. During both World Wars, propaganda was used to arouse hatred of the enemy, maintain morale, mobilize populations, and justify war efforts. Governments controlled information to ensure populations learned only what they wanted them to know.",
+    "tags": ["information warfare", "World War I", "World War II", "media"]
+  },
+  {
+    "id": "proxy-war",
+    "term": "Proxy War",
+    "definition": "Conflicts where two opposing countries or powers support rival factions or groups in a third country, rather than engaging in direct military confrontation themselves. This strategy was notably used during the Cold War, as the United States and the Soviet Union sought to expand their influence globally while avoiding direct conflict that could escalate into nuclear war. Examples include the Korean War, Vietnam War, and Angolan Civil War.",
+    "tags": ["Cold War", "indirect conflict", "superpower rivalry"]
+  },
+  {
+    "id": "reparations",
+    "term": "Reparations",
+    "definition": "Compensation in money or materials imposed on a defeated nation for damages or injuries inflicted during war. The Treaty of Versailles required Germany to pay 132 billion gold marks ($33 billion, equivalent to $605 billion in 2025) in reparations for civilian damage caused during World War I. The war guilt clause deemed Germany the aggressor and thus responsible for making reparations to Allied nations.",
+    "tags": ["World War I", "Treaty of Versailles", "war debt", "compensation"]
+  },
+  {
+    "id": "socialism",
+    "term": "Socialism",
+    "definition": "Political and economic ideology advocating for collective or state ownership of the means of production while allowing for some private land ownership and democratic governance. Positioned between capitalism and communism, socialism emphasizes social welfare, economic equality, and government intervention in the economy to benefit society as a whole.",
+    "tags": ["political ideology", "economics", "collective ownership"]
+  },
+  {
+    "id": "sovereignty",
+    "term": "Sovereignty",
+    "definition": "Supreme, independent control and lawmaking authority over a territory. Sovereignty is expressed through the power to rule and make law, and entails hierarchy within a state as well as external autonomy, referring to the ability of a state to act independently in international affairs without external interference.",
+    "tags": ["statehood", "independence", "authority", "international law"]
+  },
+  {
+    "id": "totalitarianism",
+    "term": "Totalitarianism",
+    "definition": "Form of government characterized by absolute state control over all aspects of public and private life, with a single-party dictatorship, state ideology, mass surveillance, and suppression of dissent. Examples include Nazi Germany under Hitler, Fascist Italy under Mussolini, and the Soviet Union under Stalin.",
+    "tags": ["government", "dictatorship", "authoritarianism", "oppression"]
+  },
+  {
+    "id": "treaty-of-versailles",
+    "term": "Treaty of Versailles",
+    "definition": "Peace treaty signed on June 28, 1919, at the Palace of Versailles that formally ended World War I. The treaty required Germany to accept responsibility for the war (Article 231 \"War Guilt Clause\"), pay massive reparations, disarm, lose territory including all overseas colonies, and accept territorial changes in Europe. It also created the League of Nations. The treaty's harsh terms are often cited as contributing to the outbreak of World War II.",
+    "tags": ["World War I", "peace treaty", "Germany", "reparations"]
+  },
+  {
+    "id": "truman-doctrine",
+    "term": "Truman Doctrine",
+    "definition": "U.S. foreign policy announced by President Harry S. Truman on March 12, 1947, pledging American support to nations resisting communist oppression. The doctrine proposed aid to countries suffering from the aftermath of World War II and threatened by Soviet influence, particularly Greece and Turkey. It marked the U.S. policy of containment and the shift from isolationism to active global engagement.",
+    "tags": ["Cold War", "containment", "U.S. foreign policy", "anti-communism"]
+  },
+  {
+    "id": "united-nations",
+    "term": "United Nations (UN)",
+    "definition": "Global intergovernmental organization established on October 24, 1945, following the signing of the UN Charter on June 26, 1945, in San Francisco. Founded with 51 original member states to maintain international peace and security, develop friendly relations among nations, promote international cooperation, and serve as a center for harmonizing state actions. Headquartered in New York City with regional offices in Geneva, Vienna, and Nairobi.",
+    "tags": ["international organization", "peace", "security", "cooperation", "diplomacy"]
+  },
+  {
+    "id": "un-charter",
+    "term": "UN Charter",
+    "definition": "Foundational treaty of the United Nations signed on June 26, 1945, and enforced from October 24, 1945. Establishes the UN's purposes, governing structure, and principal organs including the Secretariat, General Assembly, Security Council, Economic and Social Council, International Court of Justice, and Trusteeship Council. The Charter mandates member states to maintain international peace and security, uphold international law, achieve higher living standards, address economic and social problems, and promote universal respect for human rights. As a constituent treaty, its rules are binding on all members and supersede other treaties.",
+    "tags": ["international law", "treaty", "United Nations", "human rights", "peace"]
+  },
+  {
+    "id": "war-guilt-clause",
+    "term": "War Guilt Clause (Article 231)",
+    "definition": "Provision in the Treaty of Versailles that deemed Germany and its allies responsible for causing all the loss and damage suffered by the Allied powers during World War I. This clause formed the legal basis for the reparations Germany was required to pay and became a source of deep resentment in Germany, contributing to political instability and the rise of extremism.",
+    "tags": ["Treaty of Versailles", "World War I", "reparations", "blame"]
+  },
+  {
+    "id": "warsaw-pact",
+    "term": "Warsaw Pact",
+    "definition": "Collective defense treaty formally known as the Treaty of Friendship, Cooperation and Mutual Assistance, signed in Warsaw, Poland on May 14, 1955. The military alliance between the Soviet Union and seven Eastern Bloc countries (Albania, Bulgaria, Czechoslovakia, East Germany, Hungary, Poland, and Romania) was created as a counterbalance to NATO. In practice, it reflected Soviet regional dominance and served as a tool to control dissent in the Eastern Bloc. The pact dissolved in 1991.",
+    "tags": ["Cold War", "military alliance", "Soviet Union", "Eastern Europe"]
+  },
+  {
+    "id": "wto",
+    "term": "World Trade Organization (WTO)",
+    "definition": "Multilateral organization established on January 1, 1995, headquartered in Geneva, Switzerland. Provides a framework for negotiating trade agreements and resolving trade disputes among member nations. Covers trade in goods, services, and intellectual property, operating on principles of non-discrimination including most-favored-nation and national treatment provisions. Aims to promote economic growth, reduce trade barriers, enhance transparency, and empower developing countries in the global trading system.",
+    "tags": ["international trade", "economics", "trade agreements", "dispute resolution"]
+  },
+  {
+    "id": "yalta-conference",
+    "term": "Yalta Conference",
+    "definition": "Allied conference held February 4-11, 1945, in Yalta, Crimea, with U.S. President Franklin D. Roosevelt, British Prime Minister Winston Churchill, and Soviet Premier Joseph Stalin. The \"Big Three\" discussed post-war reorganization of Europe, Germany's fate, Soviet entry into the war against Japan, and the formation of the United Nations. Decisions included dividing Germany into occupation zones and Soviet promises to hold free elections in Eastern Europe (which were later broken).",
+    "tags": ["World War II", "Allied conference", "post-war planning", "Big Three"]
+  }
+]
