@@ -153,50 +153,51 @@ export function getAllWorldEvents(): WorldHistoryEvent[] {
   return allEvents.sort((a, b) => parseDate(a.date) - parseDate(b.date));
 }
 
+// Determine which century an event belongs to based on its start year
+function getCenturyKey(year: number): number {
+  if (year > 0) {
+    return Math.ceil(year / 100);
+  }
+  // BCE: year -2100 to -2001 is the 21st century BCE (key = -21)
+  return -Math.ceil(Math.abs(year) / 100);
+}
+
+function formatCenturyLabel(centuryKey: number): string {
+  const absKey = Math.abs(centuryKey);
+  const suffix = absKey === 1 ? 'st' : absKey === 2 ? 'nd' : absKey === 3 ? 'rd' : 'th';
+  if (centuryKey < 0) {
+    return `${absKey}${suffix} Century BCE`;
+  }
+  return `${absKey}${suffix} Century`;
+}
+
 export function getGroupedWorldEvents(): GroupedTimelineEvent[] {
   const allEvents = getAllWorldEvents();
-  const groups: GroupedTimelineEvent[] = [];
-  const processed = new Set<number>();
+  const centuryMap = new Map<number, WorldHistoryEvent[]>();
 
-  allEvents.forEach((event, index) => {
-    if (processed.has(index)) return;
-
-    const eventRange = parseDateRange(event.date);
-    const group: GroupedTimelineEvent = {
-      dateRange: eventRange,
-      events: [event],
-      displayDate: event.date
-    };
-
-    // Find overlapping events
-    for (let i = index + 1; i < allEvents.length; i++) {
-      if (processed.has(i)) continue;
-
-      const otherEvent = allEvents[i];
-      const otherRange = parseDateRange(otherEvent.date);
-
-      if (rangesOverlap(eventRange, otherRange)) {
-        group.events.push(otherEvent);
-        processed.add(i);
-
-        // Expand the group's date range and update display
-        group.dateRange.start = Math.min(group.dateRange.start, otherRange.start);
-        group.dateRange.end = Math.max(group.dateRange.end, otherRange.end);
-
-        // Create a combined display date for the group
-        if (group.events.length === 2) {
-          group.displayDate = `${group.events[0].date} / ${otherEvent.date}`;
-        } else if (group.events.length > 2) {
-          const startYear = group.dateRange.start < 0 ? `${Math.abs(group.dateRange.start)} BCE` : `${group.dateRange.start} CE`;
-          const endYear = group.dateRange.end < 0 ? `${Math.abs(group.dateRange.end)} BCE` : `${group.dateRange.end} CE`;
-          group.displayDate = group.dateRange.start === group.dateRange.end ? startYear : `${startYear} - ${endYear}`;
-        }
-      }
-    }
-
-    processed.add(index);
-    groups.push(group);
+  // Bucket events by the century of their start date
+  allEvents.forEach(event => {
+    const range = parseDateRange(event.date);
+    const key = getCenturyKey(range.start);
+    if (!centuryMap.has(key)) centuryMap.set(key, []);
+    centuryMap.get(key)!.push(event);
   });
 
-  return groups;
+  // Sort century keys chronologically and build groups
+  const sortedKeys = Array.from(centuryMap.keys()).sort((a, b) => a - b);
+
+  return sortedKeys.map(key => {
+    const events = centuryMap.get(key)!;
+    const starts = events.map(e => parseDateRange(e.date).start);
+    const ends = events.map(e => parseDateRange(e.date).end);
+    return {
+      dateRange: {
+        start: Math.min(...starts),
+        end: Math.max(...ends),
+        display: formatCenturyLabel(key)
+      },
+      events,
+      displayDate: formatCenturyLabel(key)
+    };
+  });
 }
