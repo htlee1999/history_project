@@ -1,174 +1,130 @@
 # World History Documentation
 
-An interactive web application exploring the rich histories of civilizations across time, featuring nations, empires, ancient civilizations, and cultural achievements.
+An interactive web application exploring civilizations, empires, and cultures throughout human history. Built with Next.js and deployed to GitHub Pages as a static site.
 
-## 🌍 Overview
+## Overview
 
-This project presents a beautifully designed, educational web interface that allows users to explore world history through multiple perspectives:
+The site presents world history through multiple perspectives:
 
-- **Nations**: Modern countries and their historical development
-- **Empires**: Great imperial powers throughout history
-- **Ancient Civilizations**: Foundational cultures of human civilization
-- **Arts & Culture**: Artistic and cultural achievements across civilizations
+- **World Timeline** — Chronological events across all civilizations, grouped by overlapping date ranges
+- **Nations** — United States, South Korea, Japan, and more
+- **Empires** — Chinese Empires, British Empire, French Empire
+- **Ancient Civilizations** — Ancient Greece, Roman Civilization
+- **Arts & Culture** — Chinese porcelain, poetry & painting, Renaissance, French Impressionism, Greek sculpture, Islamic geometric art
+- **Historical Glossary** — Reference definitions for key historical terms (A-Z with search and alphabet navigation)
 
-## ✨ Features
+## Pages
 
-### Interactive Tabs
-- **Nations Tab**: United States, South Korea, and Japan
-- **Empires Tab**: Chinese Empires, British Empire, and French Empire
-- **Ancient Civilizations Tab**: Ancient Greece and Roman Civilization
-- **Arts & Culture Tab**: Detailed exploration of cultural achievements including:
-  - Chinese Porcelain (中国陶瓷)
-  - Chinese Poetry & Painting (中国诗画艺术)
-  - Renaissance Masterpieces
-  - French Artistic Revolution
-  - Greek Sculptural Perfection
-  - Islamic Geometric Art
+| Route | Description |
+|-------|-------------|
+| `/` | Home page with tabbed navigation (World Timeline, Nations, Empires, Ancient Civilizations, Arts & Culture) |
+| `/glossary` | Searchable glossary of historical terms grouped by letter |
+| `/admin` | Admin tool for generating JSON entries for history and glossary data files |
 
-### Timeline Modals
-- Interactive timeline popups for each civilization
-- Chronological presentation of major historical events
-- Detailed descriptions with cultural context
-- Bilingual content (English/Chinese for relevant sections)
+## Tech Stack
 
-### Visual Design
-- Elegant parchment-inspired color scheme
-- Smooth animations and hover effects
-- Responsive design for all devices
-- Cultural icons and flag representations
-- Professional typography using Georgia serif font
+- **Framework**: Next.js 14 with static export (`output: 'export'`)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS with a warm parchment color scheme
+- **UI Components**: Radix UI primitives (Tabs, Dialog, Scroll Area) with shadcn/ui wrappers
+- **Icons**: lucide-react
+- **Fonts**: DM Sans (sans-serif), Source Serif 4 (serif)
+- **Deployment**: GitHub Pages (static export to `out/` directory)
 
-## 🎨 Cultural Content Highlights
-
-### Chinese Arts Section
-- **Porcelain**: Technical evolution from Tang Sancai to Song Five Great Kilns
-- **Poetry & Painting**: Integration of poetry, painting, and calligraphy
-- Bilingual descriptions in English and Chinese
-- Historical context and artistic techniques
-
-### Western Art Traditions
-- **Renaissance**: Leonardo da Vinci, Michelangelo, Raphael
-- **French Impressionism**: Monet, Renoir, Cézanne, van Gogh
-- **Greek Sculpture**: Classical perfection and divine proportion
-
-### Diverse Cultural Perspectives
-- **Islamic Art**: Geometric patterns and sacred calligraphy
-- Cross-cultural artistic influences and exchanges
-
-## 📁 File Structure
+## Project Structure
 
 ```
-world-history-documentation/
-├── index.html          # Main HTML file with interactive content
-├── styles.css          # Complete styling and responsive design
-└── README.md          # This documentation file
+history_project/
+├── pages/
+│   ├── _app.tsx              # App wrapper (fonts, global CSS)
+│   ├── index.tsx             # Home page (tabs, search, card grid)
+│   ├── glossary.tsx          # Glossary page (A-Z nav, search, term cards)
+│   └── admin.tsx             # Admin panel (JSON generation forms)
+├── src/
+│   ├── components/
+│   │   ├── ui/               # shadcn/ui components (Badge, Button, Card, Dialog, Tabs, Timeline)
+│   │   ├── CountryCard.tsx   # Card component for nations/empires/civilizations
+│   │   ├── CultureGallery.tsx# Arts & Culture gallery
+│   │   ├── DynastyDetailModal.tsx # Dynasty detail overlay
+│   │   ├── EmptySearchState.tsx   # Shared empty search results component
+│   │   ├── ScrollToTopButton.tsx  # Scroll-to-top with intersection observer
+│   │   ├── SearchBar.tsx     # Shared search input component
+│   │   ├── TimelineModal.tsx # Timeline detail view for a civilization
+│   │   ├── WorldMap.tsx      # Dotted world map visualization
+│   │   └── WorldTimeline.tsx # Aggregated world timeline view
+│   ├── data/
+│   │   ├── history.json      # All history events, dynasty data, and country cards
+│   │   ├── historyData.ts    # TypeScript interfaces and typed imports from history.json
+│   │   ├── glossary.json     # Glossary term definitions (50 entries, A-Y)
+│   │   └── glossaryData.ts   # GlossaryTerm interface and typed import from glossary.json
+│   ├── lib/
+│   │   └── utils.ts          # Utility functions (cn for class merging)
+│   └── styles/
+│       └── globals.css       # CSS variables, custom header/search styles, animations
+├── next.config.js            # Static export config, GitHub Pages basePath
+├── tailwind.config.ts        # Tailwind theme (parchment color scale, fonts)
+├── tsconfig.json             # TypeScript config (path alias: @/* → ./src/*)
+└── package.json
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
-- Modern web browser (Chrome, Firefox, Safari, Edge)
-- No additional dependencies required
+- Node.js 18+
+- pnpm
 
-### Installation
-1. Clone or download the project files
-2. Open `index.html` in your web browser
-3. No server setup required - runs locally
+### Development
+```bash
+pnpm install
+pnpm dev
+```
+Visit `http://localhost:3000`.
 
-### Usage
-1. Navigate between tabs to explore different historical categories
-2. Click "Explore [Country] History" buttons to view detailed timelines
-3. Browse the Arts & Culture section for in-depth cultural content
-4. Use responsive design on any device
+### Build
+```bash
+pnpm build
+```
+Static files are generated in the `out/` directory.
 
-## 🎯 Educational Features
+### Deploy to GitHub Pages
+```bash
+pnpm deploy
+```
 
-### Comprehensive Historical Coverage
-- **Ancient Period**: Greece, Rome, early Chinese dynasties
-- **Imperial Era**: British, French, Chinese empires
-- **Modern Nations**: Development of contemporary states
-- **Cultural Achievements**: Art, literature, and technological advances
+## Data Files
 
-### Interactive Learning
-- Visual timelines with chronological events
-- Cultural context and historical significance
-- Cross-references between civilizations
-- Multilingual content for global perspective
+### `src/data/history.json`
+Contains all historical content structured as:
+- `historyData` — Events per country (keyed by country ID)
+- `dynastyData` — Chinese dynasty details with bilingual content
+- `countryCards` — Card metadata for nations, empires, and civilizations
 
-## 🎨 Design Philosophy
+### `src/data/glossary.json`
+Flat array of glossary term objects:
+```json
+{
+  "id": "cold-war",
+  "term": "Cold War",
+  "definition": "Period of sustained geopolitical tension...",
+  "tags": ["superpowers", "communism", "capitalism"]
+}
+```
 
-### Visual Aesthetics
-- Warm, scholarly color palette inspired by ancient manuscripts
-- Subtle gradients and textures evoking historical documents
-- Professional typography emphasizing readability
-- Elegant animations that enhance user experience
+### Admin Panel
+The `/admin` page provides forms to generate properly formatted JSON for:
+- **Country events** — entries for `history.json` → `historyData.[country].events`
+- **Dynasty data** — entries for `history.json` → `dynastyData`
+- **Glossary terms** — entries for `glossary.json`
 
-### User Experience
-- Intuitive tab navigation
-- Responsive grid layouts
-- Accessible modal dialogs
-- Smooth transitions and hover effects
+## Design
 
-## 📱 Responsive Design
+The site uses a warm, scholarly aesthetic inspired by historical manuscripts:
+- Parchment background gradients with subtle noise texture
+- Amber/brown color palette using HSL variables
+- Cards with hover lift effects and amber accent borders
+- Responsive layout (single column on mobile, up to 3 columns on desktop)
+- Mobile-optimized touch targets and horizontally scrollable alphabet navigation
 
-The application is fully responsive and optimized for:
-- **Desktop**: Full grid layout with hover animations
-- **Tablet**: Adapted layouts maintaining functionality
-- **Mobile**: Single-column layout with touch-friendly interactions
+## License
 
-## 🌐 Browser Support
-
-- Chrome 60+
-- Firefox 55+
-- Safari 12+
-- Edge 79+
-
-## 🎓 Educational Applications
-
-### Suitable For
-- History students and educators
-- Cultural enthusiasts
-- Museum and library presentations
-- Self-directed learning
-- Academic research reference
-
-### Learning Outcomes
-- Understanding of chronological historical development
-- Appreciation of cultural diversity and achievements
-- Recognition of interconnections between civilizations
-- Visual literacy through art and cultural analysis
-
-## 🔧 Technical Details
-
-### Technologies Used
-- **HTML5**: Semantic structure and accessibility
-- **CSS3**: Advanced styling with gradients, animations, and grid
-- **Vanilla JavaScript**: Interactive functionality and modal management
-- **Responsive Design**: CSS Grid and Flexbox
-
-### Performance Features
-- Lightweight implementation with no external dependencies
-- Optimized images through emoji icons
-- Efficient CSS animations
-- Fast loading times
-
-## 📝 Content Attribution
-
-Historical information compiled from multiple academic sources. The project serves educational purposes and encourages further historical study and research.
-
-## 🤝 Contributing
-
-This project welcomes contributions to:
-- Add more civilizations and historical periods
-- Expand cultural content sections
-- Improve accessibility features
-- Translate content into additional languages
-- Enhance visual design elements
-
-## 📄 License
-
-This project is open source and available for educational use. Please credit appropriately when using in academic or educational contexts.
-
----
-
-**Explore the rich tapestry of human civilization through interactive timelines and cultural achievements. From ancient empires to modern nations, discover how art, culture, and history interweave to create our shared human heritage.**
+This project is open source and available for educational use.
