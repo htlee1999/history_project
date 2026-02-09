@@ -128,6 +128,8 @@ export function getAllWorldEvents(): WorldHistoryEvent[] {
     france: { name: 'France', flag: '🇫🇷' },
     korea: { name: 'South Korea', flag: '🇰🇷' },
     japan: { name: 'Japan', flag: '🇯🇵' },
+    spain: { name: 'Spain', flag: '🇪🇸' },
+    portugal: { name: 'Portugal', flag: '🇵🇹' },
     greece: { name: 'Greece', flag: '🇬🇷' },
     italy: { name: 'Italy', flag: '🇮🇹' }
   };

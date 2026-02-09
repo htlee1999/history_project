@@ -58,6 +58,8 @@ export default function Admin() {
     { id: 'france', name: 'France', flag: '🇫🇷' },
     { id: 'korea', name: 'Korea', flag: '🇰🇷' },
     { id: 'japan', name: 'Japan', flag: '🇯🇵' },
+    { id: 'spain', name: 'Spain', flag: '🇪🇸' },
+    { id: 'portugal', name: 'Portugal', flag: '🇵🇹' },
     { id: 'greece', name: 'Greece', flag: '🇬🇷' },
     { id: 'italy', name: 'Italy', flag: '🇮🇹' }
   ]
