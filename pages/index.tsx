@@ -108,6 +108,11 @@ export default function Home() {
               <BookOpen className="h-3 w-3" />
               Glossary
             </Link>
+            <span className="text-border">|</span>
+            <Link href="/blog" className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors">
+              <BookOpen className="h-3 w-3" />
+              Blog
+            </Link>
           </div>
           <h1 className="text-balance">World History Documentation</h1>
           <p className="subtitle text-pretty">A comprehensive digital repository exploring the evolution of civilizations, empires, and cultures throughout human history.</p>
